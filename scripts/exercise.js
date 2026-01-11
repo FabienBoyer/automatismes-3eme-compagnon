@@ -216,62 +216,84 @@ const ExercisePage = {
 
     /**
      * Convertit un tableau LaTeX simple en tableau HTML
-     * Gère les cas mal formés (sans \\) comme dans le chapitre 4
+     * Gère les cas tabular et tabularx
      */
     formatLatexTable(text) {
-        if (!text.includes('\\begin{tabularx}')) return text;
+        if (!text) return text;
+        let content = text;
 
-        return text.replace(/\\begin\{tabularx\}\{.*?\}(\{.*?\})([\s\S]*?)\\end\{tabularx\}/g, (match, cols, body) => {
-            let html = '<div class="table-responsive"><table class="latex-table">';
-
-            // Séparer par \hline pour identifier l'en-tête et le corps
-            // La structure typique ici est: \hline Header \hline Body \hline
-            let sections = body.split('\\hline');
-
-            sections.forEach(section => {
-                section = section.trim();
-                if (!section) return;
-
-                // Cas 1: Lignes explicites avec \\
-                if (section.includes('\\\\')) {
-                    let rows = section.split('\\\\');
-                    rows.forEach(row => {
-                        if (!row.trim()) return;
-                        html += this._renderTableRow(row);
-                    });
-                }
-                // Cas 2: En-tête (détecté par le mot "Bloc" ou "Description")
-                else if (section.includes('Bloc') && section.includes('Description')) {
-                    let cells = section.split('&');
-                    html += '<thead><tr>';
-                    cells.forEach(cell => {
-                        // Nettoyer \hline résiduels
-                        let content = cell.trim().replace(/\\hline/g, '');
-                        content = content.replace(/\\textbf\{([^}]+)\}/g, '<strong>$1</strong>');
-                        html += `<th>${content}</th>`;
-                    });
-                    html += '</tr></thead>';
-                }
-                // Cas 3: Corps implicite (séparé par des div scratch)
-                else if (section.includes('<div class="scratch-correction">')) {
-                    html += '<tbody>';
-                    // On coupe devant chaque <div> qui commence une nouvelle ligne
-                    let rows = section.split(/(?=<div class="scratch-correction">)/);
-                    rows.forEach(row => {
-                        if (!row.trim()) return;
-                        html += this._renderTableRow(row);
-                    });
-                    html += '</tbody>';
-                }
-                // Cas 4: Ligne simple orpheline
-                else {
-                    html += this._renderTableRow(section);
-                }
+        // 1. TabularX (avec paramètre de largeur)
+        // \begin{tabularx}{width}{cols} ... \end{tabularx}
+        if (content.includes('\\begin{tabularx}')) {
+            content = content.replace(/\\begin\{tabularx\}\{.*?\}(\{.*?\})([\s\S]*?)\\end\{tabularx\}/g, (match, cols, body) => {
+                return this._buildTableHtml(body);
             });
+        }
 
-            html += '</table></div>';
-            return html;
+        // 2. Tabular standard
+        // \begin{tabular}{cols} ... \end{tabular}
+        if (content.includes('\\begin{tabular}')) {
+            content = content.replace(/\\begin\{tabular\}\{(.*?)\}([\s\S]*?)\\end\{tabular\}/g, (match, cols, body) => {
+                return this._buildTableHtml(body);
+            });
+        }
+
+        return content;
+    },
+
+    /**
+     * Construit le HTML du tableau à partir du corps LaTeX
+     */
+    _buildTableHtml(body) {
+        let html = '<div class="table-responsive"><table class="latex-table">';
+
+        // Séparer par \hline pour identifier l'en-tête et le corps
+        // La structure typique ici est: \hline Header \hline Body \hline
+        let sections = body.split('\\hline');
+
+        sections.forEach(section => {
+            section = section.trim();
+            if (!section) return;
+
+            // Cas 1: Lignes explicites avec \\
+            if (section.includes('\\\\')) {
+                let rows = section.split('\\\\');
+                rows.forEach(row => {
+                    if (!row.trim()) return;
+                    html += this._renderTableRow(row);
+                });
+            }
+            // Cas 2: En-tête (détecté par le mot "Bloc" ou "Description")
+            else if (section.includes('Bloc') && section.includes('Description')) {
+                let cells = section.split('&');
+                html += '<thead><tr>';
+                cells.forEach(cell => {
+                    // Nettoyer \hline résiduels
+                    let content = cell.trim().replace(/\\hline/g, '');
+                    content = content.replace(/\\textbf\{([^}]+)\}/g, '<strong>$1</strong>');
+                    html += `<th>${content}</th>`;
+                });
+                html += '</tr></thead>';
+            }
+            // Cas 3: Corps implicite (séparé par des div scratch)
+            else if (section.includes('<div class="scratch-correction">')) {
+                html += '<tbody>';
+                // On coupe devant chaque <div> qui commence une nouvelle ligne
+                let rows = section.split(/(?=<div class="scratch-correction">)/);
+                rows.forEach(row => {
+                    if (!row.trim()) return;
+                    html += this._renderTableRow(row);
+                });
+                html += '</tbody>';
+            }
+            // Cas 4: Ligne simple orpheline
+            else {
+                html += this._renderTableRow(section);
+            }
         });
+
+        html += '</table></div>';
+        return html;
     },
 
     /**

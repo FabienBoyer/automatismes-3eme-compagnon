@@ -1551,7 +1551,7 @@
           "id": "5.21.3",
           "difficulty": 3,
           "duration": "2 minutes",
-          "question": "<strong>(QCM)</strong> L'expression $5^3 \\times 5^{-5}$ est égale à : <strong>A:</strong> $5^{-2}$ \\hspace{1cm} <strong>B:</strong> $5^{8}$ \\hspace{1cm} <strong>C:</strong> $25^{-2}$",
+          "question": "<strong>(QCM)</strong> L'expression $5^3 \\times 5^{-5}$ est égale à : <strong>A:</strong> $5^{-2}$  <strong>B:</strong> $5^{8}$  <strong>C:</strong> $25^{-2}$",
           "questionType": "text",
           "expectedAnswer": "A",
           "images": [],

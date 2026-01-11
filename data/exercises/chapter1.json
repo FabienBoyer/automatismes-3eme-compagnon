@@ -1074,7 +1074,7 @@
           "questionType": "numeric",
           "expectedAnswer": "105",
           "images": [],
-          "correction": "% Exo 5 Augmenter de $5\\%$ revient à multiplier par $1 + \\dfrac{5}{100} = 1,05$.\n    \\begin{align*}\n        100 \\times 1,05 = 105\n    \\end{align*}\n    \\medskip\\noindent\\textbf{Le nouveau prix est $\\mathbf{105}$€.}"
+          "correction": "% Exo 5 Augmenter de $5\\%$ revient à multiplier par $1 + \\dfrac{5}{100} = 1,05$.\n    $$ \\begin{aligned}\n        100 \\times 1,05 = 105\n    \\end{aligned} $$\n    \\medskip\\noindent\\textbf{Le nouveau prix est $\\mathbf{105}$€.}"
         },
         {
           "id": "1.5.6",
@@ -2626,7 +2626,7 @@
           "questionType": "text",
           "expectedAnswer": "P = 5x+4",
           "images": [],
-          "correction": "• On développe chaque partie : $3(x+2) = 3x+6$ \\\\$2(x-1) = 2x-2$.\n        \\item L'expression devient :\\\\\n        $P = (3x+6) + (2x-2)$.\n        \\item On réduit :\\\\\n        $P = (3x+2x) + (6-2) = 5x+4$.\n    \\end{enumerate}\n    \\medskip\\noindent\\textbf{L'expression réduite est $\\mathbf{P = 5x+4}$.}"
+          "correction": "• On développe chaque partie : $3(x+2) = 3x+6$ \\\\$2(x-1) = 2x-2$.\n        <br>• L'expression devient :\\\\\n        $P = (3x+6) + (2x-2)$.\n        <br>• On réduit :\\\\\n        $P = (3x+2x) + (6-2) = 5x+4$.\n    \\end{enumerate}\n    \\medskip\\noindent\\textbf{L'expression réduite est $\\mathbf{P = 5x+4}$.}"
         },
         {
           "id": "1.11.16",
@@ -2646,7 +2646,7 @@
           "questionType": "text",
           "expectedAnswer": "R = 7x - 9",
           "images": [],
-          "correction": "• On développe la première partie : $5(2x-1) = 10x-5$. • On supprime la parenthèse précédée d'un '$-$' : $-(3x+4) = -3x-4$.\n        \\item L'expression devient :\\\\\n        $R = 10x-5 - 3x - 4$.\n        \\item On réduit : $R = 7x - 9$.\n    \\end{enumerate}\n    \\medskip\\noindent\\textbf{L'expression réduite est $\\mathbf{R = 7x - 9}$.}"
+          "correction": "• On développe la première partie : $5(2x-1) = 10x-5$. • On supprime la parenthèse précédée d'un '$-$' : $-(3x+4) = -3x-4$.\n        <br>• L'expression devient :\\\\\n        $R = 10x-5 - 3x - 4$.\n        <br>• On réduit : $R = 7x - 9$.\n    \\end{enumerate}\n    \\medskip\\noindent\\textbf{L'expression réduite est $\\mathbf{R = 7x - 9}$.}"
         },
         {
           "id": "1.11.18",
