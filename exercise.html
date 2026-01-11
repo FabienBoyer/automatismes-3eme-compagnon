@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice - Automatismes pour le Brevet</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="breadcrumb">
+        <a href="#" id="back-link">← Retour au chapitre</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container exercise-page">
+        <!-- Exercise Header -->
+        <div class="exercise-header">
+            <div class="exercise-number" id="exercise-number">Exercice X.X.X</div>
+            <div class="exercise-meta" style="margin-top: 0.5rem;">
+                <span id="exercise-duration">⏱️ X minutes</span>
+                <span id="exercise-difficulty" class="difficulty-badge">Niveau X</span>
+            </div>
+        </div>
+
+        <!-- Question -->
+        <div class="exercise-question-box">
+            <h2 style="color: var(--primary); margin-bottom: 1rem;">📝 Question</h2>
+            <div class="question-text" id="question-text">
+                Chargement...
+            </div>
+        </div>
+
+        <!-- Answer Section -->
+        <div class="answer-section">
+            <label class="answer-label" for="answer-input">Votre réponse :</label>
+            <input type="text" id="answer-input" class="answer-input" placeholder="Entrez votre réponse ici..."
+                autocomplete="off">
+
+            <!-- Virtual Keyboard -->
+            <div class="virtual-keyboard" id="virtual-keyboard">
+                <!-- Boutons ajoutés dynamiquement -->
+            </div>
+        </div>
+
+        <!-- Feedback Message -->
+        <div id="feedback-container"></div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button class="btn btn-success" id="check-btn" onclick="ExercisePage.checkAnswer()">
+                ✓ Vérifier ma réponse
+            </button>
+            <button class="btn btn-secondary" onclick="ExercisePage.showCourseReminder()">
+                💡 Rappel de cours
+            </button>
+            <button class="btn btn-secondary" id="show-correction-btn" onclick="ExercisePage.showCorrection()" disabled>
+                📖 Voir la correction
+            </button>
+        </div>
+
+        <!-- Navigation Secondaire -->
+        <div class="navigation-buttons" style="margin-top: 2rem; display: flex; justify-content: space-between;">
+            <button class="btn btn-secondary" id="prev-btn" onclick="ExercisePage.goToPrevious()"
+                style="display: none;">
+                ← Précédent
+            </button>
+            <button class="btn btn-primary" id="next-btn" onclick="ExercisePage.goToNext()" style="display: none;">
+                Suivant →
+            </button>
+        </div>
+
+        <!-- Correction Box (hidden by default) -->
+        <div id="correction-container"></div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Application Compagnon - Automatismes pour le Brevet</p>
+    </footer>
+
+
+    <!-- JSXGraph Library for Interactive Geometry -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsxgraph@1.8.0/distrib/jsxgraph.css">
+    <script src="https://cdn.jsdelivr.net/npm/jsxgraph@1.8.0/distrib/jsxgraphcore.js"></script>
+    <script src="scripts/jsxgraph-renderer.js"></script>
+
+    <!-- Scratchblocks Library -->
+    <script src="scripts/scratchblocks.min.js"></script>
+    <script src="scripts/translations-all.js"></script>
+    <script src="scripts/scratch-renderer.js"></script>
+
+    <!-- App Scripts -->
+    <script src="scripts/data.js"></script>
+    <script src="scripts/storage.js"></script>
+    <script src="scripts/validator.js"></script>
+    <script src="scripts/scratch-drag-editor.js"></script>
+    <script src="scripts/exercise.js"></script>
+    <script src="scripts/settings.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapitre - Automatismes pour le Brevet</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="breadcrumb">
+        <a href="index.html">← Retour aux chapitres</a>
+    </nav>
+
+    <!-- Chapter Header -->
+    <header class="chapter-page-header">
+        <div class="container">
+            <div class="chapter-badge" id="chapter-badge">Chapitre X</div>
+            <h1 id="chapter-title">Chargement...</h1>
+            <div class="chapter-page-stats">
+                <div class="stat-item">
+                    <span class="stat-icon">📚</span>
+                    <span id="section-count">0 sections</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">✏️</span>
+                    <span id="exercise-count">0 exercices</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">✓</span>
+                    <span id="completed-count">0 réussis</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Sections List -->
+        <div id="sections-container">
+            <!-- Les sections seront chargées ici -->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Application Compagnon - Automatismes pour le Brevet</p>
+    </footer>
+
+
+    <script src="scripts/data.js"></script>
+    <script src="scripts/storage.js"></script>
+    <script src="scripts/chapter.js"></script>
+    <script src="scripts/settings.js"></script>
+</body>
+
+</html>
