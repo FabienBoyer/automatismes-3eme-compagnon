@@ -1,0 +1,3288 @@
+{
+  "id": "1",
+  "chapter": 1,
+  "title": "",
+  "sections": [
+    {
+      "id": "1.1",
+      "title": "Écriture décimale des fractions simples",
+      "courseReminder": "Une fraction est une autre façon de représenter un nombre, sous la forme d'une division. Pour trouver l'écriture décimale d'une fraction $\\dfrac{a}{b}$, il suffit de poser la division de $a$ par $b$. <strong>À mémoriser :</strong> $\\dfrac{1}{2} = 0,5$ ; $\\dfrac{1}{4} = 0,25$ ; $\\dfrac{3}{4} = 0,75$ ; $\\dfrac{1}{5} = 0,2$ ; $\\dfrac{1}{10} = 0,1$. Une fraction comme $\\dfrac{5}{2}$ peut être lue comme \"cinq demis\", ce qui vaut $2,5$.",
+      "exercises": [
+        {
+          "id": "1.1.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{1}{2}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.5",
+          "images": [],
+          "correction": "C'est une fraction de référence à connaître par cœur. La fraction $\\dfrac{1}{2}$ correspond à la moitié d'une unité. <strong>L'écriture décimale de $\\mathbf{\\dfrac{1}{2}}$ est $\\mathbf{0,5}$.</strong>"
+        },
+        {
+          "id": "1.1.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{1}{4}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.25",
+          "images": [],
+          "correction": "C'est une fraction de référence à connaître par cœur. La fraction $\\dfrac{1}{4}$ correspond au quart d'une unité. <strong>L'écriture décimale de $\\mathbf{\\dfrac{1}{4}}$ est $\\mathbf{0,25}$.</strong>"
+        },
+        {
+          "id": "1.1.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{3}{4}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.75",
+          "images": [],
+          "correction": "La fraction $\\dfrac{3}{4}$ signifie \"trois quarts\". On peut la calculer de deux manières : • C'est $3 \\times \\dfrac{1}{4}$, donc $3 \\times 0,25 = 0,75$. • C'est la division de $3$ par $4$, qui donne $0,75$. <strong>L'écriture décimale de $\\mathbf{\\dfrac{3}{4}}$ est $\\mathbf{0,75}$.</strong>"
+        },
+        {
+          "id": "1.1.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{1}{10}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.1",
+          "images": [],
+          "correction": "La fraction $\\dfrac{1}{10}$ se lit \"un dixième\". Le premier chiffre après la virgule étant celui des dixièmes, cela correspond directement au nombre $0,1$. <strong>L'écriture décimale de $\\mathbf{\\dfrac{1}{10}}$ est $\\mathbf{0,1}$.</strong>"
+        },
+        {
+          "id": "1.1.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{7}{1}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "7",
+          "images": [],
+          "correction": "La fraction $\\dfrac{7}{1}$ est simplement la division de $7$ par $1$. Diviser un nombre par $1$ ne le change pas. <strong>L'écriture décimale de $\\mathbf{\\dfrac{7}{1}}$ est $\\mathbf{7}$.</strong>"
+        },
+        {
+          "id": "1.1.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{3}{2}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "1.5",
+          "images": [],
+          "correction": "La fraction $\\dfrac{3}{2}$ signifie \"trois demis\". Comme un demi vaut $0,5$, on calcule : 3 $\\times$ 0,5 = 1,5 \\textit{(On peut aussi voir que c'est la moitié de $3$.)} <strong>L'écriture décimale de $\\mathbf{\\dfrac{3}{2}}$ est $\\mathbf{1,5}$.</strong>"
+        },
+        {
+          "id": "1.1.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{5}{2}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "2.5",
+          "images": [],
+          "correction": "La fraction $\\dfrac{5}{2}$ signifie \"cinq demis\". C'est aussi la moitié de $5$. 5 $\\div$ 2 = 2,5 <strong>L'écriture décimale de $\\mathbf{\\dfrac{5}{2}}$ est $\\mathbf{2,5}$.</strong>"
+        },
+        {
+          "id": "1.1.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{100}{100}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "1",
+          "images": [],
+          "correction": "Quand le numérateur et le dénominateur d'une fraction sont égaux (et non nuls), la fraction est toujours égale à $1$. <strong>L'écriture décimale de $\\mathbf{\\dfrac{100}{100}}$ est $\\mathbf{1}$.</strong>"
+        },
+        {
+          "id": "1.1.9",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{4}{2}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "La fraction $\\dfrac{4}{2}$ correspond à la division de $4$ par $2$. 4 $\\div$ 2 = 2 <strong>L'écriture décimale de $\\mathbf{\\dfrac{4}{2}}$ est $\\mathbf{2}$.</strong>"
+        },
+        {
+          "id": "1.1.10",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{2}{5}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.4",
+          "images": [],
+          "correction": "Pour trouver l'écriture décimale de $\\dfrac{2}{5}$, on peut transformer la fraction pour avoir un dénominateur de $10$. \\dfrac{2}{5} = \\dfrac{2 $\\times$ 2}{5 $\\times$ 2} = \\dfrac{4}{10} La fraction \"quatre dixièmes\" correspond au nombre $0,4$. <strong>L'écriture décimale de $\\mathbf{\\dfrac{2}{5}}$ est $\\mathbf{0,4}$.</strong>"
+        },
+        {
+          "id": "1.1.11",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Classer ces nombres par ordre croissant : $0,7$ ; $\\dfrac{3}{4}$ ; $0,76$.",
+          "questionType": "ordering",
+          "expectedAnswer": "0,7 < \\dfrac{3}{4} < 0,76",
+          "images": [],
+          "correction": "Pour comparer ces nombres, il faut les écrire sous la même forme. Le plus simple est de tout convertir en écriture décimale. • $0,7$ est déjà en écriture décimale. • $\\dfrac{3}{4} = 0,75$. • $0,76$ est déjà en écriture décimale. On compare maintenant $0,70$, $0,75$ et $0,76$. L'ordre croissant est bien $0,7 < 0,75 < 0,76$. <strong>L'ordre correct est $\\mathbf{0,7 < \\dfrac{3}{4} < 0,76}$.</strong>"
+        },
+        {
+          "id": "1.1.12",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Quel est le nombre décimal correspondant à la fraction $\\dfrac{9}{2}$ ?",
+          "questionType": "numeric",
+          "expectedAnswer": "4.5",
+          "images": [],
+          "correction": "La fraction $\\dfrac{9}{2}$ correspond à la division de $9$ par $2$. C'est la moitié de $9$. 9 $\\div$ 2 = 4,5 <strong>Le nombre décimal correspondant est $\\mathbf{4,5}$.</strong>"
+        },
+        {
+          "id": "1.1.13",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "J'ai mangé les $\\dfrac{3}{4}$ d'une pizza. Quel pourcentage de la pizza ai-je mangé ?",
+          "questionType": "text",
+          "expectedAnswer": "75",
+          "images": [],
+          "correction": "Il faut convertir la fraction en pourcentage. • On passe de la fraction à l'écriture décimale : $\\dfrac{3}{4} = 0,75$. • On multiplie l'écriture décimale par $100$ pour obtenir un pourcentage : $0,75 \\times 100 = 75\\%$. <strong>J'ai mangé $\\mathbf{75\\%}$ de la pizza.</strong>"
+        },
+        {
+          "id": "1.1.14",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "L'égalité $\\dfrac{5}{4} = 1,25$ est-elle vraie ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Pour vérifier l'égalité, on peut calculer la valeur de la fraction. \\dfrac{5}{4} = 5 $\\div$ 4 = 1,25 On peut aussi remarquer que $\\dfrac{5}{4} = \\dfrac{4}{4} + \\dfrac{1}{4} = 1 + 0,25 = 1,25$. <strong>Oui, l'égalité est vraie.</strong>"
+        },
+        {
+          "id": "1.1.15",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{13}{10}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "1.3",
+          "images": [],
+          "correction": "La fraction $\\dfrac{13}{10}$ se lit \"treize dixièmes\". Cela correspond à $13 \\times 0,1 = 1,3$. <strong>L'écriture décimale de $\\mathbf{\\dfrac{13}{10}}$ est $\\mathbf{1,3}$.</strong>"
+        },
+        {
+          "id": "1.1.16",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Un gâteau coûte $12$€. Si je paie les $\\dfrac{3}{2}$ de ce prix, combien ai-je payé ?",
+          "questionType": "numeric",
+          "expectedAnswer": "18",
+          "images": [],
+          "correction": "On doit calculer $\\dfrac{3}{2}$ de $12$€. • On peut d'abord calculer la valeur de la fraction : $\\dfrac{3}{2} = 1,5$. • On multiplie ensuite cette valeur par le prix : $1,5 \\times 12 = 18$. <strong>J'ai payé $\\mathbf{18}$€.</strong>"
+        },
+        {
+          "id": "1.1.17",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{7}{2}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "3.5",
+          "images": [],
+          "correction": "La fraction $\\dfrac{7}{2}$ correspond à la division de $7$ par $2$, c'est-à-dire la moitié de $7$. 7 $\\div$ 2 = 3,5 <strong>L'écriture décimale de $\\mathbf{\\dfrac{7}{2}}$ est $\\mathbf{3,5}$.</strong>"
+        },
+        {
+          "id": "1.1.18",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer la somme $A = \\dfrac{1}{2} + \\dfrac{1}{4}$ et donner le résultat sous forme décimale.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.75",
+          "images": [],
+          "correction": "Pour calculer cette somme, on peut convertir chaque fraction en nombre décimal avant d'additionner. • [$\\bullet$] $\\dfrac{1}{2} = 0,5$. • [$\\bullet$] $\\dfrac{1}{4} = 0,25$. On calcule ensuite la somme : A = 0,5 + 0,25 = 0,75 <strong>Le résultat sous forme décimale est $\\mathbf{0,75}$.</strong>"
+        },
+        {
+          "id": "1.1.19",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{3}{5}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.6",
+          "images": [],
+          "correction": "Pour trouver l'écriture décimale, on peut transformer la fraction pour que son dénominateur soit $10$. \\dfrac{3}{5} = \\dfrac{3 $\\times$ 2}{5 $\\times$ 2} = \\dfrac{6}{10} La fraction \"six dixièmes\" s'écrit $0,6$. <strong>L'écriture décimale de $\\mathbf{\\dfrac{3}{5}}$ est $\\mathbf{0,6}$.</strong>"
+        },
+        {
+          "id": "1.1.20",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Quel est le plus grand nombre entre $\\dfrac{13}{10}$ et $1,25$ ?",
+          "questionType": "numeric",
+          "expectedAnswer": "13/10",
+          "images": [],
+          "correction": "Pour comparer les deux nombres, on les met sous la même forme. • On convertit la fraction en écriture décimale : $\\dfrac{13}{10} = 1,3$. • On compare $1,3$ et $1,25$. Le chiffre des dixièmes de $1,3$ (qui est $3$) est plus grand que celui de $1,25$ (qui est $2$). <strong>Le plus grand nombre est $\\mathbf{\\dfrac{13}{10}}$.</strong>"
+        },
+        {
+          "id": "1.1.21",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{6}{5}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "1.2",
+          "images": [],
+          "correction": "On peut transformer la fraction pour avoir un dénominateur égal à $10$. \\dfrac{6}{5} = \\dfrac{6 $\\times$ 2}{5 $\\times$ 2} = \\dfrac{12}{10} \"Douze dixièmes\" s'écrit $1,2$. <strong>L'écriture décimale de $\\mathbf{\\dfrac{6}{5}}$ est $\\mathbf{1,2}$.</strong>"
+        },
+        {
+          "id": "1.1.22",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $B = 3 \\times \\dfrac{1}{4}$ et donner le résultat en écriture décimale.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.75",
+          "images": [],
+          "correction": "Le calcul est une multiplication. B = 3 $\\times$ \\dfrac{1}{4} = \\dfrac{3}{1} $\\times$ \\dfrac{1}{4} = \\dfrac{3 $\\times$ 1}{1 $\\times$ 4} = \\dfrac{3}{4} On sait que la fraction de référence $\\dfrac{3}{4}$ est égale à $0,75$. <strong>Le résultat est $\\mathbf{0,75}$.</strong>"
+        },
+        {
+          "id": "1.1.23",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Classer par ordre décroissant : $2,6$ ; $\\dfrac{5}{2}$ ; $2,55$.",
+          "questionType": "text",
+          "expectedAnswer": "2,6 > 2,55 > 2,5",
+          "images": [],
+          "correction": "On convertit tous les nombres en écriture décimale pour pouvoir les comparer. • [$\\bullet$] $2,6$ est déjà sous forme décimale. • [$\\bullet$] $\\dfrac{5}{2} = 5 \\div 2 = 2,5$. • [$\\bullet$] $2,55$ est déjà sous forme décimale. On classe les nombres $2,6$, $2,5$ et $2,55$ par ordre décroissant (du plus grand au plus petit) : $2,6 > 2,55 > 2,5$. <strong>L'ordre décroissant est: $\\mathbf{2,6 > 2,55 > \\dfrac{5}{2}}$.</strong>"
+        },
+        {
+          "id": "1.1.24",
+          "difficulty": 3,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $\\dfrac{1}{8}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.125",
+          "images": [],
+          "correction": "Une méthode simple consiste à voir que $\\dfrac{1}{8}$ est la moitié de $\\dfrac{1}{4}$. • [$\\bullet$] On sait que $\\dfrac{1}{4} = 0,25$. • [$\\bullet$] On calcule ensuite la moitié de ce nombre : $0,25 \\div 2 = 0,125$. <strong>L'écriture décimale de $\\mathbf{\\dfrac{1}{8}}$ est $\\mathbf{0,125}$.</strong>"
+        },
+        {
+          "id": "1.1.25",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Une bouteille a une capacité de $\\dfrac{3}{4}$ de litre. Combien de centilitres cela représente-t-il ?",
+          "questionType": "numeric",
+          "expectedAnswer": "75",
+          "images": [],
+          "correction": "La question demande une conversion d'unités. • On convertit la fraction en nombre décimal : $\\dfrac{3}{4}$ de litre $= 0,75$ L. • On sait que $1$ litre est égal à $100$ centilitres. Pour convertir des litres en centilitres, on multiplie par $100$. 0,75 $\\times$ 100 = 75 <strong>Cela représente $\\mathbf{75}$ centilitres.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "1.2",
+      "title": "Comparer et calculer avec les nombres décimaux",
+      "courseReminder": "<strong>Comparer :</strong> On compare les parties entières. Si elles sont égales, on compare les chiffres après la virgule un par un, de gauche à droite (dixièmes, puis centièmes...). Exemple : $12,5 > 12,48$ car le chiffre des dixièmes $5$ est plus grand que $4$. <strong>Addition/Soustraction :</strong> On aligne les virgules (et donc les chiffres de même rang) verticalement. <strong>Multiplication :</strong> On effectue l'opération sans tenir compte des virgules, puis on place la virgule dans le résultat pour qu'il ait autant de chiffres après la virgule que le total des chiffres après la virgule dans les nombres de départ. <strong>Nombres négatifs :</strong> Les règles des signes s'appliquent. Comparer deux nombres négatifs revient à comparer leurs distances à zéro : le plus \"proche\" de zéro est le plus grand. Exemple : $-3,1 > -3,2$.",
+      "exercises": [
+        {
+          "id": "1.2.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Comparer $5,8$ et $5,79$.",
+          "questionType": "comparison",
+          "expectedAnswer": "5.8 > 5.79",
+          "images": [],
+          "correction": "Pour comparer deux nombres décimaux, on regarde d'abord leur partie entière. Ici, les deux nombres ont pour partie entière $5$. On compare donc le premier chiffre après la virgule (le chiffre des dixièmes). • Pour $5,8$, le chiffre des dixièmes est $8$. • Pour $5,79$, le chiffre des dixièmes est $7$. Comme $8$ est plus grand que $7$, on en déduit que le premier nombre est plus grand. <strong>La comparaison est $\\mathbf{5,8 > 5,79}$.</strong>"
+        },
+        {
+          "id": "1.2.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Comparer $-10,2$ et $-10,15$.",
+          "questionType": "comparison",
+          "expectedAnswer": "-10.15 > -10.2",
+          "images": [],
+          "correction": "Il s'agit de nombres négatifs. Pour les comparer, on se souvient que le nombre le plus grand est celui qui est le plus proche de zéro. • La distance de $-10,2$ à zéro est de $10,2$. • La distance de $-10,15$ à zéro est de $10,15$. $-10,15$ est donc plus proche de zéro que $-10,2$. <strong>La comparaison est $\\mathbf{-10,15 > -10,2}$.</strong>"
+        },
+        {
+          "id": "1.2.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $A = 2,5 + 3,4$.",
+          "questionType": "numeric",
+          "expectedAnswer": "5.9",
+          "images": [],
+          "correction": "Il s'agit d'une simple addition de nombres décimaux. A = 2,5 + 3,4 = 5,9 <strong>Le résultat est $\\mathbf{A = 5,9}$.</strong>"
+        },
+        {
+          "id": "1.2.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $B = 10,8 - 1,2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "9.6",
+          "images": [],
+          "correction": "On effectue la soustraction. B = 10,8 - 1,2 = 9,6 <strong>Le résultat est $\\mathbf{B = 9,6}$.</strong>"
+        },
+        {
+          "id": "1.2.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $C = 5 - 0,1$.",
+          "questionType": "numeric",
+          "expectedAnswer": "4.9",
+          "images": [],
+          "correction": "On peut voir $5$ comme $5,0$ pour faciliter le calcul. C = 5,0 - 0,1 = 4,9 <strong>Le résultat est $\\mathbf{C = 4,9}$.</strong>"
+        },
+        {
+          "id": "1.2.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $D = -4,5 + 2,5$.",
+          "questionType": "numeric",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "On additionne un nombre négatif et un nombre positif. Le résultat aura le signe du nombre le plus éloigné de zéro (ici $-4,5$), donc le résultat sera négatif. Ensuite, on calcule la différence des distances à zéro : $4,5 - 2,5 = 2$. <strong>Le résultat est $\\mathbf{D = -2}$.</strong>"
+        },
+        {
+          "id": "1.2.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $E = 1,5 \\times 2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "3",
+          "images": [],
+          "correction": "Le double de $1,5$ est $3$. E = 1,5 $\\times$ 2 = 3 <strong>Le résultat est $\\mathbf{E = 3}$.</strong>"
+        },
+        {
+          "id": "1.2.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $F = -3 \\times 1,1$.",
+          "questionType": "numeric",
+          "expectedAnswer": "-3.3",
+          "images": [],
+          "correction": "On multiplie un nombre négatif par un nombre positif, le résultat sera négatif. F = -3 $\\times$ 1,1 = -3,3 <strong>Le résultat est $\\mathbf{F = -3,3}$.</strong>"
+        },
+        {
+          "id": "1.2.9",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "J'achète une baguette à $1,15$€ et un croissant à $1,20$€. Combien dois-je payer ?",
+          "questionType": "numeric",
+          "expectedAnswer": "2.35",
+          "images": [],
+          "correction": "Pour connaître le total à payer, on additionne le prix des deux articles. 1,15€ + 1,20€ = 2,35€ <strong>Je dois payer $\\mathbf{2,35}$€.</strong>"
+        },
+        {
+          "id": "1.2.10",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $G = -5,8 - 2,2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "-8",
+          "images": [],
+          "correction": "On soustrait $2,2$ à $-5,8$. Cela revient à additionner deux nombres négatifs. Le résultat sera négatif. G = -5,8 - 2,2 = -8 <strong>Le résultat est $\\mathbf{G = -8}$.</strong>"
+        },
+        {
+          "id": "1.2.11",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $H = 12,5 - 4,75$.",
+          "questionType": "numeric",
+          "expectedAnswer": "7.75",
+          "images": [],
+          "correction": "Pour poser cette soustraction, on aligne bien les virgules. On peut faire apparaître le chiffre des centièmes dans $12,5$ pour avoir le même nombre de chiffres après la virgule : $12,50 - 4,75$. H = 12,50 - 4,75 = 7,75 <strong>Le résultat est $\\mathbf{H = 7,75}$.</strong>"
+        },
+        {
+          "id": "1.2.12",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $I = 2,5 \\times 0,1$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.25",
+          "images": [],
+          "correction": "Multiplier par $0,1$ revient à décaler la virgule d'un rang vers la gauche. I = 2,5 $\\times$ 0,1 = 0,25 <strong>Le résultat est $\\mathbf{I = 0,25}$.</strong>"
+        },
+        {
+          "id": "1.2.13",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Le thermomètre affiche $-2,5\\,{}^{\\circ}\\text{C}$ le matin. La température augmente de $4\\,{}^{\\circ}\\text{C}$ dans la journée. Quelle est la température finale ?",
+          "questionType": "text",
+          "expectedAnswer": "1.5.",
+          "images": [],
+          "correction": "Une augmentation de température correspond à une addition. On part de $-2,5\\,{}^{\\circ}\\text{C}$ et on ajoute $4\\,{}^{\\circ}\\text{C}$. -2,5 + 4 = 1,5 <strong>La température finale est de $\\mathbf{1,5\\,{}^{\\circ}\\text{C}}$.</strong>"
+        },
+        {
+          "id": "1.2.14",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Classer par ordre croissant : $-3,14$ ; $-3,09$ ; $-3,2$.",
+          "questionType": "ordering",
+          "expectedAnswer": "-3,2 < -3,14 < -3,09",
+          "images": [],
+          "correction": "Pour classer des nombres négatifs par ordre croissant (du plus petit au plus grand), on cherche celui qui est le plus \"loin\" de zéro (le plus à gauche sur une droite graduée). $-3,2$ est le plus petit, suivi de $-3,14$, et enfin $-3,09$ qui est le plus proche de zéro. <strong>L'ordre est : $\\mathbf{-3,2 < -3,14 < -3,09}$.</strong>"
+        },
+        {
+          "id": "1.2.15",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $J = 0,5 \\times 0,5$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.25",
+          "images": [],
+          "correction": "Multiplier $0,5$ par $0,5$ revient à calculer la moitié de $0,5$. J = 0,5 $\\times$ 0,5 = 0,25 <strong>Le résultat est $\\mathbf{J = 0,25}$.</strong>"
+        },
+        {
+          "id": "1.2.16",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $K = 10 \\div 0,5$.",
+          "questionType": "numeric",
+          "expectedAnswer": "20",
+          "images": [],
+          "correction": "Diviser un nombre par $0,5$ revient à se demander \"combien de moitiés y a-t-il dans ce nombre ?\". C'est donc la même chose que de multiplier ce nombre par $2$. K = 10 $\\div$ 0,5 = 10 $\\times$ 2 = 20 <strong>Le résultat est $\\mathbf{K = 20}$.</strong>"
+        },
+        {
+          "id": "1.2.17",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $L = (-0,2) \\times (-10)$.",
+          "questionType": "numeric",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "On applique la règle des signes : le produit de deux nombres négatifs est un nombre positif. L = (-0,2) $\\times$ (-10) = 2 <strong>Le résultat est $\\mathbf{L = 2}$.</strong>"
+        },
+        {
+          "id": "1.2.18",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Un rectangle a une longueur de $4,5$ cm et une largeur de $2$ cm. Quelle est son aire ?",
+          "questionType": "text",
+          "expectedAnswer": "9",
+          "images": [],
+          "correction": "L'aire d'un rectangle se calcule avec la formule : $\\text{Longueur} \\times \\text{Largeur}$. \\text{Aire} = 4,5 $\\times$ 2 = 9 <strong>L'aire est de $\\mathbf{9\\,\\text{cm}^2}$.</strong>"
+        },
+        {
+          "id": "1.2.19",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $M = 3 \\times 1,5 + 2 \\times 0,5$.",
+          "questionType": "numeric",
+          "expectedAnswer": "5.5",
+          "images": [],
+          "correction": "On respecte la priorité des multiplications avant d'effectuer l'addition. M &= (3 $\\times$ 1,5) + (2 $\\times$ 0,5) M &= 4,5 + 1 M &= 5,5 <strong>Le résultat est $\\mathbf{M = 5,5}$.</strong>"
+        },
+        {
+          "id": "1.2.20",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "J'ai $20$€ et j'achète $3$ articles à $4,50$€ chacun. Combien me reste-t-il ?",
+          "questionType": "numeric",
+          "expectedAnswer": "6.50",
+          "images": [],
+          "correction": "• On calcule le coût total des achats : $3 \\times 4,50\\text{€} = 13,50\\text{€}$. • On calcule la monnaie restante : $20\\text{€} - 13,50\\text{€} = 6,50\\text{€}$. <strong>Il me reste $\\mathbf{6,50}$€.</strong>"
+        },
+        {
+          "id": "1.2.21",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un pack de $6$ bouteilles d'eau coûte $1,80$€. Quel est le prix d'une bouteille ?",
+          "questionType": "numeric",
+          "expectedAnswer": "0.30",
+          "images": [],
+          "correction": "Pour trouver le prix d'une bouteille, on divise le prix total du pack par le nombre de bouteilles. 1,80 $\\div$ 6 = 0,30 <strong>Le prix d'une bouteille est de $\\mathbf{0,30}$€.</strong>"
+        },
+        {
+          "id": "1.2.22",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer $N = 20 - 3 \\times 5,5$.",
+          "questionType": "numeric",
+          "expectedAnswer": "3.5",
+          "images": [],
+          "correction": "On respecte la priorité opératoire : la multiplication est prioritaire sur la soustraction. N&=20-3 $\\times$ 5,5 N &= 20 - 16,5 N &= 3,5 <strong>Le résultat est $\\mathbf{N = 3,5}$.</strong>"
+        },
+        {
+          "id": "1.2.23",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Vrai ou Faux : $5,2 \\times 4,8 > 25$.",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "Pour le savoir, il faut effectuer le calcul. Une astuce est d'estimer : $5,2$ est un peu plus que $5$ et $4,8$ est un peu moins que $5$, le résultat devrait être proche de $5 \\times 5 = 25$. Calculons précisément : 5,2 $\\times$ 4,8 = 24,96 Ce nombre n'est pas supérieur à $25$. <strong>L'affirmation est fausse.</strong>"
+        },
+        {
+          "id": "1.2.24",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer $P = (5,2 - 7,2) \\times (-3)$.",
+          "questionType": "numeric",
+          "expectedAnswer": "6",
+          "images": [],
+          "correction": "On respecte la priorité des parenthèses. P&=(5,2 - 7,2) $\\times$ (-3) P &= (-2) $\\times$ (-3) P &= 6 Le produit de deux nombres négatifs est positif. <strong>Le résultat est $\\mathbf{P = 6}$.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "1.3",
+      "title": "Simplifier, comparer et calculer avec les fractions",
+      "courseReminder": "• <strong>Simplifier :</strong> On divise le numérateur et le dénominateur par un même nombre. Exemple : $\\dfrac{10}{15} = \\dfrac{2 \\times \\cancel{5}}{3 \\times \\cancel{5}} = \\dfrac{2}{3}$. • <strong>Comparer :</strong> On met en général les fractions au même dénominateur, puis on compare leurs numérateurs. Exemple : Comparer $\\dfrac{2}{3}$ et $\\dfrac{3}{4}$. On choisit le dénominateur commun $12$. \\, On a $\\dfrac{2}{3}=\\dfrac{2 \\times 4}{3 \\times 4}=\\dfrac{8}{12}$ et $\\dfrac{3}{4}=\\dfrac{3 \\times 3}{4 \\times 3}=\\dfrac{9}{12}$; donc $\\dfrac{3}{4} > \\dfrac{2}{3}$. • <strong>Addition/Soustraction :</strong> On réduit au même dénominateur avant d'opérer sur les numérateurs. Exemple : $\\dfrac{1}{2} + \\dfrac{1}{3} = \\dfrac{3}{6} + \\dfrac{2}{6} = \\dfrac{5}{6}$. • <strong>Multiplication :</strong> On multiplie les numérateurs entre eux et les dénominateurs entre eux. Exemple : $\\dfrac{2}{3} \\times \\dfrac{4}{5} = \\dfrac{2 \\times 4}{3 \\times 5}= \\dfrac{8}{15}$. • <strong>Division :</strong> Diviser par une fraction revient à multiplier par son inverse. Exemple : $\\dfrac{2}{3} \\div \\dfrac{4}{5} = \\dfrac{2}{3} \\times \\dfrac{5}{4} = \\dfrac{10}{12} = \\dfrac{5 \\times \\cancel{2}}{6 \\times \\cancel{2}}= \\dfrac{5}{6}$.",
+      "exercises": [
+        {
+          "id": "1.3.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Simplifier $\\dfrac{6}{8}$.",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{3}{4}",
+          "images": [],
+          "correction": "Pour simplifier une fraction, on cherche un diviseur commun au numérateur et au dénominateur. Ici, $6$ et $8$ sont tous les deux divisibles par $2$. \\dfrac{6}{8} = \\dfrac{6 $\\div$ 2}{8 $\\div$ 2} = \\dfrac{3}{4} <strong>La fraction simplifiée est $\\mathbf{\\dfrac{3}{4}}$.</strong>"
+        },
+        {
+          "id": "1.3.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $\\dfrac{1}{5} + \\dfrac{3}{5}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "4/5",
+          "images": [],
+          "correction": "Les deux fractions ont déjà le même dénominateur ($5$). On peut donc directement additionner leurs numérateurs. \\dfrac{1}{5} + \\dfrac{3}{5} = \\dfrac{1+3}{5} = \\dfrac{4}{5} <strong>Le résultat est $\\mathbf{\\dfrac{4}{5}}$.</strong>"
+        },
+        {
+          "id": "1.3.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $\\dfrac{7}{9} - \\dfrac{2}{9}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "5/9",
+          "images": [],
+          "correction": "Les deux fractions ont le même dénominateur ($9$). On peut donc soustraire leurs numérateurs. \\dfrac{7}{9} - \\dfrac{2}{9} = \\dfrac{7-2}{9} = \\dfrac{5}{9} <strong>Le résultat est $\\mathbf{\\dfrac{5}{9}}$.</strong>"
+        },
+        {
+          "id": "1.3.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $\\dfrac{1}{2} \\times \\dfrac{3}{5}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "3/10",
+          "images": [],
+          "correction": "Pour multiplier deux fractions, on multiplie les numérateurs entre eux et les dénominateurs entre eux. \\dfrac{1}{2} $\\times$ \\dfrac{3}{5} = \\dfrac{1 $\\times$ 3}{2 $\\times$ 5} = \\dfrac{3}{10} <strong>Le résultat est $\\mathbf{\\dfrac{3}{10}}$.</strong>"
+        },
+        {
+          "id": "1.3.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Comparer $\\dfrac{3}{7}$ et $\\dfrac{5}{7}$.",
+          "questionType": "comparison",
+          "expectedAnswer": "\\dfrac{5}{7} > \\dfrac{3}{7}",
+          "images": [],
+          "correction": "Les deux fractions ont le même dénominateur ($7$). Comme $5 > 3$, on en déduit que $\\dfrac{5}{7}$ est plus grand que $\\dfrac{3}{7}$. <strong>La comparaison est $\\mathbf{\\dfrac{5}{7} > \\dfrac{3}{7}}$.</strong>"
+        },
+        {
+          "id": "1.3.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $5 \\times \\dfrac{2}{3}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "10/3",
+          "images": [],
+          "correction": "On peut écrire le nombre entier $5$ comme la fraction $\\dfrac{5}{1}$. Le calcul devient alors: 5 $\\times$ \\dfrac{2}{3} = \\dfrac{5}{1} $\\times$ \\dfrac{2}{3} = \\dfrac{5 $\\times$ 2}{1 $\\times$ 3} = \\dfrac{10}{3} <strong>Le résultat est $\\mathbf{\\dfrac{10}{3}}$.</strong>"
+        },
+        {
+          "id": "1.3.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $2 - \\dfrac{1}{3}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "5/3",
+          "images": [],
+          "correction": "On met d'abord l'entier sous le même dénominateur que la fraction. 2 - \\dfrac{1}{3} = \\dfrac{2 $\\times$ 3}{3} - \\dfrac{1}{3} = \\dfrac{6}{3} - \\dfrac{1}{3} = \\dfrac{5}{3} <strong>Le résultat est $\\mathbf{\\dfrac{5}{3}}$.</strong>"
+        },
+        {
+          "id": "1.3.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $\\dfrac{1}{2} + \\dfrac{1}{4}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "3/4",
+          "images": [],
+          "correction": "Pour additionner ces deux fractions, on doit les mettre au même dénominateur ici $4$. \\dfrac{1}{2} + \\dfrac{1}{4} = \\dfrac{1 $\\times$ 2}{2 $\\times$ 2} + \\dfrac{1}{4} = \\dfrac{2}{4} + \\dfrac{1}{4} = \\dfrac{3}{4} <strong>Le résultat est $\\mathbf{\\dfrac{3}{4}}$.</strong>"
+        },
+        {
+          "id": "1.3.9",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Simplifier $\\dfrac{42}{18}$.",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{7}{3}",
+          "images": [],
+          "correction": "Pour simplifier $\\dfrac{42}{18}$, on cherche des diviseurs communs. On peut commencer par diviser par $2$, car les deux nombres sont pairs. \\dfrac{42 $\\div$ 2}{18 $\\div$ 2} = \\dfrac{21}{9} Ensuite, on voit que $21$ et $9$ sont tous les deux dans la table de $3$. \\dfrac{21 $\\div$ 3}{9 $\\div$ 3} = \\dfrac{7}{3} <strong>La fraction simplifiée est $\\mathbf{\\dfrac{7}{3}}$.</strong>"
+        },
+        {
+          "id": "1.3.10",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $\\dfrac{2}{3} - \\dfrac{1}{6}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "1/2",
+          "images": [],
+          "correction": "Le dénominateur commun est $6$. On transforme $\\dfrac{2}{3}$ en la multipliant par $\\dfrac{2}{2}$. \\dfrac{2}{3} - \\dfrac{1}{6} = \\dfrac{4}{6} - \\dfrac{1}{6} = \\dfrac{3}{6} On n'oublie pas de simplifier la fraction finale. \\dfrac{3}{6} = \\dfrac{1}{2} <strong>Le résultat est $\\mathbf{\\dfrac{1}{2}}$.</strong>"
+        },
+        {
+          "id": "1.3.11",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Comparer $\\dfrac{2}{5}$ et $\\dfrac{3}{7}$.",
+          "questionType": "comparison",
+          "expectedAnswer": "\\dfrac{3}{7} > \\dfrac{2}{5}",
+          "images": [],
+          "correction": "Pour comparer, on met les deux fractions au même dénominateur. Le plus simple est de prendre $5 \\times 7 = 35$. • [$\\bullet$] $\\dfrac{2}{5} = \\dfrac{2 \\times 7}{5 \\times 7} = \\dfrac{14}{35}$ • [$\\bullet$] $\\dfrac{3}{7} = \\dfrac{3 \\times 5}{7 \\times 5} = \\dfrac{15}{35}$ Puisque $15 > 14$, on conclut que $\\dfrac{15}{35} > \\dfrac{14}{35}$. <strong>La comparaison est $\\mathbf{\\dfrac{3}{7} > \\dfrac{2}{5}}$.</strong>"
+        },
+        {
+          "id": "1.3.12",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $\\dfrac{1}{2} \\div \\dfrac{1}{4}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "Diviser par une fraction revient à multiplier par son inverse. L'inverse de $\\dfrac{1}{4}$ est $\\dfrac{4}{1}$, soit $4$. \\dfrac{1}{2} $\\div$ \\dfrac{1}{4} = \\dfrac{1}{2} $\\times$ 4 = \\dfrac{4}{2} = 2 <strong>Le résultat est $\\mathbf{2}$.</strong>"
+        },
+        {
+          "id": "1.3.13",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $\\dfrac{5}{4} + \\dfrac{7}{12}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "11/6",
+          "images": [],
+          "correction": "Le dénominateur commun est $12$. On transforme $\\dfrac{5}{4}$ en la multipliant par $\\dfrac{3}{3}$. \\dfrac{5 $\\times$ 3}{4 $\\times$ 3} + \\dfrac{7}{12} = \\dfrac{15}{12} + \\dfrac{7}{12} = \\dfrac{22}{12} On simplifie le résultat en divisant par $2$. \\dfrac{22 $\\div$ 2}{12 $\\div$ 2} = \\dfrac{11}{6} <strong>Le résultat est $\\mathbf{\\dfrac{11}{6}}$.</strong>"
+        },
+        {
+          "id": "1.3.14",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $\\dfrac{3}{4} \\times \\dfrac{8}{9}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "2/3",
+          "images": [],
+          "correction": "Avant de multiplier, il est astucieux de décomposer les nombres pour simplifier le calcul. \\dfrac{3}{4} $\\times$ \\dfrac{8}{9} = \\dfrac{3 $\\times$ (4 $\\times$ 2)}{4 $\\times$ (3 $\\times$ 3)} On peut simplifier par $3$ et par $4$ au numérateur et au dénominateur. <strong>Le résultat est $\\mathbf{\\dfrac{2}{3}}$.</strong>"
+        },
+        {
+          "id": "1.3.15",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Vrai ou Faux : $\\dfrac{1}{3} + \\dfrac{1}{6} = \\dfrac{1}{2}$.",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Pour le vérifier, on calcule le membre de gauche. On met au même dénominateur ($6$). \\dfrac{1}{3} + \\dfrac{1}{6} = \\dfrac{2}{6} + \\dfrac{1}{6} = \\dfrac{3}{6} La fraction $\\dfrac{3}{6}$ se simplifie en $\\dfrac{1}{2}$. <strong>L'affirmation est vraie.</strong>"
+        },
+        {
+          "id": "1.3.16",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer $K = \\dfrac{5}{3} \\div \\dfrac{10}{9}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "3/2",
+          "images": [],
+          "correction": "Diviser par $\\dfrac{10}{9}$ revient à multiplier par son inverse, $\\dfrac{9}{10}$. K&= \\dfrac{5}{3} $\\times$ \\dfrac{9}{10} K &= \\dfrac{\\cancel{5} $\\times$ ( \\cancel{3} $\\times$ 3)}{\\cancel{3} $\\times$ (\\cancel{5} $\\times$ 2)} = \\dfrac{3}{2} <strong>Le résultat est $\\mathbf{K = \\dfrac{3}{2}}$.</strong>"
+        },
+        {
+          "id": "1.3.17",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer $L = \\dfrac{1}{2} + \\dfrac{1}{3} + \\dfrac{1}{6}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "1",
+          "images": [],
+          "correction": "Le dénominateur commun est $6$. L &= \\dfrac{1 $\\times$ 3}{2 $\\times$ 3} + \\dfrac{1 $\\times$ 2}{3 $\\times$ 2} + \\dfrac{1}{6} L &= \\dfrac{3}{6} + \\dfrac{2}{6} + \\dfrac{1}{6} L &= \\dfrac{3+2+1}{6} = \\dfrac{6}{6} = 1 <strong>Le résultat est $\\mathbf{L = 1}$.</strong>"
+        },
+        {
+          "id": "1.3.18",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Dans une classe, $\\dfrac{1}{3}$ des élèves sont des garçons. Quelle est la proportion de filles ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{2}{3}",
+          "images": [],
+          "correction": "La classe entière représente la totalité, c'est-à-dire $1$. La proportion de filles est ce qui reste quand on enlève la proportion de garçons. 1 - \\dfrac{1}{3} = \\dfrac{3}{3} - \\dfrac{1}{3} = \\dfrac{2}{3} <strong>La proportion de filles est de $\\mathbf{\\dfrac{2}{3}}$.</strong>"
+        },
+        {
+          "id": "1.3.19",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer $M = \\left( \\dfrac{1}{4} + \\dfrac{1}{2} \\right) \\times \\dfrac{2}{3}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "1/2",
+          "images": [],
+          "correction": "On calcule d'abord la parenthèse en mettant au même dénominateur ($4$). M&=\\left(\\dfrac{1}{4}+\\dfrac{1}{2} \\right) $\\times$ \\dfrac{2}{3} M&=\\dfrac{3}{4} $\\times$ \\dfrac{2}{3} M&=\\dfrac{\\cancel{3} $\\times$ 1 $\\times$ \\cancel{2}}{(\\cancel{2} $\\times$ 2) $\\times$ \\cancel{3}} M&=\\dfrac{1}{2} <strong>Le résultat est $\\mathbf{M = \\dfrac{1}{2}}$.</strong>"
+        },
+        {
+          "id": "1.3.20",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer $N = \\dfrac{\\dfrac{2}{3}}{\\dfrac{4}{9}}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "3/2",
+          "images": [],
+          "correction": "La grande barre de fraction signifie une division. Le calcul est donc $\\dfrac{2}{3} \\div \\dfrac{4}{9}$. On multiplie par l'inverse. N = \\dfrac{2}{3} $\\times$ \\dfrac{9}{4} = \\dfrac{18}{12} On simplifie la fraction finale en divisant par $6$. N = \\dfrac{3 $\\times$ \\cancel{6}}{2 $\\times$ \\cancel{6}} = \\dfrac{3}{2} <strong>Le résultat est $\\mathbf{N = \\dfrac{3}{2}}$.</strong>"
+        },
+        {
+          "id": "1.3.21",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Classer par ordre croissant : $\\dfrac{5}{4}$ ; $1,2$ et $\\dfrac{13}{10}$.",
+          "questionType": "ordering",
+          "expectedAnswer": "1,2 < \\dfrac{5}{4} < \\dfrac{13}{10}",
+          "images": [],
+          "correction": "Pour classer, on convertit toutes les fractions en écriture décimale. • [$\\bullet$] $\\dfrac{5}{4} = 5 \\div 4 = 1,25$. • [$\\bullet$] $\\dfrac{13}{10} = 13 \\div 10 = 1,3$. On doit maintenant classer par ordre croissant : $1,25$ ; $1,2$ ; $1,3$. <strong>L'ordre est : $\\mathbf{1,2 < \\dfrac{5}{4} < \\dfrac{13}{10}}$.</strong>"
+        },
+        {
+          "id": "1.3.22",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Comparer les nombres $X = \\dfrac{15}{7}$ et $Y = \\dfrac{11}{5}$.",
+          "questionType": "comparison",
+          "expectedAnswer": "\\dfrac{11}{5} > \\dfrac{15}{7}",
+          "images": [],
+          "correction": "On met $X$ et $Y$ sur $35$. • [$\\bullet$] $X = \\dfrac{15}{7} = \\dfrac{15 \\times 5}{7 \\times 5} = \\dfrac{75}{35}$. • [$\\bullet$] $Y = \\dfrac{11}{5} = \\dfrac{11 \\times 7}{5 \\times 7} = \\dfrac{77}{35}$. Comme $77 > 75$, on a $Y > X$. \\, <strong>La comparaison est $\\mathbf{\\dfrac{11}{5} > \\dfrac{15}{7}}$.</strong>"
+        },
+        {
+          "id": "1.3.23",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer $P = \\dfrac{7}{2} + \\dfrac{15}{6} \\times \\dfrac{7}{25}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "21/5",
+          "images": [],
+          "correction": "La multiplication est prioritaire. On commence par la calculer, en simplifiant si possible. \\dfrac{15}{6} $\\times$ \\dfrac{7}{25} = \\dfrac{3 $\\times$ 5}{2 $\\times$ 3} $\\times$ \\dfrac{7}{5 $\\times$ 5} = \\dfrac{7}{10} Le calcul devient une simple addition. On met au même dénominateur ($10$). P = \\dfrac{7}{2} + \\dfrac{7}{10} = \\dfrac{35}{10} + \\dfrac{7}{10} = \\dfrac{42}{10} On simplifie le résultat. P = \\dfrac{21 $\\times$ \\cancel{2}}{5 $\\times$ \\cancel{2}} <strong>Le résultat est $\\mathbf{P = \\dfrac{21}{5}}$.</strong>"
+        },
+        {
+          "id": "1.3.24",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Je bois $\\dfrac{1}{4}$ d'une bouteille d'un litre, puis mon frère boit $\\dfrac{2}{5}$ du reste. Quelle fraction de la bouteille a-t-il bue ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{6}{20} = \\dfrac{3}{10}",
+          "images": [],
+          "correction": "• Je bois $\\dfrac{1}{4}$ de la bouteille. La fraction restante est : $1 - \\dfrac{1}{4} = \\dfrac{3}{4}$. • Mon frère boit $\\dfrac{2}{5}$ <strong>du reste</strong>. On calcule donc : \\dfrac{2}{5} $\\times$ \\dfrac{3}{4} = \\dfrac{6}{20} On simplifie la fraction obtenue : $\\dfrac{6}{20} = \\dfrac{3}{10}$. <strong>Mon frère a bu $\\mathbf{\\dfrac{3}{10}}$ de la bouteille.</strong>"
+        },
+        {
+          "id": "1.3.25",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer $Q = 1 - \\left( \\dfrac{1}{5} + \\dfrac{2}{5} \\times \\dfrac{1}{2} \\right)$.",
+          "questionType": "numeric",
+          "expectedAnswer": "3/5",
+          "images": [],
+          "correction": "On respecte les priorités opératoires. On commence par d'abord l'intérieur de la parenthèse, et dans celle-ci, la multiplication est prioritaire sur l'addition. On profite de la simplification dans le produit pour s'assurer que les dénominateurs sont égaux et donc qu'on puisse effectuer l'addition sans souci. Enfin, la différence finale se calcule en pensant bien à transformer 1 unité en cinquièmes. Q&=1-\\left( \\dfrac{1}{5}+\\dfrac{2}{5} $\\times$ \\dfrac{1}{2} \\right) Q&=1-\\left(\\dfrac{1}{5}+\\dfrac{\\cancel{2} $\\times$ 1}{5 $\\times$ \\cancel{2}}\\right) Q&=1-\\left(\\dfrac{1}{5}+\\dfrac{1}{5}\\right) Q&=1-\\dfrac{2}{5} Q&=\\dfrac{5}{5}-\\dfrac{2}{5} Q&=\\dfrac{3}{5} <strong>Le résultat est $\\mathbf{Q = \\dfrac{3}{5}}$.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "1.4",
+      "title": "Prendre une fraction d'une quantité",
+      "courseReminder": "Pour prendre une fraction $\\dfrac{a}{b}$ d'une quantité (ou d'un nombre) $Q$, on effectue la multiplication : $\\dfrac{a}{b} \\times Q$. Trois méthodes de calcul sont possibles : • Multiplier la quantité par le numérateur, puis diviser par le dénominateur : $(Q $\\times$ a) $\\div$ b$.\n    \\item Diviser la quantité par le dénominateur, puis multiplier par le numérateur :\\\\\n    $(Q $\\div$ b) $\\times$ a$.\n    \\item Calculer le quotient $a $\\div$ b$ et s'il est décimal, multiplier par $Q$:\\\\\n    $(a $\\div$ b) $\\times$ Q$\n\\end{enumerate}\n\nExemple : Calculer les deux tiers de $60$€.\\\\\nLa méthode $2$ est souvent la plus simple : $(60 $\\div$ 3) $\\times$ 2 = 20 $\\times$ 2 = 40$€.",
+      "exercises": [
+        {
+          "id": "1.4.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer le tiers de $18$.",
+          "questionType": "numeric",
+          "expectedAnswer": "6",
+          "images": [],
+          "correction": "Prendre le tiers d'un nombre revient à le diviser par $3$. 18 $\\div$ 3 = 6 <strong>Le tiers de $\\mathbf{18}$ est $\\mathbf{6}$.</strong>"
+        },
+        {
+          "id": "1.4.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer le quart de $12$.",
+          "questionType": "numeric",
+          "expectedAnswer": "3",
+          "images": [],
+          "correction": "Prendre le quart d'un nombre revient à le diviser par $4$. 12 $\\div$ 4 = 3 <strong>Le quart de $\\mathbf{12}$ est $\\mathbf{3}$.</strong>"
+        },
+        {
+          "id": "1.4.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer la moitié de $30$.",
+          "questionType": "numeric",
+          "expectedAnswer": "15",
+          "images": [],
+          "correction": "Prendre la moitié d'un nombre revient à le diviser par $2$. 30 $\\div$ 2 = 15 <strong>La moitié de $\\mathbf{30}$ est $\\mathbf{15}$.</strong>"
+        },
+        {
+          "id": "1.4.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer les deux tiers de $9$.",
+          "questionType": "numeric",
+          "expectedAnswer": "9",
+          "images": [],
+          "correction": "Pour calculer les deux tiers de $9$, on peut d'abord calculer le tiers de $9$, puis multiplier le résultat par $2$. • Le tiers de $9$ est : $9 \\div 3 = 3$. • On multiplie ce résultat par $2$ : $3 \\times 2 = 6$. <strong>Les deux tiers de $\\mathbf{9}$ valent $\\mathbf{6}$.</strong>"
+        },
+        {
+          "id": "1.4.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer les trois quarts de $20$.",
+          "questionType": "numeric",
+          "expectedAnswer": "5",
+          "images": [],
+          "correction": "On calcule d'abord le quart de $20$, puis on multiplie par $3$. • Le quart de $20$ est : $20 \\div 4 = 5$. • On multiplie ce résultat par $3$ : $5 \\times 3 = 15$. <strong>Les trois quarts de $\\mathbf{20}$ valent $\\mathbf{15}$.</strong>"
+        },
+        {
+          "id": "1.4.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer le cinquième de $100$.",
+          "questionType": "numeric",
+          "expectedAnswer": "20",
+          "images": [],
+          "correction": "Prendre le cinquième d'un nombre revient à le diviser par $5$. 100 $\\div$ 5 = 20 <strong>Le cinquième de $\\mathbf{100}$ est $\\mathbf{20}$.</strong>"
+        },
+        {
+          "id": "1.4.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer les sept dixièmes de $50$.",
+          "questionType": "numeric",
+          "expectedAnswer": "50",
+          "images": [],
+          "correction": "On calcule d'abord le dixième de $50$, puis on multiplie par $7$. • Le dixième de $50$ est : $50 \\div 10 = 5$. • On multiplie ce résultat par $7$ : $5 \\times 7 = 35$. <strong>Les sept dixièmes de $\\mathbf{50}$ valent $\\mathbf{35}$.</strong>"
+        },
+        {
+          "id": "1.4.8",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Dans une classe de $24$ élèves, un quart sont externes. Combien y a-t-il d'élèves externes ?",
+          "questionType": "numeric",
+          "expectedAnswer": "6",
+          "images": [],
+          "correction": "On doit calculer un quart des $24$ élèves. Pour cela, on divise le nombre total d'élèves par $4$. 24 $\\div$ 4 = 6 <strong>Il y a $\\mathbf{6}$ élèves externes.</strong>"
+        },
+        {
+          "id": "1.4.9",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Une bouteille de $75$ cL est remplie aux deux tiers. Quel volume d'eau contient-elle ?",
+          "questionType": "text",
+          "expectedAnswer": "50",
+          "images": [],
+          "correction": "On doit calculer les deux tiers de $75$ cL. • On commence par diviser $75$ par $3$ : $75 \\div 3 = 25$. • On multiplie ce résultat par $2$ : $25 \\times 2 = 50$. <strong>La bouteille contient $\\mathbf{50}$ cL d'eau.</strong>"
+        },
+        {
+          "id": "1.4.10",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer les trois cinquièmes de $25$.",
+          "questionType": "numeric",
+          "expectedAnswer": "25",
+          "images": [],
+          "correction": "On calcule le cinquième de $25$, puis on multiplie par $3$. • $25 \\div 5 = 5$. • $5 \\times 3 = 15$. <strong>Les trois cinquièmes de $\\mathbf{25}$ valent $\\mathbf{15}$.</strong>"
+        },
+        {
+          "id": "1.4.11",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Un trajet fait $120$ km. J'ai parcouru un tiers du trajet. Quelle distance me reste-t-il à parcourir ?",
+          "questionType": "text",
+          "expectedAnswer": "problmeendeuxtapes",
+          "images": [],
+          "correction": "C'est un problème en deux étapes. • On calcule d'abord la distance déjà parcourue, qui est un tiers de $120$ km : $120 \\div 3 = 40$ km. • On calcule ensuite la distance restante en soustrayant la distance parcourue à la distance totale : $120 - 40 = 80$ km. <strong>Il reste $\\mathbf{80}$ km à parcourir.</strong>"
+        },
+        {
+          "id": "1.4.12",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Vrai ou Faux : Les trois quarts de $16$ valent $12$.",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Pour vérifier, on calcule les trois quarts de $16$. • On divise $16$ par $4$, ce qui donne $4$. • On multiplie par $3$, ce qui donne $4 \\times 3 = 12$. Le résultat est bien $12$. <strong>L'affirmation est vraie.</strong>"
+        },
+        {
+          "id": "1.4.13",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer les cinq demis de $10$.",
+          "questionType": "numeric",
+          "expectedAnswer": "10",
+          "images": [],
+          "correction": "On calcule la moitié de $10$, puis on multiplie par $5$. • La moitié de $10$ est : $10 \\div 2 = 5$. • On multiplie par $5$ : $5 \\times 5 = 25$. <strong>Les cinq demis de $\\mathbf{10}$ valent $\\mathbf{25}$.</strong>"
+        },
+        {
+          "id": "1.4.14",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Sur $180$ votants, $\\dfrac{2}{9}$ ont voté blanc. Combien de personnes cela représente-t-il ?",
+          "questionType": "numeric",
+          "expectedAnswer": "40",
+          "images": [],
+          "correction": "On doit calculer $\\dfrac{2}{9}$ de $180$. • On divise $180$ par $9$ : $180 \\div 9 = 20$. • On multiplie par $2$ : $20 \\times 2 = 40$. <strong>Cela représente $\\mathbf{40}$ personnes.</strong>"
+        },
+        {
+          "id": "1.4.15",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer les quatre septièmes de $21$.",
+          "questionType": "numeric",
+          "expectedAnswer": "12",
+          "images": [],
+          "correction": "On calcule $\\dfrac{4}{7}$ de $21$. • On commence par diviser $21$ par $7$ : $21 \\div 7 = 3$. • On multiplie le résultat par $4$ : $3 \\times 4 = 12$. <strong>Le résultat est $\\mathbf{12}$.</strong>"
+        },
+        {
+          "id": "1.4.16",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Mon salaire est de $1500$€. Je consacre un cinquième à mon loyer. Quel est le montant de mon loyer ?",
+          "questionType": "numeric",
+          "expectedAnswer": "300",
+          "images": [],
+          "correction": "On doit calculer un cinquième de $1500$€. Cela revient à diviser le salaire par $5$. 1500 $\\div$ 5 = 300 <strong>Le montant du loyer est de $\\mathbf{300}$€.</strong>"
+        },
+        {
+          "id": "1.4.17",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer les trois quarts d'une heure en minutes.",
+          "questionType": "numeric",
+          "expectedAnswer": "15",
+          "images": [],
+          "correction": "Une heure contient $60$ minutes. On calcule donc les trois quarts de $60$. • On divise $60$ par $4$ : $60 \\div 4 = 15$. • On multiplie le résultat par $3$ : $15 \\times 3 = 45$. <strong>Les trois quarts d'une heure représentent $\\mathbf{45}$ minutes.</strong>"
+        },
+        {
+          "id": "1.4.18",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer la moitié de $\\dfrac{1}{2}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "1/4",
+          "images": [],
+          "correction": "Prendre la moitié d'un nombre revient à le multiplier par la fraction $\\dfrac{1}{2}$. On doit donc calculer : \\dfrac{1}{2} $\\times$ \\dfrac{1}{2} = \\dfrac{1 $\\times$ 1}{2 $\\times$ 2} = \\dfrac{1}{4} <strong>La moitié de $\\mathbf{\\dfrac{1}{2}}$ est $\\mathbf{\\dfrac{1}{4}}$.</strong>"
+        },
+        {
+          "id": "1.4.19",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer les cinq sixièmes de $42$.",
+          "questionType": "numeric",
+          "expectedAnswer": "42",
+          "images": [],
+          "correction": "On calcule $\\dfrac{5}{6}$ de $42$. • On divise $42$ par $6$ : $42 \\div 6 = 7$. • On multiplie le résultat par $5$ : $7 \\times 5 = 35$. <strong>Les cinq sixièmes de $\\mathbf{42}$ valent $\\mathbf{35}$.</strong>"
+        },
+        {
+          "id": "1.4.20",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Dans un groupe de $45$ touristes, $\\dfrac{4}{5}$ parlent anglais et $\\dfrac{1}{3}$ parlent espagnol. Combien parlent anglais ? Combien parlent espagnol ?",
+          "questionType": "numeric",
+          "expectedAnswer": "36",
+          "images": [],
+          "correction": "Il y a deux calculs indépendants à faire. • <strong>Anglais :</strong> on calcule $\\dfrac{4}{5}$ de $45$. On divise $45$ par $5$ ($=9$), puis on multiplie par $4$ ($9 \\times 4 = 36$). • <strong>Espagnol :</strong> on calcule $\\dfrac{1}{3}$ de $45$. On divise $45$ par $3$ ($=15$). <strong>$\\mathbf{36}$ touristes parlent anglais et $\\mathbf{15}$ parlent espagnol.</strong>"
+        },
+        {
+          "id": "1.4.21",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer le tiers du quart de $24$.",
+          "questionType": "numeric",
+          "expectedAnswer": "6",
+          "images": [],
+          "correction": "Il faut procéder par étapes, en commençant par l'opération la plus \"intérieure\". • On calcule d'abord \"le quart de $24$\" : $24 \\div 4 = 6$. • On calcule ensuite \"le tiers\" du résultat obtenu : $6 \\div 3 = 2$. <strong>Le résultat final est $\\mathbf{2}$.</strong>"
+        },
+        {
+          "id": "1.4.22",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Un article coûte $81$€. Je bénéficie d'une réduction égale à un tiers de son prix. Combien vais-je payer ?",
+          "questionType": "numeric",
+          "expectedAnswer": "54",
+          "images": [],
+          "correction": "La réduction est d'un tiers du prix. • On calcule le montant de la réduction : $81 \\div 3 = 27$€. • On soustrait cette réduction du prix initial pour trouver le prix final : $81\\text{€} - 27\\text{€} = 54\\text{€}$. <strong>Je vais payer $\\mathbf{54}$€.</strong>"
+        },
+        {
+          "id": "1.4.23",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "J'ai dépensé les $\\dfrac{2}{3}$ de mon argent de poche. Il me reste $12$€. Quelle somme avais-je au départ ?",
+          "questionType": "text",
+          "expectedAnswer": "problmederaisonnementinverse",
+          "images": [],
+          "correction": "C'est un problème de raisonnement inverse. • Si j'ai dépensé les $\\dfrac{2}{3}$ de mon argent, la fraction qu'il me reste est $1 - \\dfrac{2}{3} = \\dfrac{1}{3}$. • On nous dit que ce reste correspond à $12$€. Donc, $\\dfrac{1}{3}$ de ma somme de départ vaut $12$€. • Pour trouver la somme totale (les $\\dfrac{3}{3}$), on multiplie ce tiers par $3$ : $12 \\times 3 = 36$. <strong>J'avais $\\mathbf{36}$€ au départ.</strong>"
+        },
+        {
+          "id": "1.4.24",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Une recette pour $6$ personnes nécessite $240$g de farine. J'adapte la recette pour $4$ personnes. Quelle quantité de farine dois-je utiliser ?",
+          "questionType": "text",
+          "expectedAnswer": "80 \\times 2 = 160",
+          "images": [],
+          "correction": "La recette initiale est pour $6$ personnes et je veux l'adapter pour $4$. Je dois donc utiliser $\\dfrac{4}{6}$ des quantités, ce qui se simplifie en $\\dfrac{2}{3}$. Il faut donc calculer les $\\dfrac{2}{3}$ de $240$g de farine. • On divise $240$ par $3$ : $240 \\div 3 = 80$. • On multiplie le résultat par $2$ : $80 \\times 2 = 160$. <strong>Je dois utiliser $\\mathbf{160}$g de farine.</strong>"
+        },
+        {
+          "id": "1.4.25",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Un pull coûte $45$€. Son prix augmente d'un tiers. Quel est son nouveau prix ?",
+          "questionType": "numeric",
+          "expectedAnswer": "60",
+          "images": [],
+          "correction": "L'augmentation est d'un tiers du prix initial. • On calcule le montant de l'augmentation : $45 \\div 3 = 15$€. • On ajoute cette augmentation au prix de départ : $45\\text{€} + 15\\text{€} = 60\\text{€}$. <strong>Le nouveau prix du pull est de $\\mathbf{60}$€.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "1.5",
+      "title": "Pourcentages : Application, Calcul et Évolution",
+      "courseReminder": "Un <strong>pourcentage</strong> est une manière d'exprimer une proportion par rapport à 100. On le note avec le symbole $\\%$ et $t\\%$ correspond à la fraction $\\dfrac{t}{100}$. • <strong>Prendre $\\mathbf{t\\%}$ d'une quantité $\\mathbf{Q}$:</strong> On retrouve ici les méthodes de la section $\\mathbf{1.4}$. • <strong>Calculer un pourcentage:</strong> Quelle proportion représente $V_{\\text{partie}}$ par rapport à $V_{\\text{total}}$ ? On calcule le quotient $\\dfrac{V_{\\text{partie}}}{V_{\\text{total}}}$, puis on multiplie le résultat par 100 pour l'exprimer en $\\%$. Formule : $\\text{Pourcentage} = \\dfrac{V_{\\text{partie}}}{V_{\\text{total}}} \\times 100$. • <strong>Évolution en pourcentage :</strong> Soit $V_i$ la valeur initiale et $V_f$ la valeur finale. • <strong>Taux d'évolution $\\mathbf{t}$</strong> : $t = \\dfrac{V_f - V_i}{V_i}$. • <strong>Augmenter de $\\mathbf{t\\%}$</strong> revient à multiplier par $\\left(1 + \\dfrac{t}{100}\\right)$. • <strong>Diminuer de $\\mathbf{t\\%}$</strong> revient à multiplier par $\\left(1 - \\dfrac{t}{100}\\right)$.",
+      "exercises": [
+        {
+          "id": "1.5.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $50\\%$ de $80$.",
+          "questionType": "numeric",
+          "expectedAnswer": "40",
+          "images": [],
+          "correction": "% Exo 1 Calculer $50\\%$ d'un nombre revient à en prendre la moitié. 80 $\\div$ 2 = 40 <strong>Le résultat est $\\mathbf{40}$.</strong>"
+        },
+        {
+          "id": "1.5.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $10\\%$ de $120$.",
+          "questionType": "numeric",
+          "expectedAnswer": "12",
+          "images": [],
+          "correction": "% Exo 2 Calculer $10\\%$ d'un nombre revient à le diviser par $10$. 120 $\\div$ 10 = 12 <strong>Le résultat est $\\mathbf{12}$.</strong>"
+        },
+        {
+          "id": "1.5.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $25\\%$ de $48$.",
+          "questionType": "numeric",
+          "expectedAnswer": "12",
+          "images": [],
+          "correction": "% Exo 3 Calculer $25\\%$ d'un nombre revient à en prendre le quart (diviser par $4$). 48 $\\div$ 4 = 12 <strong>Le résultat est $\\mathbf{12}$.</strong>"
+        },
+        {
+          "id": "1.5.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "$5$ élèves sur $20$ sont absents. Quel est le pourcentage d'absents ?",
+          "questionType": "numeric",
+          "expectedAnswer": "25",
+          "images": [],
+          "correction": "% Exo 4 On calcule le pourcentage : $\\dfrac{V_{\\text{partie}}}{V_{\\text{total}}} \\times 100$. \\dfrac{5}{20} $\\times$ 100 = \\dfrac{1}{4} $\\times$ 100 = 0,25 $\\times$ 100 = 25\\% <strong>Il y a $\\mathbf{25\\%}$ d'absents.</strong>"
+        },
+        {
+          "id": "1.5.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Un article coûte $100$€. Son prix augmente de $5\\%$. Quel est le nouveau prix ?",
+          "questionType": "numeric",
+          "expectedAnswer": "105",
+          "images": [],
+          "correction": "% Exo 5 Augmenter de $5\\%$ revient à multiplier par $1 + \\dfrac{5}{100} = 1,05$.\n    \\begin{align*}\n        100 \\times 1,05 = 105\n    \\end{align*}\n    \\medskip\\noindent\\textbf{Le nouveau prix est $\\mathbf{105}$€.}"
+        },
+        {
+          "id": "1.5.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Un article coûte $50$€. Son prix baisse de $10\\%$. Quel est le nouveau prix ?",
+          "questionType": "numeric",
+          "expectedAnswer": "45",
+          "images": [],
+          "correction": "% Exo 6 Baisser de $10\\%$ revient à multiplier par $1 - \\dfrac{10}{100} = 0,9$. 50 $\\times$ 0,9 = 45 <strong>Le nouveau prix est $\\mathbf{45}$€.</strong>"
+        },
+        {
+          "id": "1.5.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Par quel nombre multiplier pour appliquer une hausse de $15\\%$ ?",
+          "questionType": "text",
+          "expectedAnswer": "1.15",
+          "images": [],
+          "correction": "% Exo 7 Une hausse de $15\\%$ correspond au coefficient multiplicateur $1 + \\dfrac{15}{100} = 1,15$. <strong>Il faut multiplier par $\\mathbf{1,15}$.</strong>"
+        },
+        {
+          "id": "1.5.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Par quel nombre multiplier pour appliquer une baisse de $30\\%$ ?",
+          "questionType": "text",
+          "expectedAnswer": "0.7",
+          "images": [],
+          "correction": "% Exo 8 Une baisse de $30\\%$ correspond au coefficient multiplicateur $1 - \\dfrac{30}{100} = 0,7$. <strong>Il faut multiplier par $\\mathbf{0,7}$.</strong>"
+        },
+        {
+          "id": "1.5.9",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer $75\\%$ de $60$.",
+          "questionType": "numeric",
+          "expectedAnswer": "45",
+          "images": [],
+          "correction": "% Exo 9 Calculer $75\\%$ revient à prendre les trois quarts $\\left(\\dfrac{3}{4}\\right)$. On divise par $4$ puis on multiplie par $3$. (60 $\\div$ 4) $\\times$ 3 = 15 $\\times$ 3 = 45 <strong>Le résultat est $\\mathbf{45}$.</strong>"
+        },
+        {
+          "id": "1.5.10",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer $20\\%$ de $15$.",
+          "questionType": "numeric",
+          "expectedAnswer": "3",
+          "images": [],
+          "correction": "% Exo 10 Calculer $20\\%$ revient à prendre un cinquième $\\left(\\dfrac{1}{5}\\right)$ ou à multiplier par $0,2$. 15 $\\div$ 5 = 3 \\text{ou} 15 $\\times$ 0,2 = 3 <strong>Le résultat est $\\mathbf{3}$.</strong>"
+        },
+        {
+          "id": "1.5.11",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "J'ai obtenu 12 points sur un total de 16. Quel est mon pourcentage de réussite ?",
+          "questionType": "numeric",
+          "expectedAnswer": "75",
+          "images": [],
+          "correction": "% Exo 11 On calcule le pourcentage : $\\dfrac{V_{\\text{partie}}}{V_{\\text{total}}} \\times 100$. \\dfrac{12}{16} $\\times$ 100 &= \\dfrac{3}{4} $\\times$ 100 &= 0,75 $\\times$ 100 &= 75\\% <strong>Mon pourcentage de réussite est $\\mathbf{75\\%}$.</strong>"
+        },
+        {
+          "id": "1.5.12",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Dans un club de 80 membres, 20 font de la compétition. Quel est le pourcentage de compétiteurs ?",
+          "questionType": "numeric",
+          "expectedAnswer": "25",
+          "images": [],
+          "correction": "% Exo 12 On calcule le pourcentage : $\\dfrac{V_{\\text{partie}}}{V_{\\text{total}}} \\times 100$. \\dfrac{20}{80} $\\times$ 100 &= \\dfrac{1}{4} $\\times$ 100 &= 0,25 $\\times$ 100 &= 25\\% <strong>Le pourcentage de compétiteurs est $\\mathbf{25\\%}$.</strong>"
+        },
+        {
+          "id": "1.5.13",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un prix passe de $40$€ à $44$€. Quel est le pourcentage d'augmentation ?",
+          "questionType": "numeric",
+          "expectedAnswer": "10",
+          "images": [],
+          "correction": "% Exo 13 On calcule le taux d'évolution: $t = \\dfrac{V_f - V_i}{V_i}$. t &= \\dfrac{44 - 40}{40} &= \\dfrac{4}{40} &= 0,1 On convertit en pourcentage : $0,1 \\times 100 = 10\\%$. <strong>Le prix a augmenté de $\\mathbf{10\\%}$.</strong>"
+        },
+        {
+          "id": "1.5.14",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un prix passe de $200$€ à $180$€. Quel est le pourcentage de diminution ?",
+          "questionType": "numeric",
+          "expectedAnswer": "10",
+          "images": [],
+          "correction": "% Exo 14 On calcule le taux d'évolution: t &= \\dfrac{180 - 200}{200} &= \\dfrac{-20}{200} &= -\\dfrac{1}{10} &= -0,1 Le signe négatif indique une diminution. On convertit en pourcentage : $0,1 \\times 100 = 10\\%$. <strong>Le prix a diminué de $\\mathbf{10\\%}$.</strong>"
+        },
+        {
+          "id": "1.5.15",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Après une augmentation de $5\\%$, un article coûte $21$€. Quel était son prix initial ?",
+          "questionType": "text",
+          "expectedAnswer": "20",
+          "images": [],
+          "correction": "% Exo 15 Une augmentation de $5\\%$ correspond à un CM de $1,05$. Soit $V_i$ le prix initial. V_i $\\times$ 1,05 &= 21 V_i &= \\dfrac{21}{1,05} = 20 <strong>Le prix initial était de $\\mathbf{20}$€.</strong>"
+        },
+        {
+          "id": "1.5.16",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Après une réduction de $25\\%$, un article coûte $60$€. Quel était son prix initial ?",
+          "questionType": "text",
+          "expectedAnswer": "80",
+          "images": [],
+          "correction": "% Exo 16 Une réduction de $25\\%$ correspond à un CM de $1 - 0,25 = 0,75$. Soit $V_i$ le prix initial. V_i $\\times$ 0,75 &= 60 V_i &= \\dfrac{60}{0,75} &= \\dfrac{60}{\\frac{3}{4}} &= 60 $\\times$ \\dfrac{4}{3} & &= 20 $\\times$ 4 &= 80 <strong>Le prix initial était de $\\mathbf{80}$€.</strong>"
+        },
+        {
+          "id": "1.5.17",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Augmenter un prix de $100\\%$ revient à le multiplier par... ?",
+          "questionType": "text",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "% Exo 17 Une augmentation de $100\\%$ correspond à un CM de $1 + \\dfrac{100}{100} = 1 + 1 = 2$. <strong>Cela revient à multiplier le prix par $\\mathbf{2}$.</strong> (Doubler le prix)."
+        },
+        {
+          "id": "1.5.18",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Diminuer un prix de $50\\%$ revient à le multiplier par... ?",
+          "questionType": "text",
+          "expectedAnswer": "0.5",
+          "images": [],
+          "correction": "% Exo 18 Une diminution de $50\\%$ correspond à un CM de $1 - \\dfrac{50}{100} = 1 - 0,5 = 0,5$. <strong>Cela revient à multiplier le prix par $\\mathbf{0,5}$.</strong> (Prendre la moitié du prix)."
+        },
+        {
+          "id": "1.5.19",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un prix augmente de $20\\%$, puis baisse de $10\\%$. Quel est le pourcentage d'évolution global ?",
+          "questionType": "numeric",
+          "expectedAnswer": "8",
+          "images": [],
+          "correction": "% Exo 19 On multiplie les coefficients multiplicateurs correspondants. On a: • Augmentation de $20\\%$ : $C_{1} = 1,2$. • Baisse de $10\\%$ : $C_{2} = 0,9$. Le coefficient multiplicateur global est donc: $C = C_{1} \\times C_{2} = 1,2 \\times 0,9 = 1,08$. Un coefficient multiplicateur de $1,08$ correspond à $1 + 0,08$, soit une augmentation de $8\\%$. <strong>L'évolution globale est une augmentation de $\\mathbf{8\\%}$.</strong>"
+        },
+        {
+          "id": "1.5.20",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Dans une classe, $60\\%$ sont des filles. Parmi les filles, $25\\%$ sont externes. Quel est le pourcentage de filles externes dans la classe ?",
+          "questionType": "numeric",
+          "expectedAnswer": "15",
+          "images": [],
+          "correction": "% Exo 20 Calculer $25\\%$ de $60\\%$. Cela revient à multiplier les proportions : $0,25 \\times 0,60 = 0,15$. En pourcentage : $0,15 \\times 100 = 15\\%$. <strong>Le pourcentage de filles externes est $\\mathbf{15\\%}$.</strong>"
+        },
+        {
+          "id": "1.5.21",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Le prix HT d'un article est $150$€. La TVA est de $20\\%$. Quel est le prix TTC ?",
+          "questionType": "numeric",
+          "expectedAnswer": "180",
+          "images": [],
+          "correction": "% Exo 22 Le prix TTC (Toutes Taxes Comprises) est le prix HT (Hors Taxe) augmenté de la TVA. La TVA est de $20\\%$, l'augmentation est donc de $20\\%$. Le coefficient multiplicateur est $1,2$. \\text{Prix TTC} &= \\text{Prix HT} $\\times$ \\left(1 + \\dfrac{20}{100} \\right) &= 150 $\\times$ 1,2 &= 180 <strong>Le prix TTC est de $\\mathbf{180}$€.</strong>"
+        },
+        {
+          "id": "1.5.22",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Après deux augmentations successives de $10\\%$, un article coûte $181,50$€. Quel était son prix initial ?",
+          "questionType": "text",
+          "expectedAnswer": "150",
+          "images": [],
+          "correction": "% Exo 23 Deux augmentations successives de $10\\%$ correspondent à multiplier deux fois par $1,1$. Le coefficient multiplicateur global est $1,1 \\times 1,1 = 1,21$. Soit $V_i$ le prix initial. On a $V_i \\times 1,21 = 181,50$. V_i = \\dfrac{181,50}{1,21} = 150 <strong>Le prix initial était de $\\mathbf{150}$€.</strong>"
+        },
+        {
+          "id": "1.5.23",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "La population d'une ville a augmenté de $5\\%$ en 2023 puis a diminué de $5\\%$ en 2024. La population a-t-elle globalement augmenté ou diminué par rapport à début 2023 ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "% Exo 24 On calcule le coefficient multiplicateur global. • Augmentation de $5\\%$ : $C_1 = 1,05$. • Diminution de $5\\%$ : $C_2 = 0,95$. Le coefficient multiplicateur global est donc $C = C_1 \\times C_2 = 1,05 \\times 0,95 = 0,9975$. Comme le coefficient multiplicateur global est inférieur à 1 ($0,9975 < 1$), il s'agit d'une diminution globale. Le taux est $0,9975 - 1 = -0,0025$, soit une baisse de $0,25\\%$. <strong>La population a globalement diminué.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "1.6",
+      "title": "Carrés des premiers entiers",
+      "courseReminder": "Le <strong>carré</strong> d'un nombre est le résultat de la multiplication de ce nombre par lui-même. On le note avec un exposant $2$. Exemple : Le carré de $5$ est $5^2 = 5 \\times 5 = 25$. Géométriquement, c'est l'aire d'un carré de côté $5$. <strong>Liste à mémoriser :</strong> $1^2=1$ $2^2=4$ $3^2=9$ $4^2=16$ $5^2=25$ $6^2=36$ $7^2=49$ $8^2=64$ $9^2=81$ $10^2=100$ $11^2=121$ $12^2=144$. <strong>Important :</strong> Le carré d'un nombre est toujours positif. Il faut être très vigilant avec les parenthèses car $(-5)^2=25$ alors que $-5^2=-25$.",
+      "exercises": [
+        {
+          "id": "1.6.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner le carré de $1$.",
+          "questionType": "numeric",
+          "expectedAnswer": "1",
+          "images": [],
+          "correction": "Le carré de $1$ se note $1^2$. Il est égal à $1 \\times 1 = 1$. <strong>Le carré de $\\mathbf{1}$ est $\\mathbf{1}$.</strong>"
+        },
+        {
+          "id": "1.6.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner le carré de $3$.",
+          "questionType": "numeric",
+          "expectedAnswer": "9",
+          "images": [],
+          "correction": "Le carré de $3$ se note $3^2$. Le calcul est $3 \\times 3 = 9$. <strong>Le carré de $\\mathbf{3}$ est $\\mathbf{9}$.</strong>"
+        },
+        {
+          "id": "1.6.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner le carré de $5$.",
+          "questionType": "numeric",
+          "expectedAnswer": "25",
+          "images": [],
+          "correction": "Le carré de $5$ se note $5^2$. C'est le résultat de $5 \\times 5 = 25$. <strong>Le carré de $\\mathbf{5}$ est $\\mathbf{25}$.</strong>"
+        },
+        {
+          "id": "1.6.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner le carré de $10$.",
+          "questionType": "numeric",
+          "expectedAnswer": "100",
+          "images": [],
+          "correction": "Le carré de $10$ se note $10^2$. C'est le résultat de $10 \\times 10 = 100$. <strong>Le carré de $\\mathbf{10}$ est $\\mathbf{100}$.</strong>"
+        },
+        {
+          "id": "1.6.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner le carré de $2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "4",
+          "images": [],
+          "correction": "Le carré de $2$ se note $2^2$. Le calcul est $2 \\times 2 = 4$. <strong>Le carré de $\\mathbf{2}$ est $\\mathbf{4}$.</strong>"
+        },
+        {
+          "id": "1.6.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner le carré de $6$.",
+          "questionType": "numeric",
+          "expectedAnswer": "36",
+          "images": [],
+          "correction": "Le carré de $6$ se note $6^2$. C'est le résultat de $6 \\times 6 = 36$. <strong>Le carré de $\\mathbf{6}$ est $\\mathbf{36}$.</strong>"
+        },
+        {
+          "id": "1.6.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner le carré de $8$.",
+          "questionType": "numeric",
+          "expectedAnswer": "64",
+          "images": [],
+          "correction": "Le carré de $8$ se note $8^2$. Le calcul est $8 \\times 8 = 64$. <strong>Le carré de $\\mathbf{8}$ est $\\mathbf{64}$.</strong>"
+        },
+        {
+          "id": "1.6.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner le carré de $4$.",
+          "questionType": "numeric",
+          "expectedAnswer": "16",
+          "images": [],
+          "correction": "Le carré de $4$ se note $4^2$. C'est le résultat de $4 \\times 4 = 16$. <strong>Le carré de $\\mathbf{4}$ est $\\mathbf{16}$.</strong>"
+        },
+        {
+          "id": "1.6.9",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner le carré de $7$.",
+          "questionType": "numeric",
+          "expectedAnswer": "49",
+          "images": [],
+          "correction": "Le carré de $7$ se note $7^2$. Le calcul est $7 \\times 7 = 49$. <strong>Le carré de $\\mathbf{7}$ est $\\mathbf{49}$.</strong>"
+        },
+        {
+          "id": "1.6.10",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner le carré de $9$.",
+          "questionType": "numeric",
+          "expectedAnswer": "81",
+          "images": [],
+          "correction": "Le carré de $9$ se note $9^2$. C'est le résultat de $9 \\times 9 = 81$. <strong>Le carré de $\\mathbf{9}$ est $\\mathbf{81}$.</strong>"
+        },
+        {
+          "id": "1.6.11",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Donner le carré de $11$.",
+          "questionType": "text",
+          "expectedAnswer": "carré",
+          "images": [],
+          "correction": "Le carré de $11$ se note $11^2$. C'est un carré à mémoriser : $11 \\times 11 = 121$. <strong>Le carré de $\\mathbf{11}$ est $\\mathbf{121}$.</strong>"
+        },
+        {
+          "id": "1.6.12",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Donner le carré de $12$.",
+          "questionType": "numeric",
+          "expectedAnswer": "144",
+          "images": [],
+          "correction": "Le carré de $12$ se note $12^2$. C'est également un carré à connaître par cœur : $12 \\times 12 = 144$. <strong>Le carré de $\\mathbf{12}$ est $\\mathbf{144}$.</strong>"
+        },
+        {
+          "id": "1.6.13",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Quel est le nombre (positif) dont le carré est $49$ ?",
+          "questionType": "numeric",
+          "expectedAnswer": "7",
+          "images": [],
+          "correction": "On cherche le nombre positif qui, multiplié par lui-même, donne $49$. En connaissant ses carrés par cœur, on sait que $7^2 = 49$. <strong>Le nombre cherché est $\\mathbf{7}$.</strong>"
+        },
+        {
+          "id": "1.6.14",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Quel est le nombre (positif) dont le carré est $100$ ?",
+          "questionType": "numeric",
+          "expectedAnswer": "10",
+          "images": [],
+          "correction": "On cherche quel nombre positif élevé au carré donne $100$. On sait que $10^2 = 10 \\times 10 = 100$. <strong>Le nombre est $\\mathbf{10}$.</strong>"
+        },
+        {
+          "id": "1.6.15",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $3^2 + 4^2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "25",
+          "images": [],
+          "correction": "On respecte la priorité des opérations : les puissances (carrés) sont calculées avant l'addition. 3^2 + 4^2 &= 9 + 16 &= 25 <strong>Le résultat est $\\mathbf{25}$.</strong>"
+        },
+        {
+          "id": "1.6.16",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Vrai ou Faux : $1^2+2^2 = 3^2$.",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "Pour le vérifier, on calcule chaque côté de l'égalité. • Membre de gauche : $1^2 + 2^2 = 1 + 4 = 5$. • Membre de droite : $3^2 = 9$. Comme $5 \\neq 9$, l'affirmation est fausse. <strong>L'affirmation est fausse.</strong>"
+        },
+        {
+          "id": "1.6.17",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Quelle est l'aire d'une pièce carrée de $8$ mètres de côté ?",
+          "questionType": "text",
+          "expectedAnswer": "64",
+          "images": [],
+          "correction": "La formule de l'aire d'un carré de côté $c$ est $c^2$. Ici, le côté mesure $8$ mètres. On calcule donc l'aire : 8^2 = 8 $\\times$ 8 = 64 <strong>L'aire de la pièce est de $\\mathbf{64\\,\\text{m}^2}$.</strong>"
+        },
+        {
+          "id": "1.6.18",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $10^2 - 6^2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "64",
+          "images": [],
+          "correction": "On calcule d'abord les carrés, qui sont prioritaires sur la soustraction. 10^2 - 6^2 &= 100 - 36 &= 64 <strong>Le résultat est $\\mathbf{64}$.</strong>"
+        },
+        {
+          "id": "1.6.19",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Quel est le carré de $0$ ?",
+          "questionType": "numeric",
+          "expectedAnswer": "0",
+          "images": [],
+          "correction": "Le carré de $0$ se note $0^2$. C'est le résultat de $0 \\times 0 = 0$. <strong>Le carré de $\\mathbf{0}$ est $\\mathbf{0}$.</strong>"
+        },
+        {
+          "id": "1.6.20",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $(-5)^2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "25",
+          "images": [],
+          "correction": "Les parenthèses indiquent que le carré s'applique à l'ensemble du nombre $-5$. Le calcul est donc : (-5)^2 = (-5) $\\times$ (-5) Le produit de deux nombres négatifs est positif. <strong>Le résultat est $\\mathbf{25}$.</strong>"
+        },
+        {
+          "id": "1.6.21",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Un triangle rectangle a ses côtés de l'angle droit qui mesurent $9$ cm et $12$ cm. Quelle est l'aire d'un carré construit sur son hypoténuse ?",
+          "questionType": "text",
+          "expectedAnswer": "225",
+          "images": [],
+          "correction": "On nous demande de calculer le carré de la longueur de l'hypoténuse. D'après le théorème de Pythagore dans un triangle rectangle, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés. \\text{hypoténuse}^2 &= 9^2 + 12^2 &= 81 + 144 &= 225 <strong>L'aire du carré construit sur l'hypoténuse est de $\\mathbf{225\\,\\text{cm}^2}$.</strong>"
+        },
+        {
+          "id": "1.6.22",
+          "difficulty": 3,
+          "duration": "1 minute",
+          "question": "Quel est l'entier dont le carré est le plus proche de $70$ ?",
+          "questionType": "numeric",
+          "expectedAnswer": "11",
+          "images": [],
+          "correction": "On récite la liste des carrés pour encadrer $70$ : $8^2 = 64$ et $9^2 = 81$. On calcule la distance de $70$ à chacun de ces carrés : • [$\\bullet$] $70 - 64 = 6$ • [$\\bullet$] $81 - 70 = 11$ La valeur $70$ est plus proche de $64$. <strong>L'entier cherché est $\\mathbf{8}$.</strong>"
+        },
+        {
+          "id": "1.6.23",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "La somme de deux carrés est-elle toujours un carré ? Justifier avec un exemple.",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "Non, la somme de deux carrés parfaits n'est pas toujours un carré d'un entier. Pour le justifier, il suffit de fournir un contre-exemple. Prenons $2^2$ et $3^2$ : 2^2 + 3^2 = 4 + 9 = 13 Le nombre $13$ n'est pas le carré d'un nombre entier. <strong>L'affirmation est fausse.</strong>"
+        },
+        {
+          "id": "1.6.24",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer la différence entre le carré de $12$ et le carré de $11$.",
+          "questionType": "numeric",
+          "expectedAnswer": "23",
+          "images": [],
+          "correction": "On calcule chaque carré, puis on effectue la soustraction. 12^2 - 11^2 &= 144 - 121 &= 23 <strong>La différence est de $\\mathbf{23}$.</strong>"
+        },
+        {
+          "id": "1.6.25",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Un carré a une aire de $81\\,\\text{cm}^2$. Quel est son périmètre ?",
+          "questionType": "numeric",
+          "expectedAnswer": "36",
+          "images": [],
+          "correction": "Le problème se résout en deux étapes. • <strong>Trouver la longueur du côté :</strong> Si l'aire du carré est $81\\,\\text{cm}^2$, on cherche le nombre positif qui, élevé au carré, donne $81$. Ce nombre est $9$. Le côté du carré mesure donc $9$ cm. • <strong>Calculer le périmètre :</strong> Le périmètre d'un carré de côté $c$ est $4 \\times c$. 4 $\\times$ 9 \\text{ cm} = 36 \\text{ cm} <strong>Le périmètre est de $\\mathbf{36}$ cm.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "1.7",
+      "title": "Notation scientifique",
+      "courseReminder": "L'écriture scientifique d'un nombre est une façon de l'écrire sous la forme $a \\times 10^n$, où : • $a$ est un nombre décimal tel que $1 \\le a < 10$. • $n$ est un nombre entier (positif ou négatif). <strong>Pour les grands nombres ($>10$):</strong> On \"déplace\" la virgule vers la gauche. L'exposant $n$ est positif et correspond au nombre de crans de décalage. Exemple : $543\\,000 = 5,43 \\times 10^5$. <strong>Pour les petits nombres ($<1$):</strong> On \"déplace\" la virgule vers la droite. L'exposant $n$ est négatif et correspond au nombre de crans de décalage. Exemple : $0,0021 = 2,1 \\times 10^{-3}$.",
+      "exercises": [
+        {
+          "id": "1.7.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner la notation scientifique de $5\\,000$.",
+          "questionType": "text",
+          "expectedAnswer": "5 \\times 10^{3}",
+          "images": [],
+          "correction": "Pour $5\\,000$, on place la virgule après le premier chiffre non nul, ce qui donne $5$. Pour passer de $5$ à $5\\,000$, on doit décaler la virgule de $3$ rangs vers la droite. L'exposant est donc positif. <strong>La notation scientifique est $\\mathbf{5 \\times 10^3}$.</strong>"
+        },
+        {
+          "id": "1.7.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner la notation scientifique de $0,07$.",
+          "questionType": "text",
+          "expectedAnswer": "7 \\times 10^{-2}",
+          "images": [],
+          "correction": "Pour $0,07$, on place la virgule après le premier chiffre non nul, ce qui donne $7$. Pour passer de $7$ à $0,07$, on doit décaler la virgule de $2$ rangs vers la gauche. L'exposant est donc négatif. <strong>La notation scientifique est $\\mathbf{7 \\times 10^{-2}}$.</strong>"
+        },
+        {
+          "id": "1.7.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner la notation scientifique de $123\\,000$.",
+          "questionType": "text",
+          "expectedAnswer": "1.23 \\times 10^{5}",
+          "images": [],
+          "correction": "On place la virgule après le $1$ pour avoir $1,23$. Pour passer de $1,23$ à $123\\,000$, on décale la virgule de $5$ rangs vers la droite. L'exposant est donc $+5$. <strong>La notation scientifique est $\\mathbf{1,23 \\times 10^5}$.</strong>"
+        },
+        {
+          "id": "1.7.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner la notation scientifique de $0,0045$.",
+          "questionType": "text",
+          "expectedAnswer": "4.5 \\times 10^{-3}",
+          "images": [],
+          "correction": "On place la virgule après le $4$ pour avoir $4,5$. Pour passer de $4,5$ à $0,0045$, on décale la virgule de $3$ rangs vers la gauche. L'exposant est donc $-3$. <strong>La notation scientifique est $\\mathbf{4,5 \\times 10^{-3}}$.</strong>"
+        },
+        {
+          "id": "1.7.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $3,5 \\times 10^4$.",
+          "questionType": "numeric",
+          "expectedAnswer": "35.000",
+          "images": [],
+          "correction": "L'exposant est positif ($+4$), il faut donc décaler la virgule de $4$ rangs vers la droite. En partant de $3,5$, on obtient $35\\,000$. <strong>L'écriture décimale est $\\mathbf{35\\,000}$.</strong>"
+        },
+        {
+          "id": "1.7.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $8,1 \\times 10^{-2}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.081",
+          "images": [],
+          "correction": "L'exposant est négatif ($-2$), il faut donc décaler la virgule de $2$ rangs vers la gauche. En partant de $8,1$, on obtient $0,081$. <strong>L'écriture décimale est $\\mathbf{0,081}$.</strong>"
+        },
+        {
+          "id": "1.7.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner la notation scientifique de $9$ millions.",
+          "questionType": "text",
+          "expectedAnswer": "9 \\times 10^{6}",
+          "images": [],
+          "correction": "$9$ millions s'écrit $9\\,000\\,000$. On place la virgule après le $9$. Pour revenir à $9\\,000\\,000$, il faut décaler la virgule de $6$ rangs vers la droite. <strong>La notation scientifique est $\\mathbf{9 \\times 10^6}$.</strong>"
+        },
+        {
+          "id": "1.7.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner l'écriture décimale de $1,05 \\times 10^6$.",
+          "questionType": "numeric",
+          "expectedAnswer": "1.050.000",
+          "images": [],
+          "correction": "L'exposant est $+6$. On décale la virgule de $6$ rangs vers la droite à partir de $1,05$. <strong>L'écriture décimale est $\\mathbf{1\\,050\\,000}$.</strong>"
+        },
+        {
+          "id": "1.7.9",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Donner la notation scientifique de $450 \\times 10^2$.",
+          "questionType": "text",
+          "expectedAnswer": "4.5 \\times 10^{4}",
+          "images": [],
+          "correction": "L'expression n'est pas en notation scientifique car $450$ n'est pas compris entre $1$ et $10$. • On écrit $450$ en notation scientifique : $450 = 4,5 \\times 10^2$. • L'expression devient : $(4,5 \\times 10^2) \\times 10^2$. • On additionne les exposants des puissances de $10$ : $10^2 \\times 10^2 = 10^{2+2} = 10^4$. <strong>Le résultat final est $\\mathbf{4,5 \\times 10^4}$.</strong>"
+        },
+        {
+          "id": "1.7.10",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Donner la notation scientifique de $0,19 \\times 10^{-3}$.",
+          "questionType": "text",
+          "expectedAnswer": "1.9 \\times 10^{-4}",
+          "images": [],
+          "correction": "L'expression n'est pas en notation scientifique car $0,19$ n'est pas compris entre $1$ et $10$. • On écrit $0,19$ en notation scientifique : $0,19 = 1,9 \\times 10^{-1}$. • L'expression devient : $(1,9 \\times 10^{-1}) \\times 10^{-3}$. • On additionne les exposants : $10^{-1} \\times 10^{-3} = 10^{-1-3} = 10^{-4}$. <strong>Le résultat final est $\\mathbf{1,9 \\times 10^{-4}}$.</strong>"
+        },
+        {
+          "id": "1.7.11",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "La distance Terre-Lune est d'environ $384\\,000\\,\\text{km}$. Donner cette distance en notation scientifique.",
+          "questionType": "text",
+          "expectedAnswer": "3.84 \\times 10^{5}",
+          "images": [],
+          "correction": "On doit écrire $384\\,000$ en notation scientifique. On place la virgule après le premier chiffre non nul, le $3$, ce qui donne $3,84$. Pour passer de $3,84$ à $384\\,000$, on décale la virgule de $5$ rangs vers la droite. <strong>La distance est de $\\mathbf{3,84 \\times 10^5\\,\\text{km}}$.</strong>"
+        },
+        {
+          "id": "1.7.12",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Vrai ou Faux : $0,0005 = 5 \\times 10^4$.",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "La notation scientifique de $0,0005$ est $5 \\times 10^{-4}$ (car il faut décaler la virgule de $4$ rangs vers la gauche pour passer de $5$ à $0,0005$). L'exposant proposé est $4$ au lieu de $-4$. <strong>L'affirmation est fausse.</strong>"
+        },
+        {
+          "id": "1.7.13",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $A = (2 \\times 10^4) \\times (3 \\times 10^5)$ et donner le résultat en notation scientifique.",
+          "questionType": "numeric",
+          "expectedAnswer": "A = 6 \\times 10^9",
+          "images": [],
+          "correction": "On regroupe les nombres d'un côté et les puissances de $10$ de l'autre. A &= (2 $\\times$ 3) $\\times$ (10^4 $\\times$ 10^5) A &= 6 $\\times$ 10^{4+5} A &= 6 $\\times$ 10^9 <strong>Le résultat est $\\mathbf{A = 6 \\times 10^9}$.</strong>"
+        },
+        {
+          "id": "1.7.14",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Classer par ordre croissant : $5,2 \\times 10^3$ ; $52,1 \\times 10^2$ ; $0,5 \\times 10^4$.",
+          "questionType": "ordering",
+          "expectedAnswer": "0,5 \\times 10^4 < 5,2 \\times 10^3 < 52,1 \\times 10^2",
+          "images": [],
+          "correction": "Pour comparer, on écrit tous les nombres avec la même puissance de $10$, par exemple $10^3$. • [$\\bullet$] $5,2 \\times 10^3$ (déjà sous la bonne forme). • [$\\bullet$] $52,1 \\times 10^2 = 5,21 \\times 10^1 \\times 10^2 = 5,21 \\times 10^3$. • [$\\bullet$] $0,5 \\times 10^4 = 5 \\times 10^{-1} \\times 10^4 = 5 \\times 10^3$. Il suffit maintenant de comparer les nombres : $5 < 5,2 < 5,21$. <strong>L'ordre croissant est : $\\mathbf{0,5 $\\times$ 10^4 < 5,2 $\\times$ 10^3 < 52,1 $\\times$ 10^2</strong>$.}"
+        },
+        {
+          "id": "1.7.15",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Donner la notation scientifique de $205 \\times 10^{-5}$.",
+          "questionType": "text",
+          "expectedAnswer": "2.05 \\times 10^{-3}",
+          "images": [],
+          "correction": "• On convertit d'abord $205$ en écriture scientifique : $2,05 \\times 10^2$. • L'expression devient : $(2,05 \\times 10^2) \\times 10^{-5}$. • On additionne les exposants : $10^{2+(-5)} = 10^{-3}$. <strong>Le résultat est $\\mathbf{2,05 \\times 10^{-3}}$.</strong>"
+        },
+        {
+          "id": "1.7.16",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer $B = \\dfrac{8 \\times 10^7}{4 \\times 10^3}$ en notation scientifique.",
+          "questionType": "numeric",
+          "expectedAnswer": "B = 2 \\times 10^4",
+          "images": [],
+          "correction": "On sépare le calcul des nombres et celui des puissances de $10$. B = \\dfrac{8}{4} $\\times$ \\dfrac{10^7}{10^3} = 2 $\\times$ 10^{7-3} = 2 $\\times$ 10^4 <strong>Le résultat est $\\mathbf{B = 2 \\times 10^4}$.</strong>"
+        },
+        {
+          "id": "1.7.17",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Donner la notation scientifique de $245,8$.",
+          "questionType": "text",
+          "expectedAnswer": "2.458 \\times 10^{2}",
+          "images": [],
+          "correction": "On place la virgule après le premier chiffre, le $2$, pour obtenir $2,458$. Pour passer de $2,458$ à $245,8$, on décale la virgule de $2$ rangs vers la droite. L'exposant est donc $+2$. <strong>La notation scientifique est $\\mathbf{2,458 \\times 10^2}$.</strong>"
+        },
+        {
+          "id": "1.7.18",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Donner l'écriture décimale de $7,02 \\times 10^{-5}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.000.070.2",
+          "images": [],
+          "correction": "L'exposant est négatif ($-5$), on doit donc décaler la virgule de $5$ rangs vers la gauche. En partant de $7,02$, on ajoute des zéros si nécessaire. <strong>L'écriture décimale est $\\mathbf{0,000\\,070\\,2}$.</strong>"
+        },
+        {
+          "id": "1.7.19",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer $C = 2 \\times 10^{-3} + 5 \\times 10^{-2}$. Donner le résultat en écriture décimale.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.052",
+          "images": [],
+          "correction": "Pour additionner, on ne peut pas opérer directement sur les puissances. On doit d'abord passer à l'écriture décimale. • [$\\bullet$] $2 \\times 10^{-3} = 0,002$. • [$\\bullet$] $5 \\times 10^{-2} = 0,05$. On additionne ensuite les deux nombres. C = 0,002 + 0,05 = 0,052 <strong>Le résultat en écriture décimale est $\\mathbf{0,052}$.</strong>"
+        },
+        {
+          "id": "1.7.20",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Donner la notation scientifique de $\\dfrac{1}{4}$.",
+          "questionType": "text",
+          "expectedAnswer": "2.5 \\times 10^{-1}",
+          "images": [],
+          "correction": "• On écrit $\\dfrac{1}{4}$ sous sa forme décimale : $\\dfrac{1}{4} = 0,25$. • On met $0,25$ en notation scientifique. On place la virgule après le $2$ (pour obtenir $2,5$) et on ajuste l'exposant pour revenir à $0,25$. Il faut un décalage de $1$ rang vers la gauche, donc l'exposant est $-1$. <strong>Le résultat est $\\mathbf{2,5 \\times 10^{-1}}$.</strong>"
+        },
+        {
+          "id": "1.7.21",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer $D = \\dfrac{5 \\times 10^2 \\times 7 \\times 10^{-5}}{2 \\times 10^3}$ en notation scientifique.",
+          "questionType": "numeric",
+          "expectedAnswer": "D = 1.75 \\times 10^{-5}",
+          "images": [],
+          "correction": "On regroupe les nombres et les puissances de $10$. D &= \\dfrac{5 $\\times$ 7}{2} $\\times$ \\dfrac{10^2 $\\times$ 10^{-5}}{10^3} D &= 17,5 $\\times$ \\dfrac{10^{-3}}{10^3} D &= 17,5 $\\times$ 10^{-6} Ce n'est pas la forme finale puisque $17,5 > 10$. On convertit donc $17,5$ en $1,75 \\times 10^1$. D &= (1,75 $\\times$ 10^1) $\\times$ 10^{-6} &= 1,75 $\\times$ 10^{-5} <strong>Le résultat est $\\mathbf{D = 1,75 \\times 10^{-5}}$.</strong>"
+        },
+        {
+          "id": "1.7.22",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Donner la notation scientifique du nombre $523 \\times {(10^2)}^3$.",
+          "questionType": "text",
+          "expectedAnswer": "5.23 \\times 10^{2}",
+          "images": [],
+          "correction": "• On calcule la puissance de puissance : ${(10^2)}^3 = 10^{2 \\times 3} = 10^6$. • L'expression devient $523 \\times 10^6$. • On met $523$ en notation scientifique : $5,23 \\times 10^2$. • Le calcul final est : A&=(5,23 $\\times$ 10^2) $\\times$ 10^6 A&= 5,23 $\\times$ 10^{2+6} A&= 5,23 $\\times$ 10^8 <strong>Le résultat est $\\mathbf{5,23 \\times 10^8}$.</strong>"
+        },
+        {
+          "id": "1.7.23",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "La masse de la Terre est d'environ $6 \\times 10^{24}\\,\\text{kg}$. La masse de Mars est d'environ $6 \\times 10^{23}\\,\\text{kg}$. Combien de fois la Terre est-elle plus massive que Mars ?",
+          "questionType": "numeric",
+          "expectedAnswer": "10",
+          "images": [],
+          "correction": "Pour savoir \"combien de fois plus\", il faut diviser la masse la plus grande par la plus petite. \\dfrac{6 $\\times$ 10^{24}}{6 $\\times$ 10^{23}} &= \\dfrac{6}{6} $\\times$ 10^{24-23} &= 1 $\\times$ 10^1 & = 10 <strong>La Terre est $\\mathbf{10}$ fois plus massive que Mars.</strong>"
+        },
+        {
+          "id": "1.7.24",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Un cheveu a un diamètre de $7 \\times 10^{-5}\\,\\text{m}$. Une bactérie a un diamètre de $1 \\times 10^{-6}\\,\\text{m}$. De combien de fois le cheveu est-il plus large ?",
+          "questionType": "numeric",
+          "expectedAnswer": "70",
+          "images": [],
+          "correction": "On divise le diamètre du cheveu par celui de la bactérie. \\dfrac{7 $\\times$ 10^{-5}}{1 $\\times$ 10^{-6}} &= \\dfrac{7}{1} $\\times$ 10^{-5 - (-6)} &= 7 $\\times$ 10^{-5+6} &= 7 $\\times$ 10^1 = 70 <strong>Le cheveu est $\\mathbf{70}$ fois plus large.</strong>"
+        },
+        {
+          "id": "1.7.25",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "La vitesse de la lumière est d'environ $3 \\times 10^8\\,\\text{m/s}$. Une année contient environ $3,15 \\times 10^7$ secondes. Calculer la distance d'une année-lumière en mètres et en notation scientifique.",
+          "questionType": "numeric",
+          "expectedAnswer": "9.45",
+          "images": [],
+          "correction": "On utilise la formule $\\text{distance} = \\text{vitesse} \\times \\text{temps}$. \\text{distance} &= (3 $\\times$ 10^8) $\\times$ (3,15 $\\times$ 10^7) &= (3 $\\times$ 3,15) $\\times$ (10^8 $\\times$ 10^7) &= 9,45 $\\times$ 10^{15} <strong>Une année-lumière vaut environ $\\mathbf{9,45 \\times 10^{15}}$ mètres.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "1.8",
+      "title": "Critères de divisibilité",
+      "courseReminder": "Un nombre entier est divisible par : • <strong>$2$</strong> si son dernier chiffre est $0, 2, 4, 6$ ou $8$. • <strong>$5$</strong> si son dernier chiffre est $0$ ou $5$. • <strong>$10$</strong> si son dernier chiffre est $0$. • <strong>$3$</strong> si la somme de ses chiffres est un multiple de $3$. (Ex: $123 \\rightarrow 1+2+3=6$). • <strong>$9$</strong> si la somme de ses chiffres est un multiple de $9$. (Ex: $729 \\rightarrow 7+2+9=18$).",
+      "exercises": [
+        {
+          "id": "1.8.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Le nombre $152$ est-il divisible par $2$ ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Pour savoir si un nombre est divisible par $2$, on regarde son dernier chiffre. Le dernier chiffre de $152$ est $2$. Puisque $2$ est un chiffre pair, le nombre est divisible par $2$. <strong>Oui, $\\mathbf{152}$ est divisible par $\\mathbf{2}$.</strong>"
+        },
+        {
+          "id": "1.8.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Le nombre $245$ est-il divisible par $5$ ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Un nombre est divisible par $5$ si son dernier chiffre est $0$ ou $5$. Le nombre $245$ se termine par $5$. <strong>Oui, $\\mathbf{245}$ est divisible par $\\mathbf{5}$.</strong>"
+        },
+        {
+          "id": "1.8.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Le nombre $123$ est-il divisible par $3$ ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Pour savoir si un nombre est divisible par $3$, on additionne ses chiffres : $1+2+3=6$. Comme $6$ est un multiple de $3$ ($6 = 2 \\times 3$), le nombre est divisible par $3$. <strong>Oui, $\\mathbf{123}$ est divisible par $\\mathbf{3}$.</strong>"
+        },
+        {
+          "id": "1.8.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Le nombre $109$ est-il divisible par $9$ ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "On additionne les chiffres du nombre : $1+0+9=10$. Comme $10$ n'est pas dans la table de multiplication de $9$, le nombre n'est pas divisible par $\\mathbf{9}$. <strong>Non, $\\mathbf{109}$ n'est pas divisible par $9$.</strong>"
+        },
+        {
+          "id": "1.8.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Le nombre $70$ est-il divisible par $10$ ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Un nombre est divisible par $10$ s'il se termine par $0$. C'est le cas de $70$. <strong>Oui, $\\mathbf{70}$ est divisible par $\\mathbf{10}$.</strong>"
+        },
+        {
+          "id": "1.8.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Le nombre $333$ est-il divisible par $3$ ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "On additionne les chiffres du nombre $333$ : $3+3+3=9$. Comme $9$ est un multiple de $3$ ($9 = 3 \\times 3$), le nombre est bien divisible par $3$. <strong>Oui, $\\mathbf{333}$ est divisible par $\\mathbf{3}$.</strong>"
+        },
+        {
+          "id": "1.8.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Le nombre $990$ est-il divisible par $5$ ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Un nombre est divisible par $5$ s'il se termine par $0$ ou $5$. Le nombre $990$ se termine par $0$. <strong>Oui, $\\mathbf{990}$ est divisible par $\\mathbf{5}$.</strong>"
+        },
+        {
+          "id": "1.8.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Le nombre $406$ est-il divisible par $2$ ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Un nombre est divisible par $2$ si son dernier chiffre est pair. Le dernier chiffre de $406$ est $6$, qui est pair. <strong>Oui, $\\mathbf{406}$ est divisible par $\\mathbf{2}$.</strong>"
+        },
+        {
+          "id": "1.8.9",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Le nombre $531$ est-il divisible par $9$ ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Pour la divisibilité par $9$, on calcule la somme des chiffres : $5+3+1=9$. Comme $9$ est un multiple de $9$ ($9 = 1 \\times 9$), le nombre est bien divisible par $9$. <strong>Oui, $\\mathbf{531}$ est divisible par $\\mathbf{9}$.</strong>"
+        },
+        {
+          "id": "1.8.10",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Quels sont les diviseurs de $60$ parmi $2, 3, 5, 9, 10$ ?",
+          "questionType": "text",
+          "expectedAnswer": "60",
+          "images": [],
+          "correction": "On teste chaque critère pour $60$ : • par $2$ : Oui, il finit par $0$. • par $3$ : Oui, car $6+0=6$, et $6$ est un multiple de $3$. • par $5$ : Oui, il finit par $0$. • par $9$ : Non, car $6+0=6$, et $6$ n'est pas un multiple de $9$. • par $10$ : Oui, il finit par $0$. <strong>Les diviseurs de $\\mathbf{60}$ dans la liste sont $\\mathbf{2}$; $\\mathbf{3}$; $\\mathbf{5}$ et $\\mathbf{10}$.</strong>"
+        },
+        {
+          "id": "1.8.11",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "$111$ est-il divisible par $3$ ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "On calcule la somme des chiffres de $111$ : $1+1+1=3$. Le résultat, $3$, est un multiple de $3$. <strong>Oui, $\\mathbf{111}$ est divisible par $\\mathbf{3}$.</strong>"
+        },
+        {
+          "id": "1.8.12",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Vrai ou Faux : Tout nombre divisible par $9$ est divisible par $3$.",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Si un nombre est divisible par $9$, la somme de ses chiffres est un multiple de $9$. Or, tout multiple de $9$ (comme $9, 18, 27...$) est aussi un multiple de $3$. Donc le critère de divisibilité par $3$ est toujours vérifié. <strong>L'affirmation est vraie.</strong>"
+        },
+        {
+          "id": "1.8.13",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Vrai ou Faux : Tout nombre divisible par $3$ est divisible par $9$.",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "Pour prouver que c'est faux, un contre-exemple suffit. Le nombre $12$ est divisible par $3$ (car $1+2=3$), mais $12$ n'est pas divisible par $9$. <strong>L'affirmation est fausse.</strong>"
+        },
+        {
+          "id": "1.8.14",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Donner le plus petit nombre à $3$ chiffres divisible par $9$.",
+          "questionType": "numeric",
+          "expectedAnswer": "108",
+          "images": [],
+          "correction": "Le plus petit nombre à $3$ chiffres est $100$. On cherche le premier multiple de $9$ à partir de $100$. La somme des chiffres de $100$ est $1$. Pour atteindre le prochain multiple de $9$ (qui est $9$), il faut ajouter $8$. Le plus simple est de modifier le chiffre des unités. <strong>Le plus petit nombre est $\\mathbf{108}$.</strong>"
+        },
+        {
+          "id": "1.8.15",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Le nombre $2025$ est-il divisible par $3$ et par $5$ ?",
+          "questionType": "text",
+          "expectedAnswer": "3",
+          "images": [],
+          "correction": "On vérifie les deux critères pour $2\\,025$. • <strong>Divisibilité par 5 :</strong> Oui, car le nombre se termine par $5$. • <strong>Divisibilité par 3 :</strong> Oui, car la somme de ses chiffres est $2+0+2+5=9$, et $9$ est un multiple de $3$. <strong>Oui, $\\mathbf{2\\,025}$ est divisible par $\\mathbf{3}$ et par $\\mathbf{5}$.</strong>"
+        },
+        {
+          "id": "1.8.16",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Quels sont les diviseurs de $45$ parmi $2, 3, 5, 9, 10$ ?",
+          "questionType": "text",
+          "expectedAnswer": "45",
+          "images": [],
+          "correction": "On teste chaque critère pour $45$ : • par $2$ : Non, il finit par $5$. • par $3$ : Oui, car $4+5=9$. • par $5$ : Oui, il finit par $5$. • par $9$ : Oui, car $4+5=9$. • par $10$ : Non, il ne finit pas par $0$. <strong>Les diviseurs de $\\mathbf{45}$ dans la liste sont $\\mathbf{3}$; $\\mathbf{5}$ et $\\mathbf{9}$.</strong>"
+        },
+        {
+          "id": "1.8.17",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Par quel chiffre remplacer le $\\square$ pour que le nombre $12\\square$ soit divisible par $3$ et par $5$ ?",
+          "questionType": "text",
+          "expectedAnswer": "0",
+          "images": [],
+          "correction": "Pour être divisible par $5$, le chiffre $\\square$ doit être $0$ ou $5$. • <strong>Cas 1 :</strong> Si $\\square=0$, le nombre est $120$. La somme des chiffres est $1+2+0=3$. $3$ est divisible par $3$. Ce cas fonctionne. • <strong>Cas 2 :</strong> Si $\\square=5$, le nombre est $125$. La somme des chiffres est $1+2+5=8$. $8$ n'est pas divisible par $3$. Ce cas ne fonctionne pas. <strong>Le seul chiffre possible est $\\mathbf{0}$.</strong>"
+        },
+        {
+          "id": "1.8.18",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un nombre est divisible par $2$ et par $3$. Est-il forcément divisible par $6$ ?",
+          "questionType": "text",
+          "expectedAnswer": "toujourslecas",
+          "images": [],
+          "correction": "Oui. Un nombre divisible par $2$ et par $3$ est aussi divisible par leur produit $2 \\times 3 = 6$, car $2$ et $3$ sont des nombres premiers entre eux. Par exemple, $12$ est divisible par $2$ et $3$, et aussi par $6$. <strong>Oui, c'est toujours le cas.</strong>"
+        },
+        {
+          "id": "1.8.19",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Quel est le plus grand nombre à $2$ chiffres divisible par $2$ et par $3$ ?",
+          "questionType": "numeric",
+          "expectedAnswer": "96",
+          "images": [],
+          "correction": "Un nombre divisible par $2$ et par $3$ est un multiple de $6$. On cherche donc le plus grand multiple de $6$ à $2$ chiffres. On sait que $10 \\times 6 = 60$. En continuant, $15 \\times 6 = 90$ et $16 \\times 6 = 96$. Le suivant, $17 \\times 6 = 102$, a $3$ chiffres. <strong>Le plus grand nombre est $\\mathbf{96}$.</strong>"
+        },
+        {
+          "id": "1.8.20",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Le nombre $1\\,234\\,567\\,890$ est-il divisible par $2, 3, 5$ et $9$ ?",
+          "questionType": "text",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "• <strong>Par 2 et 5 :</strong> Oui, car son dernier chiffre est $0$. • <strong>Par 3 et 9 :</strong> On calcule la somme de ses chiffres : $1+2+3+4+5+6+7+8+9+0 = 45$. Comme $45$ est un multiple de $9$ ($45=5\\times 9$), il est aussi un multiple de $3$. <strong>Oui, le nombre est divisible par $\\mathbf{2}$; $\\mathbf{3}$; $\\mathbf{5}$ et $\\mathbf{9}$.</strong>"
+        },
+        {
+          "id": "1.8.21",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Trouver un nombre à $3$ chiffres divisible par $3$ mais pas par $9$.",
+          "questionType": "text",
+          "expectedAnswer": "123",
+          "images": [],
+          "correction": "On cherche un nombre à $3$ chiffres où la somme des chiffres est un multiple de $3$ mais pas un multiple de $9$. Par exemple, si la somme vaut $6$ ou $12$. • Pour une somme de $6$ : $123$ ($1+2+3=6$). • Pour une somme de $12$ : $543$ ($5+4+3=12$). <strong>Par exemple, le nombre $\\mathbf{123}$ convient.</strong>"
+        },
+        {
+          "id": "1.8.22",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Simplifier au maximum la fraction $\\dfrac{135}{180}$ en utilisant les critères de divisibilité.",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{27 \\div 9}{36 \\div 9} = \\dfrac{3}{4}",
+          "images": [],
+          "correction": "Pour simplifier $\\dfrac{135}{180}$ : • Les deux nombres se terminent par $5$ ou $0$, donc on peut les diviser par $5$ : $\\dfrac{135 \\div 5}{180 \\div 5} = \\dfrac{27}{36}$. • Pour la fraction $\\dfrac{27}{36}$, on vérifie la divisibilité par $9$. La somme des chiffres de $27$ est $9$, et celle de $36$ est $9$. On peut donc diviser par $9$ : $\\dfrac{27 \\div 9}{36 \\div 9} = \\dfrac{3}{4}$. <strong>La fraction simplifiée au maximum est $\\mathbf{\\dfrac{3}{4}}$.</strong>"
+        },
+        {
+          "id": "1.8.23",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Par quel chiffre remplacer le $\\square$ pour que le nombre $5\\,48\\square$ soit divisible par $9$ ?",
+          "questionType": "text",
+          "expectedAnswer": "1",
+          "images": [],
+          "correction": "Pour que le nombre $5\\,48\\square$ soit divisible par $9$, la somme de ses chiffres doit être un multiple de $9$. La somme des chiffres connus est $5+4+8 = 17$. Le multiple de $9$ juste après $17$ est $18$. Il faut donc que $17+\\square=18$. <strong>Le chiffre manquant est $\\mathbf{1}$.</strong>"
+        },
+        {
+          "id": "1.8.24",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Je veux ranger $126$ biscuits. Puis-je faire des boîtes de $9$ biscuits ? Et de $5$ ?",
+          "questionType": "text",
+          "expectedAnswer": "9",
+          "images": [],
+          "correction": "<strong>Boîtes de 9 :</strong> La somme des chiffres est $9$; $9$ est divisible par $9$, la réponse est oui. <strong>Boîtes de 5 :</strong> Le nombre ne finit ni par $0$ ni par $5$, donc la réponse est non. <strong>Oui pour les boîtes de $\\mathbf{9}$, non pour les boîtes de $\\mathbf{5}$.</strong>"
+        },
+        {
+          "id": "1.8.25",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Par quel(s) chiffre(s) remplacer le $\\square$ pour que $2\\,\\square32$ soit divisible par $3$ ?",
+          "questionType": "text",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "Pour que $2\\,\\square32$ soit divisible par $3$, la somme $2+\\square+3+2 = 7+\\square$ doit être un multiple de $3$. On cherche les chiffres $\\square$ tels que $7+\\square$ soit dans la table de $3$. • Si $\\square = 2$, la somme est $9$. • Si $\\square = 5$, la somme est $12$. • Si $\\square = 8$, la somme est $15$. <strong>Les chiffres possibles sont $\\mathbf{2}$; $\\mathbf{5}$ et $\\mathbf{8}$.</strong>"
+        },
+        {
+          "id": "1.8.26",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Quel est le plus petit entier de $4$ chiffres divisible à la fois par $2, 3, 5$ et $9$ ?",
+          "questionType": "numeric",
+          "expectedAnswer": "1.080",
+          "images": [],
+          "correction": "Le nombre doit être divisible par $2, 3, 5$ et $9$. • Pour être divisible par $2$ et $5$, il doit être divisible par $10$, donc son dernier chiffre doit être $0$. • Pour être divisible par $3$ et $9$, il doit être divisible par $9$. La somme de ses chiffres doit donc être un multiple de $9$. On cherche le plus petit entier de $4$ chiffres finissant par $0$ dont la somme des chiffres est un multiple de $9$. Le plus petit nombre commence par $1$. Il a la forme $1 \\square \\square 0$. La somme doit valoir au minimum $9$. $1+x+y+0=9$. Pour que le nombre soit le plus petit possible, il faut que les chiffres des centaines et des dizaines soient les plus petits possibles. Le plus petit est $1\\,080$ ($1+0+8+0=9$). <strong>Le plus petit nombre est $\\mathbf{1\\,080}$.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "1.9",
+      "title": "Nombres Premiers",
+      "courseReminder": "Un <strong>nombre premier</strong> est un nombre entier positif qui possède exactement <strong>deux diviseurs</strong> distincts : $1$ et lui-même. • [$\\bullet$] $1$ n'est pas premier (il n'a qu'un seul diviseur). • [$\\bullet$] $0$ n'est pas premier. • [$\\bullet$] $2$ est le seul nombre premier pair. <strong>Liste des nombres premiers inférieurs à 100 :</strong> $2; 3; 5; 7; 11; 13; 17; 19; 23; 29; 31; 37; 41; 43$ $ 47; 53; 59; 61; 67; 71; 73; 79; 83; 89; 97$ <strong>Décomposition en produit de facteurs premiers :</strong> Tout nombre entier supérieur ou égal à $2$ est soit premier, soit peut s'écrire de manière unique (à l'ordre des facteurs) comme un produit de nombres tous premiers. Exemple : Décomposons $42$. • [$\\bullet$] $42$ est pair, donc divisible par $2$ : $42 = 2 \\times 21$. • [$\\bullet$] $21$ est divisible par $3$ (critère de divisibilité) : $21 = 3 \\times 7$. • [$\\bullet$] $7$ est un nombre premier. La DPFP de $42$ est $2 \\times 3 \\times 7$, qu'on peut écrire $2^{1} \\times 3^{1} \\times 7^{1}$.",
+      "exercises": [
+        {
+          "id": "1.9.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Le nombre $19$ est-il premier ? Justifier.",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Un nombre premier n'est divisible que par $1$ et par lui-même. $19$ n'est divisible que par $1$ et $19$. <strong>Oui, $\\mathbf{19}$ est premier.</strong>"
+        },
+        {
+          "id": "1.9.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Le nombre $27$ est-il premier ? Justifier.",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "$27$ est divisible par $3$ (car $2+7=9$, multiple de $3$) et par $9$. Il a donc plus de deux diviseurs ($1, 3, 9, 27$). <strong>Non, $\\mathbf{27}$ n'est pas premier.</strong>"
+        },
+        {
+          "id": "1.9.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Citer les trois plus petits nombres premiers.",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "$2$ est divisible uniquement par $1$ et $2$. Il a exactement deux diviseurs. <strong>Oui, $\\mathbf{2}$ est premier.</strong> (C'est même le seul nombre premier pair)."
+        },
+        {
+          "id": "1.9.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Citer les nombres premiers compris entre $10$ et $20$.",
+          "questionType": "text",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "Les trois plus petits nombres premiers sont ceux qui apparaissent au début de la liste et qui n'ont que $1$ et eux-mêmes comme diviseurs. <strong>Les trois plus petits nombres premiers sont $\\mathbf{2}$; $\\mathbf{3}$ et $\\mathbf{5}$.</strong>"
+        },
+        {
+          "id": "1.9.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner la décomposition en produit de facteurs premiers de $14$.",
+          "questionType": "numeric",
+          "expectedAnswer": "10",
+          "images": [],
+          "correction": "On cherche les nombres entre $10$ et $20$ (exclus ou inclus selon l'interprétation, ici on inclut) qui n'ont que $1$ et eux-mêmes comme diviseurs. $11$ (premier), $12$ (divisible par 2), $13$ (premier), $14$ (divisible par 2), $15$ (divisible par 3), $16$ (divisible par 2), $17$ (premier), $18$ (divisible par 2), $19$ (premier). <strong>Les nombres premiers entre $\\mathbf{10}$ et $\\mathbf{20}$ sont $\\mathbf{11}$; $\\mathbf{13}$; $\\mathbf{17}$ et $\\mathbf{19}$.</strong>"
+        },
+        {
+          "id": "1.9.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner la décomposition en produit de facteurs premiers de $20$.",
+          "questionType": "text",
+          "expectedAnswer": "2 \\times 7",
+          "images": [],
+          "correction": "$14$ est pair, donc divisible par $2$. $14 = 2 $\\times$ 7$.\\\\\n    $2$ et $7$ sont premiers.\\\\\n    \\medskip\\noindent\\textbf{La décomposition de $\\mathbf{14}$ est $\\mathbf{2 $\\times$ 7}$.}"
+        },
+        {
+          "id": "1.9.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Donner la décomposition en produit de facteurs premiers de $9$.",
+          "questionType": "text",
+          "expectedAnswer": "2 \\times 2 \\times 5",
+          "images": [],
+          "correction": "$20$ est pair : $20 = 2 \\times 10$. $10$ est pair : $10 = 2 \\times 5$. $5$ est premier. <strong>La décomposition de $\\mathbf{20}$ est $\\mathbf{2 \\times 2 \\times 5}$ (ou $\\mathbf{2^2 \\times 5}$).</strong>"
+        },
+        {
+          "id": "1.9.8",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Donner la décomposition en produit de facteurs premiers de $75$.",
+          "questionType": "text",
+          "expectedAnswer": "3 \\times 3",
+          "images": [],
+          "correction": "$9$ est divisible par $3$: $9 = 3 \\times 3$. $3$ est premier. <strong>La décomposition de $\\mathbf{9}$ est $\\mathbf{3 \\times 3}$ (ou $\\mathbf{3^2}$).</strong>"
+        },
+        {
+          "id": "1.9.9",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Donner la décomposition en produit de facteurs premiers de $88$.",
+          "questionType": "text",
+          "expectedAnswer": "3 \\times 5 \\times 5",
+          "images": [],
+          "correction": "$75$ se termine par $5$, donc divisible par $5$:$75 = 5 \\times 15$. $15$ est divisible par $3$. $15 = 3 \\times 5$. $3$ et $5$ sont premiers. <strong>La décomposition de $\\mathbf{75}$ est $\\mathbf{3 \\times 5 \\times 5}$ (ou $\\mathbf{3 \\times 5^2}$).</strong>"
+        },
+        {
+          "id": "1.9.10",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Donner la décomposition en produit de facteurs premiers de $56$.",
+          "questionType": "text",
+          "expectedAnswer": "2 \\times 2 \\times 2 \\times 11",
+          "images": [],
+          "correction": "$88$ est pair : $88 = 2 \\times 44$. $44$ est pair : $44 = 2 \\times 22$. $22$ est pair : $22 = 2 \\times 11$. $11$ est premier. <strong>La décomposition de $\\mathbf{88}$ est $\\mathbf{2 \\times 2 \\times 2 \\times 11}$ (ou $\\mathbf{2^3 \\times 11}$).</strong>"
+        },
+        {
+          "id": "1.9.11",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Le nombre $39$ est-il premier ? Justifier.",
+          "questionType": "text",
+          "expectedAnswer": "2*2*2*7",
+          "images": [],
+          "correction": "$56$ est pair : $56 = 2 \\times 28$. $28$ est pair : $28 = 2 \\times 14$. $14$ est pair : $14 = 2 \\times 7$. $7$ est premier. <strong>La décomposition de $\\mathbf{56}$ est $\\mathbf{2 \\times 2 \\times 2 \\times 7}$ (ou $\\mathbf{2^3 \\times 7}$).</strong>"
+        },
+        {
+          "id": "1.9.12",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Citer les nombres premiers compris entre $25$ et $36$.",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "$39$ est divisible par $3$ car la somme de ses chiffres ($3+9=12$) est un multiple de $3$. $39 = 3 \\times 13$. Il a plus de deux diviseurs ($1, 3, 13, 39$). <strong>Non, $\\mathbf{39}$ n'est pas premier.</strong>"
+        },
+        {
+          "id": "1.9.13",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Décomposer $42$ et $70$ en produits de facteurs premiers. Utiliser ces décompositions pour simplifier la fraction $\\dfrac{42}{70}$.",
+          "questionType": "text",
+          "expectedAnswer": "25",
+          "images": [],
+          "correction": "On cherche les nombres premiers compris entre $25$ et $36$ (qu'on peut exclure car ce sont des carrés parfaits). $26$ (pair), $27$ (divisible par 3), $28$ (pair), $29$ (premier), $30$ (pair), $31$ (premier), $32$ (pair), $33$ (divisible par 3), $34$ (pair), $35$ (divisible par 5). <strong>Les nombres premiers entre $\\mathbf{25}$ et $\\mathbf{36}$ sont: $\\mathbf{29}$ et $\\mathbf{31}$.</strong>"
+        },
+        {
+          "id": "1.9.14",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Quel est le plus grand nombre premier inférieur à $60$ ?",
+          "questionType": "numeric",
+          "expectedAnswer": "3/5",
+          "images": [],
+          "correction": "Décomposition de $42$ : $42 = 2 \\times 21 = 2 \\times 3 \\times 7$. Décomposition de $70$ : $70 = 10 \\times 7 = 2 \\times 5 \\times 7$. Qu'on utilise pour simplifier la fraction : \\dfrac{42}{70} = \\dfrac{\\cancel{2} $\\times$ 3 $\\times$ \\cancel{7}}{\\cancel{2} $\\times$ 5 $\\times$ \\cancel{7}} On simplifie par les facteurs communs $2$ et $7$. <strong>La fraction simplifiée est $\\mathbf{\\dfrac{3}{5}}$.</strong>"
+        },
+        {
+          "id": "1.9.15",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Donner la décomposition en produit de facteurs premiers de $180$.",
+          "questionType": "numeric",
+          "expectedAnswer": "59",
+          "images": [],
+          "correction": "<strong>Le plus grand nombre premier inférieur à $\\mathbf{60}$ est $\\mathbf{59}$.</strong>"
+        },
+        {
+          "id": "1.9.16",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Donner la décomposition en produit de facteurs premiers de $390$.",
+          "questionType": "text",
+          "expectedAnswer": "22 \\times 32 \\times 5",
+          "images": [],
+          "correction": "180 &= 10 $\\times$ 18 &= (2 $\\times$ 5) $\\times$ (2 $\\times$ 9) &= (2 $\\times$ 5) $\\times$ (2 $\\times$ 3 $\\times$ 3) En ordonnant : $180 = 2 \\times 2 \\times 3 \\times 3 \\times 5$. <strong>La décomposition de $\\mathbf{180}$ est $\\mathbf{2^2 \\times 3^2 \\times 5}$.</strong>"
+        },
+        {
+          "id": "1.9.17",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Décomposer $126$ et $210$ en produits de facteurs premiers. Rendre la fraction $\\dfrac{126}{210}$ irréductible.",
+          "questionType": "text",
+          "expectedAnswer": "2*3*5*13",
+          "images": [],
+          "correction": "$390$ se termine par $0$, divisible par $10 = 2 \\times 5$. $390 = 10 \\times 39 = (2 \\times 5) \\times (3 \\times 13)$. Tous ces facteurs sont premiers. En ordonnant : $390 = 2 \\times 3 \\times 5 \\times 13$. <strong>La décomposition de $\\mathbf{390}$ est $\\mathbf{2 \\times 3 \\times 5 \\times 13}$.</strong>"
+        },
+        {
+          "id": "1.9.18",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Deux bus partent en même temps du terminus. Le bus A fait son circuit en $42$ minutes, le bus B en $56$ minutes. Au bout de combien de temps les deux bus repartiront-ils en même temps du terminus pour la première fois ?",
+          "questionType": "numeric",
+          "expectedAnswer": "3/5",
+          "images": [],
+          "correction": "Décomposition de $126$ : $126 = 2 \\times 63 = 2 \\times 9 \\times 7 = 2 \\times 3^2 \\times 7$. Décomposition de $210$ : $210 = 10 \\times 21 = (2 \\times 5) \\times (3 \\times 7) = 2 \\times 3 \\times 5 \\times 7$. Pour rendre la fraction irréductible : \\dfrac{126}{210} &= \\dfrac{2 $\\times$ 3^2 $\\times$ 7}{2 $\\times$ 3 $\\times$ 5 $\\times$ 7} &= \\dfrac{\\cancel{2} $\\times$ \\cancel{3} $\\times$ 3 $\\times$ \\cancel{7}}{\\cancel{2} $\\times$ \\cancel{3} $\\times$ 5 $\\times$ \\cancel{7}} &= \\dfrac{3}{5} <strong>La fraction irréductible est $\\mathbf{\\dfrac{3}{5}}$.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "1.10",
+      "title": "Expressions littérales liées à un entier",
+      "courseReminder": "En calcul littéral, on utilise une lettre (souvent $n$ ou $x$) pour représenter un nombre quelconque. Cela permet de généraliser des situations. Pour un nombre entier $n$ : • <strong>Son double</strong> est $2 \\times n$ (noté $2n$). • <strong>Son triple</strong> est $3 \\times n$ (noté $3n$). • <strong>Sa moitié</strong> est $n \\div 2$ $\\left( \\text{noté } \\dfrac{n}{2} \\right)$. • <strong>Son carré</strong> est $n \\times n$ (noté $n^2$). • <strong>L'entier qui le précède</strong> (son prédécesseur) est $n-1$. • <strong>L'entier qui le suit</strong> (son successeur) est $n+1$. • Un <strong>nombre pair</strong> peut toujours s'écrire $2k$ (où $k$ est un entier). • Un <strong>nombre impair</strong> peut toujours s'écrire $2k+1$ (où $k$ est un entier).",
+      "exercises": [
+        {
+          "id": "1.10.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Soit $n$ un entier. Exprimer son double.",
+          "questionType": "text",
+          "expectedAnswer": "2n",
+          "images": [],
+          "correction": "Le double d'un nombre $n$ s'obtient en le multipliant par $2$. <strong>L'expression est $\\mathbf{2n}$.</strong>"
+        },
+        {
+          "id": "1.10.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Soit $n$ un entier. Exprimer son successeur.",
+          "questionType": "text",
+          "expectedAnswer": "n+1",
+          "images": [],
+          "correction": "Le successeur d'un entier $n$ est l'entier qui le suit immédiatement. On l'obtient en lui ajoutant $1$. <strong>L'expression est $\\mathbf{n+1}$.</strong>"
+        },
+        {
+          "id": "1.10.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Soit $n$ un entier. Exprimer son prédécesseur.",
+          "questionType": "text",
+          "expectedAnswer": "n-1",
+          "images": [],
+          "correction": "Le prédécesseur d'un entier $n$ est l'entier qui dont $n$ est le successeur. On l'obtient en soustrayant $1$. <strong>L'expression est $\\mathbf{n-1}$.</strong>"
+        },
+        {
+          "id": "1.10.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Soit $n$ un entier. Exprimer le tiers de $n$.",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{n}",
+          "images": [],
+          "correction": "Prendre le tiers d'un nombre $n$ revient à le diviser par $3$. <strong>L'expression est $\\mathbf{\\dfrac{n}{3}}$.</strong>"
+        },
+        {
+          "id": "1.10.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Exprimer la somme d'un entier $n$ et de $5$.",
+          "questionType": "text",
+          "expectedAnswer": "n+5",
+          "images": [],
+          "correction": "Une somme est le résultat d'une addition. <strong>L'expression est $\\mathbf{n+5}$.</strong>"
+        },
+        {
+          "id": "1.10.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Exprimer le produit d'un entier $n$ par $7$.",
+          "questionType": "text",
+          "expectedAnswer": "7n",
+          "images": [],
+          "correction": "Un produit est le résultat d'une multiplication. On omet généralement le signe $\\times$ devant une lettre. <strong>L'expression est $\\mathbf{7n}$.</strong>"
+        },
+        {
+          "id": "1.10.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Soit $k$ un entier. L'entier $2k+1$ est-il pair ou impair ?",
+          "questionType": "text",
+          "expectedAnswer": "2k+1",
+          "images": [],
+          "correction": "D'après la définition du cours, un nombre de la forme $2k+1$, où $k$ est un entier, est toujours un nombre impair. <strong>L'entier $\\mathbf{2k+1}$ est impair.</strong>"
+        },
+        {
+          "id": "1.10.8",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Soit $n$ un entier. Exprimer le double de son successeur.",
+          "questionType": "text",
+          "expectedAnswer": "2(n+1)",
+          "images": [],
+          "correction": "• Le successeur de $n$ est $(n+1)$. • On prend ensuite le double de cette expression. Il est important d'utiliser des parenthèses pour indiquer que l'on prend le double de la totalité. <strong>L'expression est $\\mathbf{2(n+1)}$.</strong>"
+        },
+        {
+          "id": "1.10.9",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Soit $n$ un entier. Exprimer la somme de $n$ et de son prédécesseur.",
+          "questionType": "text",
+          "expectedAnswer": "2n-1",
+          "images": [],
+          "correction": "Le prédécesseur de $n$ est $(n-1)$. On doit exprimer la somme de $n$ et de ce nombre. n + (n-1) = 2n - 1 <strong>L'expression réduite est $\\mathbf{2n-1}$.</strong>"
+        },
+        {
+          "id": "1.10.10",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Soit $n$ un entier. Exprimer la différence entre le carré de $n$ et $10$.",
+          "questionType": "text",
+          "expectedAnswer": "n2-10",
+          "images": [],
+          "correction": "Le carré de $n$ s'écrit $n^2$. Une différence est le résultat d'une soustraction. <strong>L'expression est $\\mathbf{n^2 - 10}$.</strong>"
+        },
+        {
+          "id": "1.10.11",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Soit $n$ un entier. Exprimer le carré de la somme de $n$ et de $3$.",
+          "questionType": "text",
+          "expectedAnswer": "(n+3)^2",
+          "images": [],
+          "correction": "On doit respecter l'ordre des opérations. On calcule d'abord \"la somme de $n$ et de $3$\", ce qui s'écrit $(n+3)$. Puis on met cette somme au carré. <strong>L'expression est $\\mathbf{(n+3)^2}$.</strong>"
+        },
+        {
+          "id": "1.10.12",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Léo a $n$ ans. Sa sœur a $4$ ans de plus. Exprimer l'âge de sa sœur.",
+          "questionType": "text",
+          "expectedAnswer": "n+4",
+          "images": [],
+          "correction": "L'âge de Léo est $n$. Sa sœur a $4$ ans de plus, ce qui correspond à une addition. <strong>L'âge de sa sœur est $\\mathbf{n+4}$.</strong>"
+        },
+        {
+          "id": "1.10.13",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Un rectangle a pour largeur $x$ et pour longueur le triple de sa largeur. Exprimer sa longueur.",
+          "questionType": "text",
+          "expectedAnswer": "3x",
+          "images": [],
+          "correction": "La largeur est $x$. La longueur est le triple de cette valeur. \"Triple\" signifie \"multiplié par $3$\". <strong>La longueur s'exprime par $\\mathbf{3x}$.</strong>"
+        },
+        {
+          "id": "1.10.14",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Soient deux entiers consécutifs. Si le plus petit est $n$, comment s'écrit le plus grand ?",
+          "questionType": "text",
+          "expectedAnswer": "n+1",
+          "images": [],
+          "correction": "Deux entiers consécutifs sont deux entiers qui se suivent. Si le plus petit est $n$, le plus grand est son successeur. <strong>Le plus grand s'écrit $\\mathbf{n+1}$.</strong>"
+        },
+        {
+          "id": "1.10.15",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Exprimer le produit de deux entiers consécutifs, si le plus petit est $n$.",
+          "questionType": "text",
+          "expectedAnswer": "n(n+1)",
+          "images": [],
+          "correction": "Les deux entiers consécutifs sont $n$ et $(n+1)$. Leur produit est la multiplication de ces deux termes. <strong>L'expression est $\\mathbf{n(n+1)}$.</strong>"
+        },
+        {
+          "id": "1.10.16",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Soit $n$ un entier. Exprimer le tiers de la somme de $n$ et de $6$.",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{n+6}",
+          "images": [],
+          "correction": "On commence par écrire \"la somme de $n$ et de $6$\", ce qui donne $(n+6)$. On prend ensuite le tiers de cette expression. <strong>L'expression est $\\mathbf{\\dfrac{n+6}{3}}$.</strong>"
+        },
+        {
+          "id": "1.10.17",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Vrai ou Faux : La somme du triple de $n$ et de $5$ s'écrit $3(n+5)$.",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "L'expression \"La somme du triple de $n$ et de $5$\" se traduit par l'addition de \"$3n$\" et de \"$5$\", soit $3n+5$. L'expression $3(n+5)$ se lit \"le triple de la somme de $n$ et $5$\". <strong>L'affirmation est fausse.</strong>"
+        },
+        {
+          "id": "1.10.18",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Exprimer le périmètre d'un carré de côté $c$.",
+          "questionType": "text",
+          "expectedAnswer": "4c",
+          "images": [],
+          "correction": "Le périmètre d'un carré de côté $c$ est le quadruple de $c$. <strong>L'expression est $\\mathbf{4c}$.</strong>"
+        },
+        {
+          "id": "1.10.19",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Exprimer l'aire d'un rectangle de longueur $L$ et de largeur $l$.",
+          "questionType": "text",
+          "expectedAnswer": "L*l",
+          "images": [],
+          "correction": "L'aire d'un rectangle se calcule en multipliant sa longueur $L$ par sa largeur $l$. <strong>L'expression est $\\mathbf{L \\times l}$.</strong>"
+        },
+        {
+          "id": "1.10.20",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "La somme de trois entiers consécutifs est $36$. Si on note $n$ le plus petit, écrire l'équation correspondante.",
+          "questionType": "text",
+          "expectedAnswer": "n + (n+1) + (n+2) = 36",
+          "images": [],
+          "correction": "Si le plus petit entier est $n$, les deux suivants sont $n+1$ et $n+2$. La somme de ces trois entiers consécutifs est égale à $36$. <strong>L'équation est: $\\mathbf{n + (n+1) + (n+2) = 36}$ ou $\\mathbf{3n+3=36}$.</strong>"
+        },
+        {
+          "id": "1.10.21",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Montrer que la somme de deux entiers pairs est toujours un entier pair.",
+          "questionType": "text",
+          "expectedAnswer": "pair",
+          "images": [],
+          "correction": "Soient deux entiers pairs. On peut les écrire sous la forme $2k$ et $2m$, où $k$ et $m$ sont des entiers. Leur somme est : $2k + 2m = 2(k+m)$. Comme $k$ et $m$ sont des entiers, leur somme $(k+m)$ est aussi un entier. L'expression est donc de la forme $2 \\times \\text{un entier}$, ce qui est la définition d'un nombre pair. <strong>La somme de deux entiers pairs est toujours un entier pair.</strong>"
+        },
+        {
+          "id": "1.10.22",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un père a $30$ ans de plus que son fils. Si le fils a $x$ ans : Exprimer l'âge du père, puis la somme de leurs âges.",
+          "questionType": "text",
+          "expectedAnswer": "x+30",
+          "images": [],
+          "correction": "• Si l'âge du fils est $x$, celui du père, qui a $30$ ans de plus, est $x+30$. • La somme de leurs âges est l'addition des deux expressions : x + (x+30) = 2x + 30 <strong>L'âge du père est $\\mathbf{x+30}$ et la somme de leurs âges est $\\mathbf{2x+30}$.</strong>"
+        },
+        {
+          "id": "1.10.23",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Soit $n$ un entier. Exprimer la différence entre le carré de son successeur et son propre carré.",
+          "questionType": "text",
+          "expectedAnswer": "(n+1)^2 - n^2",
+          "images": [],
+          "correction": "Le successeur de $n$ est $(n+1)$, et son carré s'écrit $(n+1)^2$. Le propre carré de $n$ est $n^2$. La différence est la soustraction de ces deux termes. <strong>L'expression est $\\mathbf{(n+1)^2 - n^2}$.</strong>"
+        },
+        {
+          "id": "1.10.24",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Montrer que la somme de deux entiers consécutifs est toujours un nombre impair.",
+          "questionType": "text",
+          "expectedAnswer": "impair",
+          "images": [],
+          "correction": "Soient deux entiers consécutifs, que l'on peut noter $n$ et $(n+1)$. Leur somme est : n + (n+1) = 2n + 1 Cette expression est la forme générale d'un nombre impair (un multiple de $2$, plus $1$). <strong>La somme de deux entiers consécutifs est toujours un nombre impair.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "1.11",
+      "title": "Simplification d'expressions littérales",
+      "courseReminder": "Simplifier (ou réduire) une expression littérale consiste à l'écrire avec le moins de termes possibles en regroupant les termes de la \"même famille\". • Les termes en $x^2$ avec les termes en $x^2$. • Les termes en $x$ avec les termes en $x$. • Les nombres (constantes) avec les nombres. Exemple : $3x^2 + 5x - 4 - x^2 + 2x = (3x^2 - x^2) + (5x + 2x) - 4 = 2x^2 + 7x - 4$. <strong>Suppression des parenthèses :</strong> • Précédées d'un '$+$' : on enlève les parenthèses sans rien changer. Exemple : $5x + (2x-1) = 5x+2x-1 = 7x-1$. • Précédées d'un '$-$' : on enlève les parenthèses <strong>en changeant le signe de chaque terme</strong> à l'intérieur. Exemple : $5x - (2x-1) = 5x - 2x + 1 = 3x+1$.",
+      "exercises": [
+        {
+          "id": "1.11.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Réduire $A = 4x + 3x$.",
+          "questionType": "text",
+          "expectedAnswer": "A = 7x",
+          "images": [],
+          "correction": "On regroupe les termes de la famille des \"$x$\". A = (4+3)x = 7x <strong>L'expression réduite est $\\mathbf{A = 7x}$.</strong>"
+        },
+        {
+          "id": "1.11.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Réduire $B = 10y - 3y$.",
+          "questionType": "text",
+          "expectedAnswer": "B = 7y",
+          "images": [],
+          "correction": "On regroupe les termes de la famille des \"$y$\". B = (10-3)y = 7y <strong>L'expression réduite est $\\mathbf{B = 7y}$.</strong>"
+        },
+        {
+          "id": "1.11.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Réduire $C = 5a + a$.",
+          "questionType": "text",
+          "expectedAnswer": "C = 6a",
+          "images": [],
+          "correction": "On additionne les termes en \"$a$\". Il faut se souvenir que $a$ est la même chose que $1a$. C = 5a + 1a = 6a <strong>L'expression réduite est $\\mathbf{C = 6a}$.</strong>"
+        },
+        {
+          "id": "1.11.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Réduire $D = 2b - 3b$.",
+          "questionType": "text",
+          "expectedAnswer": "D = -b",
+          "images": [],
+          "correction": "On regroupe les termes en \"$b$\". D = (2-3)b = -1b = -b <strong>L'expression réduite est $\\mathbf{D = -b}$.</strong>"
+        },
+        {
+          "id": "1.11.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Réduire $E = 3x^2 + 7x^2$.",
+          "questionType": "text",
+          "expectedAnswer": "E = 10x^2",
+          "images": [],
+          "correction": "Les deux termes sont de la famille des \"$x^2$\". E = (3+7)x^2 = 10x^2 <strong>L'expression réduite est $\\mathbf{E = 10x^2}$.</strong>"
+        },
+        {
+          "id": "1.11.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Réduire $F = 8 + 3x - 10$.",
+          "questionType": "text",
+          "expectedAnswer": "F = 3x - 2",
+          "images": [],
+          "correction": "On regroupe les nombres constants entre eux. F = 3x + (8 - 10) = 3x - 2 <strong>L'expression réduite est $\\mathbf{F = 3x - 2}$.</strong>"
+        },
+        {
+          "id": "1.11.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Réduire $G = 4x + (2 - 3x)$.",
+          "questionType": "text",
+          "expectedAnswer": "G = x + 2",
+          "images": [],
+          "correction": "On enlève la parenthèse qui est précédée d'un signe '$+$', ce qui ne change aucun signe. G = 4x + 2 - 3x Puis on réduit l'expression : $G = (4x - 3x) + 2 = x + 2$.\\\\\n    \\medskip\\noindent\\textbf{L'expression réduite est $\\mathbf{G = x + 2}$.}"
+        },
+        {
+          "id": "1.11.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Réduire $H = 5x - 4 + 2x - 8$.",
+          "questionType": "text",
+          "expectedAnswer": "H = 7x - 12",
+          "images": [],
+          "correction": "On regroupe les termes en \"$x$\" ensemble, et les nombres constants ensemble. H = (5x + 2x) + (-4 - 8) = 7x - 12 <strong>L'expression réduite est $\\mathbf{H = 7x - 12}$.</strong>"
+        },
+        {
+          "id": "1.11.9",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Réduire $I = 4x + 5y - 2x + y$.",
+          "questionType": "text",
+          "expectedAnswer": "I = 2x + 6y",
+          "images": [],
+          "correction": "On regroupe les termes par famille : les \"$x$\" avec les \"$x$\", les \"$y$\" avec les \"$y$\". I = (4x - 2x) + (5y + y) = 2x + 6y <strong>L'expression réduite est $\\mathbf{I = 2x + 6y}$.</strong>"
+        },
+        {
+          "id": "1.11.10",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Réduire $J = 7x^2 - 3x + 2x^2 + 5x$.",
+          "questionType": "text",
+          "expectedAnswer": "J = 9x^2 + 2x",
+          "images": [],
+          "correction": "On regroupe les termes en \"$x^2$\" et les termes en \"$x$\". J &= (7x^2 + 2x^2) + (-3x + 5x) J&= 9x^2 + 2x <strong>L'expression réduite est: $\\mathbf{J = 9x^2 + 2x}$.</strong>"
+        },
+        {
+          "id": "1.11.11",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Réduire $K = 5 - (x+3)$.",
+          "questionType": "text",
+          "expectedAnswer": "K = 2 - x",
+          "images": [],
+          "correction": "On supprime la parenthèse précédée d'un '$-$', ce qui change le signe de chaque terme à l'intérieur. K = 5 - x - 3 Puis on réduit : $K = (5-3) - x = 2 - x$. <strong>L'expression réduite est $\\mathbf{K = 2 - x}$.</strong>"
+        },
+        {
+          "id": "1.11.12",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Réduire $L = 6x - (4 - 2x)$.",
+          "questionType": "text",
+          "expectedAnswer": "L = 8x - 4",
+          "images": [],
+          "correction": "On supprime la parenthèse précédée d'un '$-$', en changeant les signes de $4$ et de $-2x$. L = 6x - 4 + 2x Puis on réduit : $L = (6x+2x) - 4 = 8x - 4$. <strong>L'expression réduite est $\\mathbf{L = 8x - 4}$.</strong>"
+        },
+        {
+          "id": "1.11.13",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Réduire $M = x^2 - 5x + 3 - 2x^2 + 5x - 1$.",
+          "questionType": "text",
+          "expectedAnswer": "M = -x^2 + 2",
+          "images": [],
+          "correction": "On regroupe les termes par famille. M &= x^2 - 2x^2 + 5x - 5x+3 - 1 M &= -x^2 + 0x + 2 <strong>L'expression réduite est $\\mathbf{M = -x^2 + 2}$.</strong>"
+        },
+        {
+          "id": "1.11.14",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Réduire $N = -(a+b) + (a-b)$.",
+          "questionType": "text",
+          "expectedAnswer": "N = -2b",
+          "images": [],
+          "correction": "On supprime les deux parenthèses en appliquant les règles des signes. N = -a - b + a - b On réduit : N& = (-a+a) + (-b-b) N& = 0 - 2b. <strong>L'expression réduite est $\\mathbf{N = -2b}$.</strong>"
+        },
+        {
+          "id": "1.11.15",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Réduire $P = 3(x+2) + 2(x-1)$.",
+          "questionType": "text",
+          "expectedAnswer": "P = 5x+4",
+          "images": [],
+          "correction": "• On développe chaque partie : $3(x+2) = 3x+6$ \\\\$2(x-1) = 2x-2$.\n        \\item L'expression devient :\\\\\n        $P = (3x+6) + (2x-2)$.\n        \\item On réduit :\\\\\n        $P = (3x+2x) + (6-2) = 5x+4$.\n    \\end{enumerate}\n    \\medskip\\noindent\\textbf{L'expression réduite est $\\mathbf{P = 5x+4}$.}"
+        },
+        {
+          "id": "1.11.16",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Un rectangle a pour longueur $x+3$ et pour largeur $5$. Exprimer son périmètre en fonction de $x$ et le réduire.",
+          "questionType": "text",
+          "expectedAnswer": "Q = 2x+16",
+          "images": [],
+          "correction": "Le périmètre d'un rectangle est: $2 \\times (\\text{Longueur} + \\text{Largeur})$. Q &= 2 $\\times$ ((x+3)+5) Q &= 2 $\\times$ (x+8) Q &= 2x+16 <strong>Le périmètre réduit est $\\mathbf{Q = 2x+16}$.</strong>"
+        },
+        {
+          "id": "1.11.17",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Réduire $R = 5(2x-1) - (3x+4)$.",
+          "questionType": "text",
+          "expectedAnswer": "R = 7x - 9",
+          "images": [],
+          "correction": "• On développe la première partie : $5(2x-1) = 10x-5$. • On supprime la parenthèse précédée d'un '$-$' : $-(3x+4) = -3x-4$.\n        \\item L'expression devient :\\\\\n        $R = 10x-5 - 3x - 4$.\n        \\item On réduit : $R = 7x - 9$.\n    \\end{enumerate}\n    \\medskip\\noindent\\textbf{L'expression réduite est $\\mathbf{R = 7x - 9}$.}"
+        },
+        {
+          "id": "1.11.18",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "L'expression $3x - 5 - (3x-5)$ est-elle égale à $0$ ?",
+          "questionType": "text",
+          "expectedAnswer": "0",
+          "images": [],
+          "correction": "Pour le savoir, on réduit l'expression. On supprime la parenthèse précédée d'un '$-$'. 3x - 5 - (3x-5) &= 3x - 5 - 3x + 5 &= 3x-3x +5-5 &= 0 + 0 = 0 <strong>Oui, l'expression est bien égale à $\\mathbf{0}$.</strong>"
+        },
+        {
+          "id": "1.11.19",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Réduire $S = \\dfrac{1}{2}x + \\dfrac{1}{4}x$.",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{3}{4}",
+          "images": [],
+          "correction": "Pour additionner les termes en $x$, on additionne les coefficients fractionnaires. Il faut les mettre au même dénominateur ($4$). S &= \\left(\\dfrac{1}{2} + \\dfrac{1}{4}\\right)x S &= \\left(\\dfrac{2}{4} + \\dfrac{1}{4}\\right)x S &= \\dfrac{3}{4}x <strong>L'expression réduite est $\\mathbf{S = \\dfrac{3}{4}x}$.</strong>"
+        },
+        {
+          "id": "1.11.20",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Réduire $T = (x+1) + (x+2) + (x+3)$.",
+          "questionType": "text",
+          "expectedAnswer": "T = 3x+6",
+          "images": [],
+          "correction": "On peut enlever toutes les parenthèses car elles sont précédées de '$+$'. T = x+1 + x+2 + x+3 On regroupe les termes en $x$ et les nombres. T &= (x+x+x) + (1+2+3) T&= 3x+6 <strong>L'expression réduite est $\\mathbf{T = 3x+6}$.</strong>"
+        },
+        {
+          "id": "1.11.21",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Réduire $U = a(a+1) - a^2$.",
+          "questionType": "text",
+          "expectedAnswer": "U = a",
+          "images": [],
+          "correction": "On commence par développer le produit: $a(a+1) = a^2 + a$. L'expression devient alors : U = (a^2 + a) - a^2 On réduit : $U = (a^2 - a^2) + a = a$. <strong>L'expression réduite est $\\mathbf{U = a}$.</strong>"
+        },
+        {
+          "id": "1.11.22",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Réduire $V = 3x(x+2) - (x^2+6x)$.",
+          "questionType": "text",
+          "expectedAnswer": "V = 2x^2",
+          "images": [],
+          "correction": "V&=3x(x+2)-(x^2+6x) V&=3x $\\times$ x + 3x $\\times$ 2 - x^2 - 6x V&=3x^2+6x-x^2-6x V&=(3-1)x^2+(6-6)x V&=2x^2 <strong>L'expression réduite est $\\mathbf{V = 2x^2}$.</strong>"
+        },
+        {
+          "id": "1.11.23",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Réduire $W = 4 - [5x - (3x+2)]$.",
+          "questionType": "text",
+          "expectedAnswer": "W = 6 - 2x",
+          "images": [],
+          "correction": "On commence par la parenthèse la plus intérieure. W &= 4 - [5x - (3x+2)] W &= 4 - [5x - 3x - 2] W &= 4 - [2x - 2] On supprime ensuite les crochets, en changeant les signes à l'intérieur. W = 4 - 2x + 2 = 6 - 2x <strong>L'expression réduite est $\\mathbf{W = 6 - 2x}$.</strong>"
+        },
+        {
+          "id": "1.11.24",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un triangle a des côtés qui mesurent $x$, $x+1$ et $x+2$. Exprimer son périmètre sous forme réduite.",
+          "questionType": "text",
+          "expectedAnswer": "P = 3x+3",
+          "images": [],
+          "correction": "Le périmètre est la somme des longueurs des trois côtés. P &= x + (x+1) + (x+2) P &= (x+x+x) + (1+2) P &= 3x+3 <strong>Le périmètre réduit est $\\mathbf{P = 3x+3}$.</strong>"
+        },
+        {
+          "id": "1.11.25",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Réduire $Z = (2x+3)(5x-4)-10x^2$.",
+          "questionType": "text",
+          "expectedAnswer": "Z = 7x-12",
+          "images": [],
+          "correction": "Z&=(2x+3)(5x-4)-10x^2 Z&= 10x^2 - 8x + 15x - 12-10x^2 Z &= (10-10)x^2 + (15-8)x - 12 Z &= 7x-12 <strong>L'expression réduite est $\\mathbf{Z = 7x-12}$.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "1.12",
+      "title": "Calcul de la valeur d'une expression littérale",
+      "courseReminder": "Calculer la valeur d'une expression littérale, c'est remplacer la ou les lettres par les nombres donnés, puis effectuer les calculs en respectant les priorités opératoires. Parenthèses, Exposants, Multiplications/Divisions, Additions/Soustractions. <strong>Attention :</strong> Quand on remplace une lettre par un nombre négatif, il est très important de mettre des parenthèses autour de ce nombre. Exemple : Calculer $A = 3x^2 - 5$ pour $x=-2$. A &= 3 $\\times$ (-2)^2 - 5 A &= 3 $\\times$ 4 - 5 && \\text{(le carré est prioritaire)} A &= 12 - 5 && \\text{(la multiplication est prioritaire)} A &= 7",
+      "exercises": [
+        {
+          "id": "1.12.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $A = x+7$ pour $x=3$.",
+          "questionType": "numeric",
+          "expectedAnswer": "10",
+          "images": [],
+          "correction": "On remplace $x$ par $3$ dans l'expression. A = 3+7 = 10 <strong>La valeur de $\\mathbf{A}$ est $\\mathbf{10}$.</strong>"
+        },
+        {
+          "id": "1.12.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $B = 5x$ pour $x=4$.",
+          "questionType": "numeric",
+          "expectedAnswer": "20",
+          "images": [],
+          "correction": "On remplace $x$ par $4$. Rappel : $5x$ signifie $5 \\times x$. B = 5 $\\times$ 4 = 20 <strong>La valeur de $\\mathbf{B}$ est $\\mathbf{20}$.</strong>"
+        },
+        {
+          "id": "1.12.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $C = 2x+1$ pour $x=5$.",
+          "questionType": "numeric",
+          "expectedAnswer": "11",
+          "images": [],
+          "correction": "On remplace $x$ par $5$ et on respecte la priorité de la multiplication. C = 2 $\\times$ 5 + 1 = 10 + 1 = 11 <strong>La valeur de $\\mathbf{C}$ est $\\mathbf{11}$.</strong>"
+        },
+        {
+          "id": "1.12.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $D = 10-3x$ pour $x=2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "4",
+          "images": [],
+          "correction": "On remplace $x$ par $2$ et on respecte la priorité de la multiplication. D = 10 - 3 $\\times$ 2 = 10 - 6 = 4 <strong>La valeur de $\\mathbf{D}$ est $\\mathbf{4}$.</strong>"
+        },
+        {
+          "id": "1.12.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $E = x^2$ pour $x=6$.",
+          "questionType": "numeric",
+          "expectedAnswer": "36",
+          "images": [],
+          "correction": "On remplace $x$ par $6$. E = 6^2 = 36 <strong>La valeur de $\\mathbf{E}$ est $\\mathbf{36}$.</strong>"
+        },
+        {
+          "id": "1.12.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $F = x+5$ pour $x=-2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "3",
+          "images": [],
+          "correction": "On remplace $x$ par $-2$. F = -2+5 = 3 <strong>La valeur de $\\mathbf{F}$ est $\\mathbf{3}$.</strong>"
+        },
+        {
+          "id": "1.12.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $G = 3x-1$ pour $x=-4$.",
+          "questionType": "numeric",
+          "expectedAnswer": "-13",
+          "images": [],
+          "correction": "On remplace $x$ par $-4$. G = 3 $\\times$ (-4) - 1 = -12 - 1 = -13 <strong>La valeur de $\\mathbf{G}$ est $\\mathbf{-13}$.</strong>"
+        },
+        {
+          "id": "1.12.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $H = x^2+1$ pour $x=3$.",
+          "questionType": "numeric",
+          "expectedAnswer": "10",
+          "images": [],
+          "correction": "On remplace $x$ par $3$. La puissance est prioritaire. H = 3^2+1 = 9+1 = 10 <strong>La valeur de $\\mathbf{H}$ est $\\mathbf{10}$.</strong>"
+        },
+        {
+          "id": "1.12.9",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer $I = 5-x^2$ pour $x=2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "1",
+          "images": [],
+          "correction": "On remplace $x$ par $2$. La puissance est prioritaire sur la soustraction. I = 5-2^2 = 5-4 = 1 <strong>La valeur de $\\mathbf{I}$ est $\\mathbf{1}$.</strong>"
+        },
+        {
+          "id": "1.12.10",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $J = x^2$ pour $x=-7$.",
+          "questionType": "numeric",
+          "expectedAnswer": "49",
+          "images": [],
+          "correction": "On remplace $x$ par $-7$ en utilisant des parenthèses, car le carré s'applique à tout le nombre négatif. J = (-7)^2 = (-7) $\\times$ (-7) = 49 <strong>La valeur de $\\mathbf{J}$ est $\\mathbf{49}$.</strong>"
+        },
+        {
+          "id": "1.12.11",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $K = 2x^2$ pour $x=5$.",
+          "questionType": "numeric",
+          "expectedAnswer": "50",
+          "images": [],
+          "correction": "On remplace $x$ par $5$. La puissance est prioritaire. K = 2 $\\times$ 5^2 = 2 $\\times$ 25 = 50 <strong>La valeur de $\\mathbf{K}$ est $\\mathbf{50}$.</strong>"
+        },
+        {
+          "id": "1.12.12",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $L = (x+3)^2$ pour $x=2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "25",
+          "images": [],
+          "correction": "On remplace $x$ par $2$. Le calcul dans la parenthèse est prioritaire. L = (2+3)^2 = 5^2 = 25 <strong>La valeur de $\\mathbf{L}$ est $\\mathbf{25}$.</strong>"
+        },
+        {
+          "id": "1.12.13",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Calculer $M = 3x^2 - 5$ pour $x=-2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "7",
+          "images": [],
+          "correction": "On remplace $x$ par $-2$. La puissance est prioritaire sur la multiplication et la soustraction. M &= 3 $\\times$ (-2)^2 - 5 M&= 3 $\\times$ 4 - 5 M&= 12 - 5 M&= 7 <strong>La valeur de $\\mathbf{M}$ est $\\mathbf{7}$.</strong>"
+        },
+        {
+          "id": "1.12.14",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Soit $N = (x-5)(x+1)$. Calculer $N$ pour $x=5$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0",
+          "images": [],
+          "correction": "On remplace $x$ par $5$. La première parenthèse vaut $5-5=0$. Le produit contient donc un facteur nul. N = (5-5)(5+1) = 0 $\\times$ 6 = 0 <strong>La valeur de $\\mathbf{N}$ est $\\mathbf{0}$.</strong>"
+        },
+        {
+          "id": "1.12.15",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "Soit $f(x)=3x-7$. Calculer l'image de $-1$.",
+          "questionType": "numeric",
+          "expectedAnswer": "-10",
+          "images": [],
+          "correction": "Calculer l'image de $-1$ par $f$ revient à calculer $f(-1)$. On remplace $x$ par $-1$. f(-1) = 3(-1) - 7 = -3 - 7 = -10 <strong>L'image de $\\mathbf{-1}$ par $\\mathbf{f}$ est $\\mathbf{-10}$.</strong>"
+        },
+        {
+          "id": "1.12.16",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit $P = -x^2 + 5$. Calculer $S$ pour $x=3$.",
+          "questionType": "numeric",
+          "expectedAnswer": "-4",
+          "images": [],
+          "correction": "Attention, le carré ne s'applique qu'à $x$, pas au signe '$-$' qui est devant. On calcule d'abord $x^2$. P = -(3)^2 + 5 = -9 + 5 = -4 <strong>La valeur de $\\mathbf{P}$ est $\\mathbf{-4}$.</strong>"
+        },
+        {
+          "id": "1.12.17",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Le périmètre d'un rectangle est $P=2(L+l)$. Calculer $P$ pour $L=5,5\\,\\text{cm}$ et $l=3\\,\\text{cm}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "17",
+          "images": [],
+          "correction": "On remplace $L$ par $5,5$ et $l$ par $3$. La parenthèse est prioritaire. P = 2(5,5+3) = 2 $\\times$ (8,5) = 17 <strong>Le périmètre est de $\\mathbf{17\\,\\text{cm}}$.</strong>"
+        },
+        {
+          "id": "1.12.18",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer $Q = 2x^2 + 3x - 1$ pour $x=4$.",
+          "questionType": "numeric",
+          "expectedAnswer": "43",
+          "images": [],
+          "correction": "On remplace $x$ par $4$ et on respecte les priorités (puissance, puis multiplication, puis additions/soustractions). Q &= 2 $\\times$ 4^2 + 3 $\\times$ 4 - 1 Q &= 2 $\\times$ 16 + 12 - 1 Q &= 32 + 12 - 1 Q &= 43 <strong>La valeur de $\\mathbf{Q}$ est $\\mathbf{43}$.</strong>"
+        },
+        {
+          "id": "1.12.19",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Le volume d'un cylindre est $V=\\pi r^2 h$. Calculer $V$ pour $r=2\\,\\text{cm}$ et $h=10\\,\\text{cm}$ (donner la valeur exacte).",
+          "questionType": "numeric",
+          "expectedAnswer": "40.cm",
+          "images": [],
+          "correction": "$V = \\pi \\times 2^2 \\times 10$ et la puissance est prioritaire. V = \\pi $\\times$ 4 $\\times$ 10 = 40\\pi <strong>La valeur exacte du volume est $\\mathbf{40\\pi\\,\\text{cm}^3}$.</strong>"
+        },
+        {
+          "id": "1.12.20",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer $R = x^2+2x+1$ pour $x=-3$.",
+          "questionType": "numeric",
+          "expectedAnswer": "4",
+          "images": [],
+          "correction": "On remplace $x$ par $-3$ en utilisant des parenthèses. R &= (-3)^2 + 2(-3) + 1 R &= 9 - 6 + 1 R &= 4 <strong>La valeur de $\\mathbf{R}$ est $\\mathbf{4}$.</strong>"
+        },
+        {
+          "id": "1.12.21",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer $S = (2x+1)(-x+3)$ pour $x=3$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0",
+          "images": [],
+          "correction": "On remplace $x$ par $3$. On remarque que la deuxième parenthèse devient $-3+3=0$. Le produit est donc nul. S &= (2 $\\times$ 3 + 1) $\\times$ (-3+3) S&= 7 $\\times$ 0 S&= 0 <strong>La valeur de $\\mathbf{S}$ est $\\mathbf{0}$.</strong>"
+        },
+        {
+          "id": "1.12.22",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Le nombre $2$ est-il une solution de l'équation $3x^2-5x-2=0$ ?",
+          "questionType": "text",
+          "expectedAnswer": "0",
+          "images": [],
+          "correction": "3(2)^2 - 5(2) - 2 &= 3 $\\times$ 4 - 10 - 2 &= 12 - 10 - 2 &= 0 Le résultat est bien $0$. <strong>Oui, $\\mathbf{2}$ est une solution de l'équation.</strong>"
+        },
+        {
+          "id": "1.12.23",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "L'aire d'un trapèze est $A=\\dfrac{(B+b)h}{2}$. Calculer $A$ si $B=10$, $b=6$ et $h=5$.",
+          "questionType": "numeric",
+          "expectedAnswer": "40",
+          "images": [],
+          "correction": "On remplace les lettres par leurs valeurs, en calculant la parenthèse en priorité. A = \\dfrac{(10+6) $\\times$ 5}{2} = \\dfrac{16 $\\times$ 5}{2} = \\dfrac{80}{2} = 40 <strong>L'aire est de $\\mathbf{40}$ unités d'aire.</strong>"
+        },
+        {
+          "id": "1.12.24",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer $T = \\dfrac{4x-1}{2x+1}$ pour $x=\\dfrac{1}{2}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "On calcule séparément le numérateur et le dénominateur pour $x=\\dfrac{1}{2}$. • <strong>Numérateur :</strong> $4\\left(\\dfrac{1}{2}\\right)-1 = 2-1=1$. • <strong>Dénominateur :</strong> $2\\left(\\dfrac{1}{2}\\right)+1=1+1=2$. <strong>Le résultat est $\\mathbf{T = \\dfrac{1}{2}}$.</strong>"
+        },
+        {
+          "id": "1.12.25",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Soit $U = (x-3)^2 - 16$. Calculer $U$ pour $x=-1$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0",
+          "images": [],
+          "correction": "On remplace $x$ par $-1$. La parenthèse est prioritaire. U &= ((-1)-3)^2 - 16 U &= (-4)^2 - 16 U &= 16 - 16 U &= 0 <strong>La valeur de $\\mathbf{U}$ est $\\mathbf{0}$.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "1.13",
+      "title": "Équations (Niveau DNB)",
+      "courseReminder": "Résoudre une équation, c'est trouver la ou les valeurs de l'inconnue (souvent notée $x$) pour lesquelles l'égalité est vraie. <strong>1. Équations du premier degré (type $\\mathbf{ax+b=cx+d}$) :</strong> <strong>Méthode :</strong> • Regrouper tous les termes contenant l'inconnue ($x$) dans un membre (par exemple, à gauche) en additionnant ou soustrayant. • Regrouper tous les termes constants dans l'autre membre (par exemple, à droite). • Isoler l'inconnue en divisant par son coefficient (s'il n'est pas nul). Exemple : Résoudre $5x - 3 = 2x + 9$. 5x - 2x &= 9 + 3 3x &= 12 x &= \\frac{12}{3} = 4 La solution est $x=4$. <strong>2. Équations utilisées avec Thalès :</strong> Pour résoudre une équation de la forme $\\dfrac{A}{B} = \\dfrac{C}{D}$ (où $x$ est dans $A, B, C$ ou $D$). <strong>Méthode :</strong> L'égalité est équivalente à $A \\times D = B \\times C$ (pour $B \\neq 0, D \\neq 0$) d'après l'égalité des produits en croix. • Si $\\mathbf{\\dfrac{x}{a} = \\dfrac{b}{c}}$ : On a $x \\times c = a \\times b$, donc $x = \\dfrac{a \\times b}{c}$ (si $c \\neq 0$). • Si $\\mathbf{\\dfrac{a}{x} = \\dfrac{b}{c}}$ : On a $a \\times c = x \\times b$, donc $x = \\dfrac{a \\times c}{b}$ (si $b \\neq 0$ et $x \\neq 0$). \\, Exemples : \\textit{En collège, on ne croisera jamais de cas de valeur interdite (cas de division par zéro). J'ai donc choisi de ne pas le mentionner dans cette partie, mais attention, au lycée les exigences sont bien plus grandes et tout ne se passera pas aussi simplement...}",
+      "exercises": [
+        {
+          "id": "1.13.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Résoudre $x+5=12$.",
+          "questionType": "text",
+          "expectedAnswer": "x=7",
+          "images": [],
+          "correction": "% Exo 1 On soustrait 5 aux deux membres. x + 5 - 5 &= 12 - 5 x &= 7 <strong>La solution est $\\mathbf{x=7}$.</strong>"
+        },
+        {
+          "id": "1.13.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Résoudre $y - 3 = 8$.",
+          "questionType": "text",
+          "expectedAnswer": "y=11",
+          "images": [],
+          "correction": "% Exo 2 On ajoute 3 aux deux membres. y - 3 + 3 &= 8 + 3 y &= 11 <strong>La solution est $\\mathbf{y=11}$.</strong>"
+        },
+        {
+          "id": "1.13.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Résoudre $4a = 28$.",
+          "questionType": "text",
+          "expectedAnswer": "a=7",
+          "images": [],
+          "correction": "% Exo 3 On divise les deux membres par 4. \\dfrac{4a}{4} &= \\dfrac{28}{4} a &= 7 <strong>La solution est $\\mathbf{a=7}$.</strong>"
+        },
+        {
+          "id": "1.13.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Résoudre $z+7 = 3$.",
+          "questionType": "text",
+          "expectedAnswer": "z=-4",
+          "images": [],
+          "correction": "% Exo 4 On soustrait 7 aux deux membres. z + 7 - 7 &= 3 - 7 z &= -4 <strong>La solution est $\\mathbf{z=-4}$.</strong>"
+        },
+        {
+          "id": "1.13.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Résoudre $-5b = 30$.",
+          "questionType": "text",
+          "expectedAnswer": "b=-6",
+          "images": [],
+          "correction": "% Exo 5 On divise les deux membres par -5. \\dfrac{-5b}{-5} &= \\dfrac{30}{-5} b &= -6 <strong>La solution est $\\mathbf{b=-6}$.</strong>"
+        },
+        {
+          "id": "1.13.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Résoudre $\\dfrac{x}{2} = 9$.",
+          "questionType": "text",
+          "expectedAnswer": "x=18",
+          "images": [],
+          "correction": "% Exo 6 On multiplie les deux membres par 2. \\dfrac{x}{2} $\\times$ 2 &= 9 $\\times$ 2 x &= 18 <strong>La solution est $\\mathbf{x=18}$.</strong>"
+        },
+        {
+          "id": "1.13.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Résoudre $\\dfrac{18}{y} = 3$.",
+          "questionType": "text",
+          "expectedAnswer": "y=6",
+          "images": [],
+          "correction": "% Exo 7 On peut écrire $3 = \\dfrac{3}{1}$. L'équation est $\\dfrac{18}{y} = \\dfrac{3}{1}$ avec $y \\neq 0$, les produits en croix sont donc égaux. 18 $\\times$ 1 &= y $\\times$ 3 18 &= 3y y &= \\dfrac{18}{3} = 6 <strong>La solution est $\\mathbf{y=6}$.</strong>"
+        },
+        {
+          "id": "1.13.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Résoudre $x - 10 = -4$.",
+          "questionType": "text",
+          "expectedAnswer": "x=6",
+          "images": [],
+          "correction": "% Exo 8 On ajoute 10 aux deux membres. x - 10 + 10 &= -4 + 10 x &= 6 <strong>La solution est $\\mathbf{x=6}$.</strong>"
+        },
+        {
+          "id": "1.13.9",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Résoudre $15 + a = 20$.",
+          "questionType": "text",
+          "expectedAnswer": "a=5",
+          "images": [],
+          "correction": "% Exo 9 On soustrait 15 aux deux membres. 15 + a - 15 &= 20 - 15 a &= 5 <strong>La solution est $\\mathbf{a=5}$.</strong>"
+        },
+        {
+          "id": "1.13.10",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Résoudre $-b = 7$.",
+          "questionType": "text",
+          "expectedAnswer": "b=-7",
+          "images": [],
+          "correction": "% Exo 10 On multiplie (ou divise) chaque membre par -1. -b $\\times$ (-1) &= 7 $\\times$ (-1) b &= -7 <strong>La solution est $\\mathbf{b=-7}$.</strong>"
+        },
+        {
+          "id": "1.13.11",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre $2x + 5 = 17$.",
+          "questionType": "text",
+          "expectedAnswer": "x=6",
+          "images": [],
+          "correction": "% Exo 11 On isole le terme en $x$. 2x &= 17 - 5 2x &= 12 x &= \\dfrac{12}{2} x &= 6 <strong>La solution est $\\mathbf{x=6}$.</strong>"
+        },
+        {
+          "id": "1.13.12",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre $3y - 1 = 14$.",
+          "questionType": "text",
+          "expectedAnswer": "y=5",
+          "images": [],
+          "correction": "% Exo 12 On isole le terme en $y$. 3y &= 14 + 1 3y &= 15 y &= \\dfrac{15}{3} y &= 5 <strong>La solution est $\\mathbf{y=5}$.</strong>"
+        },
+        {
+          "id": "1.13.13",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre $5a + 12 = 2$.",
+          "questionType": "text",
+          "expectedAnswer": "a=2",
+          "images": [],
+          "correction": "% Exo 13 On isole le terme en $a$. 12 - 2 &= 5a 10 &= 5a a &= \\dfrac{10}{5} a &= 2 <strong>La solution est $\\mathbf{a=2}$.</strong>"
+        },
+        {
+          "id": "1.13.14",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre $10 - 2b = 4$.",
+          "questionType": "text",
+          "expectedAnswer": "b=3",
+          "images": [],
+          "correction": "% Exo 14 On isole le terme en $b$. 10 - 4 &= 2b 6 &= 2b b &= \\dfrac{6}{2} b &= 3 <strong>La solution est $\\mathbf{b=3}$.</strong>"
+        },
+        {
+          "id": "1.13.15",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre $\\dfrac{x}{4} = \\dfrac{5}{2}$.",
+          "questionType": "text",
+          "expectedAnswer": "x=10",
+          "images": [],
+          "correction": "% Exo 15 $4$ et $2$ sont non nuls, on peut utiliser l'égalité des produits en croix. x $\\times$ 2 &= 4 $\\times$ 5 2x &= 20 x &= \\dfrac{20}{2} x&= 10 <strong>La solution est $\\mathbf{x=10}$.</strong>"
+        },
+        {
+          "id": "1.13.16",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre $\\dfrac{7}{y} = \\dfrac{3}{5}$.",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{35}{3}",
+          "images": [],
+          "correction": "% Exo 16 $y$ est supposé non nul, on utilise l'égalité des produits en croix 7 $\\times$ 5 &= y $\\times$ 3 35 &= 3y y &= \\dfrac{35}{3} <strong>La solution est $\\mathbf{y=\\dfrac{35}{3}}$.</strong>"
+        },
+        {
+          "id": "1.13.17",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre $6x + 4 = 2x$.",
+          "questionType": "text",
+          "expectedAnswer": "x=-1",
+          "images": [],
+          "correction": "% Exo 17 On regroupe les termes en $x$. 4 &= 2x - 6x 4 &= -4x x &= \\dfrac{4}{-4} x &= -1 <strong>La solution est $\\mathbf{x=-1}$.</strong>"
+        },
+        {
+          "id": "1.13.18",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre $\\dfrac{z}{10} = \\dfrac{3,5}{5}$.",
+          "questionType": "text",
+          "expectedAnswer": "z=7",
+          "images": [],
+          "correction": "% Exo 18 $10$ et $5$ sont non nuls, on peut utiliser l'égalité des produits en croix. z $\\times$ 5 &= 10 $\\times$ 3,5 5z &= 35 z &= \\dfrac{35}{5} z &= 7 <strong>La solution est $\\mathbf{z=7}$.</strong>"
+        },
+        {
+          "id": "1.13.19",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre $\\dfrac{100}{a} = 25$.",
+          "questionType": "text",
+          "expectedAnswer": "a=4",
+          "images": [],
+          "correction": "% Exo 19 $a$ est supposé non nul et $25 = \\frac{25}{1}$, on peut donc utiliser l'égalité des produits en croix. 100 $\\times$ 1 &= a $\\times$ 25 100 &= 25a a &= \\dfrac{100}{25} = 4 <strong>La solution est $\\mathbf{a=4}$.</strong>"
+        },
+        {
+          "id": "1.13.20",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre $7 - b = 12$.",
+          "questionType": "text",
+          "expectedAnswer": "b=-5",
+          "images": [],
+          "correction": "% Exo 20 On isole le terme en $b$. 7 - 12 &= b -5 &= b <strong>La solution est $\\mathbf{b=-5}$.</strong>"
+        },
+        {
+          "id": "1.13.21",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Résoudre $7x + 3 = 4x + 15$.",
+          "questionType": "text",
+          "expectedAnswer": "x=4",
+          "images": [],
+          "correction": "% Exo 21 On regroupe les termes en $x$ à gauche et les constantes à droite. 7x - 4x &= 15 - 3 3x &= 12 x &= \\dfrac{12}{3} = 4 <strong>La solution est $\\mathbf{x=4}$.</strong>"
+        },
+        {
+          "id": "1.13.22",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Résoudre $5y - 2 = 8y + 10$.",
+          "questionType": "text",
+          "expectedAnswer": "y=-4",
+          "images": [],
+          "correction": "% Exo 22 On regroupe les termes en $y$ à droite et les constantes à gauche. -2 - 10 &= 8y - 5y -12 &= 3y y &= \\dfrac{-12}{3} y &= -4 <strong>La solution est $\\mathbf{y=-4}$.</strong>"
+        },
+        {
+          "id": "1.13.23",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Résoudre $\\dfrac{x+1}{3} = \\dfrac{4}{2}$.",
+          "questionType": "text",
+          "expectedAnswer": "x=5",
+          "images": [],
+          "correction": "% Exo 23 On peut simplifier $\\dfrac{4}{2} = 2$. L'équation devient $\\dfrac{x+1}{3} = 2$. On multiplie par 3 : x+1 &= 2 $\\times$ 3 x+1 &= 6 x &= 5 <strong>La solution est $\\mathbf{x=5}$.</strong>"
+        },
+        {
+          "id": "1.13.24",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Résoudre $\\dfrac{5}{2x} = \\dfrac{1}{3}$.",
+          "questionType": "text",
+          "expectedAnswer": "x=7,5",
+          "images": [],
+          "correction": "% Exo 24 $x$ est supposé non nul, on peut utiliser l'égalité des produits en croix. 5 $\\times$ 3 &= 2x $\\times$ 1 15 &= 2x x &= \\dfrac{15}{2} x &= 7,5 <strong>La solution est $\\mathbf{x=7,5}$.</strong>"
+        },
+        {
+          "id": "1.13.25",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Résoudre $3(z-2) = 12$.",
+          "questionType": "text",
+          "expectedAnswer": "z=6",
+          "images": [],
+          "correction": "% Exo 25 On divise les deux membres par 3 (ou on développe). z-2 &= \\dfrac{12}{3} z-2 &= 4 z &= 6 <strong>La solution est $\\mathbf{z=6}$.</strong>"
+        },
+        {
+          "id": "1.13.26",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Résoudre $\\dfrac{9}{b+1} = \\dfrac{3}{2}$.",
+          "questionType": "text",
+          "expectedAnswer": "b=5",
+          "images": [],
+          "correction": "% Exo 26 On suppose que $b-1$ est non nul, donc que $b \\neq 1$, on peut donc utiliser l'égalité des produits en croix. 9 $\\times$ 2 &= 3 $\\times$ (b+1) 18 &= 3b + 3 18 - 3 &= 3b 15 &= 3b b &= 5 <strong>La solution est $\\mathbf{b=5}$.</strong>"
+        },
+        {
+          "id": "1.13.27",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Résoudre $10a - 4 = 6a - 20$.",
+          "questionType": "text",
+          "expectedAnswer": "a=-4",
+          "images": [],
+          "correction": "% Exo 27 On regroupe les termes en $a$ à gauche et les constantes à droite. 10a - 6a &= -20 + 4 4a &= -16 a &= \\dfrac{-16}{4} = -4 <strong>La solution est $\\mathbf{a=-4}$.</strong>"
+        },
+        {
+          "id": "1.13.28",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "On considère le programme de calcul suivant: • [$\\bullet$] Choisir un nombre • [$\\bullet$] le tripler • [$\\bullet$] ajouter 5 au résultat obtenu On obtient 26. Quel était le nombre de départ ?",
+          "questionType": "text",
+          "expectedAnswer": "7",
+          "images": [],
+          "correction": "% Exo 28 Soit $x$ le nombre de départ. L'équation est $3x + 5 = 26$ car: • [$\\bullet$] Je choisis $x$ • [$\\bullet$] $3 \\times x = 3x$ • [$\\bullet$] $3x+5$ J'obtiens $3x+5$ quand j'entre le nombre $x$ dans le programme. Je cherche donc les $x$ tels que $3x+5=26$ 3x &= 26 - 5 3x &= 21 x &= \\dfrac{21}{3} = 7 <strong>Le nombre de départ était $\\mathbf{7}$.</strong>"
+        },
+        {
+          "id": "1.13.29",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Résoudre $\\dfrac{x}{100} = \\dfrac{15}{60}$.",
+          "questionType": "text",
+          "expectedAnswer": "x=25",
+          "images": [],
+          "correction": "% Exo 29 $100$ et $60$ sont non nuls, donc je peux utiliser l'égalité des produits en croix. x $\\times$ 60 &= 100 $\\times$ 15 60x &= 1500 x &= \\dfrac{1500}{60} = \\dfrac{150}{6} x&= 25 <strong>La solution est $\\mathbf{x=25}$.</strong>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "chapter": 99,
+    "title": "Démonstration Scratch",
+    "sections": [
+        {
+            "id": "demo.1",
+            "title": "Exemples de Scripts Scratch",
+            "courseReminder": "Les scripts Scratch permettent de créer des programmes visuels en empilant des blocs de code.",
+            "exercises": [
+                {
+                    "id": "demo.1.1",
+                    "difficulty": 1,
+                    "duration": "2 minutes",
+                    "question": "Compléter ce script pour dessiner un **carré** de côté 50 pixels.",
+                    "questionType": "text",
+                    "expectedAnswer": "4 et 90",
+                    "images": [],
+                    "scratchScript": "quand drapeau vert pressé\nstylo en position d'écriture\ns'orienter à (0)\nrépéter (...) fois\n    avancer de (50)\n    tourner droite de (...) degrés\nfin",
+                    "correction": "Pour dessiner un carré, il faut répéter 4 fois l'action d'avancer puis tourner. Un carré ayant 4 angles droits de 90°, on tourne de 90° à chaque fois. **Le script complet est donc :**",
+                    "correctionScratchScript": "quand drapeau vert pressé\nstylo en position d'écriture\ns'orienter à (0)\nrépéter (4) fois\n    avancer de (50)\n    tourner droite de (90) degrés\nfin"
+                },
+                {
+                    "id": "demo.1.2",
+                    "difficulty": 2,
+                    "duration": "2 minutes",
+                    "question": "On a l'algorithme ci-dessous. Quel est le résultat si on choisit le nombre **1** ?",
+                    "questionType": "numeric",
+                    "expectedAnswer": "9",
+                    "images": [],
+                    "scratchScript": "quand drapeau vert pressé\ndemander [Choisir un nombre] et attendre\nmettre [variable] à (réponse)\nmettre [resultat] à ((variable) * (8))\nmettre [resultat] à ((resultat) + (10))\nmettre [resultat] à ((resultat) / (2))\ndire (resultat)",
+                    "correction": "Si on choisit 1, l'algorithme effectue les calculs suivants :\n• $1 \\times 8 = 8$\n• $8 + 10 = 18$\n• $18 \\div 2 = 9$\n\n**Le résultat affiché est $\\mathbf{9}$.**"
+                },
+                {
+                    "id": "demo.1.3",
+                    "difficulty": 2,
+                    "duration": "3 minutes",
+                    "question": "Que dessine ce script Scratch ?",
+                    "questionType": "text",
+                    "expectedAnswer": "triangle équilatéral",
+                    "images": [],
+                    "scratchScript": "quand drapeau vert pressé\neffacer tout\nstylo en position d'écriture\nrépéter (3) fois\n    avancer de (100)\n    tourner droite de (120) degrés\nfin",
+                    "correction": "Le script répète 3 fois l'action d'avancer de 100 pixels et de tourner de 120°. La somme des angles extérieurs d'un triangle équilatéral est de 360°, donc chaque angle extérieur vaut 120° (car 360° ÷ 3 = 120°). **Ce script dessine donc un triangle équilatéral de côté 100 pixels.**"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,715 @@
+{
+  "id": "4",
+  "chapter": 4,
+  "title": "",
+  "sections": [
+    {
+      "id": "4.1",
+      "title": "Fonctions : Notions Générales et Proportionnalité",
+      "courseReminder": "Une <strong>fonction</strong> $f$ est un processus qui, à un nombre de départ $x$, associe un unique nombre d'arrivée, noté $f(x)$. • $x$ est appelé l'<strong>antécédent</strong>. • $f(x)$ est appelé l'<strong>image</strong> de $x$ par la fonction $f$. • Une situation de <strong>proportionnalité</strong> est modélisée par une <strong>fonction linéaire</strong> de la forme $f(x)=ax$. Sa représentation graphique est une droite qui passe par l'origine du repère. • Une <strong>fonction affine</strong> est de la forme $f(x)=ax+b$. Sa représentation graphique est une droite. • <strong>Pourcentages</strong> : • Appliquer une <strong>augmentation</strong> de $t\\%$ revient à multiplier par $\\left(1 + \\dfrac{t}{100}\\right)$. • Appliquer une <strong>diminution</strong> de $t\\%$ revient à multiplier par $\\left(1 - \\dfrac{t}{100}\\right)$.",
+      "exercises": [
+        {
+          "id": "4.1.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "L'achat de pommes à $2$€/kg est-il une situation de proportionnalité ?",
+          "questionType": "text",
+          "expectedAnswer": "Oui.ilsagitdunesituationdeproportionnalit.",
+          "images": [],
+          "correction": "Une situation de proportionnalité est une situation où l'on peut passer d'une grandeur à l'autre en multipliant toujours par le même nombre. Ici, le prix $P$ est toujours égal à la masse $m$ multipliée par $2$ ($P = 2m$). Si on achète $0$ kg, on paie $0$€. <strong>Oui, il s'agit d'une situation de proportionnalité.</strong>"
+        },
+        {
+          "id": "4.1.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Un article à $50$€ augmente de $10\\%$. Quel est son nouveau prix ?",
+          "questionType": "numeric",
+          "expectedAnswer": "55",
+          "images": [],
+          "correction": "Une augmentation de $10\\%$ revient à multiplier le prix initial par $\\left(1 + \\dfrac{10}{100}\\right) = 1,1$. 50 $\\times$ 1,1 = 55 <strong>Le nouveau prix est de $55$€.</strong>"
+        },
+        {
+          "id": "4.1.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Si $3$ stylos coûtent $4,50$€. Combien coûtent $5$ stylos ?",
+          "questionType": "text",
+          "expectedAnswer": "situationdeproportionnalit",
+          "images": [],
+          "correction": "C'est une situation de proportionnalité. On peut calculer le prix d'un stylo. • Prix d'un stylo : $4,50\\text{€} \\div 3 = 1,50\\text{€}$. • Prix de cinq stylos : $5 \\times 1,50\\text{€} = 7,50\\text{€}$. <strong>Cinq stylos coûtent $7,50$€.</strong>"
+        },
+        {
+          "id": "4.1.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Soit la fonction $f(x) = 3x - 7$. Calculer l'image de $-1$.",
+          "questionType": "numeric",
+          "expectedAnswer": "-10",
+          "images": [],
+          "correction": "Pour calculer l'image de $-1$, on remplace $x$ par $-1$ dans l'expression de la fonction. f(-1) &= 3 $\\times$ (-1) - 7 &= -3 - 7 &= -10 <strong>L'image de $-1$ par la fonction $f$ est $-10$.</strong>"
+        },
+        {
+          "id": "4.1.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Un article à $100$€ subit une réduction de $20\\%$. Quel est son nouveau prix ?",
+          "questionType": "numeric",
+          "expectedAnswer": "80",
+          "images": [],
+          "correction": "Une réduction de $20\\%$ revient à multiplier le prix initial par $\\left(1 - \\dfrac{20}{100}\\right) = 0,8$. 100 $\\times$ 0,8 = 80 <strong>Le nouveau prix est de $80$€.</strong>"
+        },
+        {
+          "id": "4.1.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "La fonction $g(x) = 5x$ est-elle une fonction linéaire ?",
+          "questionType": "text",
+          "expectedAnswer": "5",
+          "images": [],
+          "correction": "Une fonction linéaire est une fonction de la forme $f(x)=ax$. La fonction $g(x) = 5x$ correspond bien à cette forme, avec $a=5$. <strong>Oui, $g(x)$ est une fonction linéaire.</strong>"
+        },
+        {
+          "id": "4.1.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Soit la fonction $h(x) = -x+4$. Calculer $h(5)$.",
+          "questionType": "numeric",
+          "expectedAnswer": "-1",
+          "images": [],
+          "correction": "Pour calculer $h(5)$, on remplace $x$ par $5$ dans l'expression de la fonction. h(5) = -5 + 4 = -1 <strong>Le résultat est $h(5) = -1$.</strong>"
+        },
+        {
+          "id": "4.1.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "La fonction $k(x) = x^2$ est-elle une fonction affine ?",
+          "questionType": "text",
+          "expectedAnswer": "Non.cenestpasunefonctionaffine.",
+          "images": [],
+          "correction": "Une fonction affine est de la forme $f(x)=ax+b$. L'expression $k(x) = x^2$ contient un terme au carré, ce qui ne correspond pas à la forme d'une fonction affine. <strong>Non, ce n'est pas une fonction affine.</strong>"
+        },
+        {
+          "id": "4.1.9",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "La location d'une voiture coûte $30$€ par jour plus un forfait fixe de $50$€. Est-ce une situation de proportionnalité ?",
+          "questionType": "text",
+          "expectedAnswer": "Non.cenestpasunesituationdeproportionnalit.",
+          "images": [],
+          "correction": "Dans une situation de proportionnalité, si une quantité est nulle, l'autre l'est aussi. Ici, pour $0$ jour de location, le prix est de $50$€ (le forfait fixe), et non de $0$€. <strong>Non, ce n'est pas une situation de proportionnalité.</strong>"
+        },
+        {
+          "id": "4.1.10",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un prix passe de $80$€ à $88$€. Quel est le pourcentage d'augmentation ?",
+          "questionType": "numeric",
+          "expectedAnswer": "10",
+          "images": [],
+          "correction": "On utilise la formule du taux d'évolution. • Montant de l'augmentation : $88\\text{€} - 80\\text{€} = 8\\text{€}$. • Taux d'évolution : $\\dfrac{V_{f} - V_{i}}{V_{i}} = \\dfrac{8}{80} = 0,1$. • Pourcentage : $0,1 \\times 100 = 10\\%$. <strong>Le prix a augmenté de $10\\%$.</strong>"
+        },
+        {
+          "id": "4.1.11",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit la fonction $f(x) = 2x + 5$. Déterminer l'antécédent de $6$.",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{1}{2}",
+          "images": [],
+          "correction": "Déterminer l'antécédent de $6$ revient à chercher le nombre $x$ tel que $f(x) = 6$. On doit donc résoudre l'équation : 2x + 5 &= 6 2x &= 6 - 5 2x &= 1 x &= \\frac{1}{2} <strong>L'antécédent de $6$ est $\\dfrac{1}{2}$ (ou $0,5$).</strong>"
+        },
+        {
+          "id": "4.1.12",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un cycliste parcourt $36$ km en $3$h$20$. Sa vitesse moyenne est-elle de $11,25$ km/h ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "On calcule la vitesse avec la formule $v = \\dfrac{d}{t}$. Il faut d'abord convertir le temps en heures. • Conversion du temps : $3\\text{h}20\\text{min} = 3 + \\dfrac{20}{60} = 3 + \\dfrac{1}{3} = \\dfrac{10}{3}$ heures. • Calcul de la vitesse : $v = \\dfrac{36}{\\frac{10}{3}} = 36 \\times \\dfrac{3}{10} = \\dfrac{108}{10} = 10,8$ km/h. La vitesse est de $10,8$ km/h. <strong>L'affirmation est fausse.</strong>"
+        },
+        {
+          "id": "4.1.13",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Le graphique d'une fonction est une droite qui ne passe pas par l'origine. Quelle est la nature de cette fonction ?",
+          "questionType": "text",
+          "expectedAnswer": "Il s'agit d'une fonction affine (non linéaire)",
+          "images": [],
+          "correction": "La représentation graphique d'une fonction affine est une droite. Si cette droite ne passe pas par l'origine, la fonction n'est pas linéaire. <strong>Il s'agit d'une fonction affine (non linéaire).</strong>"
+        },
+        {
+          "id": "4.1.14",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit la fonction $g(x) = x^2 - 2$. Calculer l'image de $2$ et l'image de $-2$.",
+          "questionType": "numeric",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "On calcule les deux images en remplaçant $x$ par les valeurs données. • Image de $2$ : $g(2) = (2)^2 - 2 = 4 - 2 = 2$. • Image de $-2$ : $g(-2) = (-2)^2 - 2 = 4 - 2 = 2$. <strong>L'image de $2$ est $2$, et l'image de $-2$ est aussi $2$.</strong>"
+        },
+        {
+          "id": "4.1.15",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Une carte est à l'échelle $\\dfrac{1}{25000}$. Une distance de $4$ cm sur la carte représente quelle distance réelle en mètres ?",
+          "questionType": "text",
+          "expectedAnswer": "1000",
+          "images": [],
+          "correction": "Une échelle de $\\dfrac{1}{25000}$ signifie que $1$ cm sur la carte représente $25000$ cm dans la réalité. • Distance réelle en cm : $4 \\times 25000 = 100\\,000$ cm. • Conversion en mètres (on divise par $100$) : $100\\,000 \\div 100 = 1000$ m. <strong>La distance réelle est de $1000$ mètres.</strong>"
+        },
+        {
+          "id": "4.1.16",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un pull coûte $45$€. Son prix augmente de $20\\%$, puis baisse de $20\\%$. Quel est son prix final ?",
+          "questionType": "numeric",
+          "expectedAnswer": "43.20",
+          "images": [],
+          "correction": "On applique les coefficients multiplicateurs successifs. • Une augmentation de $20\\%$ revient à multiplier par $1,2$ : $45\\text{€} \\times 1,2 = 54\\text{€}$. • Une baisse de $20\\%$ sur le nouveau prix revient à multiplier par $0,8$ : $54\\text{€} \\times 0,8 = 43,20\\text{€}$. <strong>Le prix final est de $43,20$€.</strong>"
+        },
+        {
+          "id": "4.1.17",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Dans un cinéma, le tarif enfant est de $6,50$€ et le tarif adulte est de $8$€. Un groupe de $20$ personnes paie $142$€. Combien y a-t-il d'enfants dans le groupe ?",
+          "questionType": "numeric",
+          "expectedAnswer": "12",
+          "images": [],
+          "correction": "Soit $e$ le nombre d'enfants. Le nombre d'adultes est alors $20-e$. On peut poser l'équation du prix total. 6,50 $\\times$ e + 8 $\\times$ (20-e) &= 142 6,5e + 160 - 8e &= 142 -1,5e &= 142 - 160 -1,5e &= -18 e &= \\dfrac{-18}{-1,5} = 12 <strong>Il y a $12$ enfants dans le groupe.</strong>"
+        },
+        {
+          "id": "4.1.18",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Soit la fonction $f(x) = (x+2)^2 - x$. On affirme que $f(-4)$ est un nombre entier positif. L'affirmation est-elle vraie ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Pour vérifier l'affirmation, on calcule $f(-4)$. f(-4) &= ((-4)+2)^2 - (-4) f(-4) &= (-2)^2 + 4 f(-4) &= 4 + 4 f(-4)&= 8 Le résultat est $8$, qui est bien un nombre entier positif. <strong>L'affirmation est vraie.</strong>"
+        },
+        {
+          "id": "4.1.19",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "On considère la fonction affine $g$ telle que $g(2)=7$ et $g(5)=13$. Déterminer l'expression de $g(x)$.",
+          "questionType": "text",
+          "expectedAnswer": "2x+3",
+          "images": [],
+          "correction": "Une fonction affine est de la forme $g(x) = ax+b$. On doit trouver $a$ et $b$. • <strong>Calcul du coefficient directeur</strong> : a &= \\dfrac{g(5) - g(2)}{5 - 2} &= \\dfrac{13 - 7}{3} &= \\dfrac{6}{3} &= 2 L'expression est donc: $g(x) = 2x+b$. • <strong>Calcul de l'ordonnée à l'origine</strong> : On utilise une des valeurs connues, par exemple $g(2)=7$. 7 &= 2 $\\times$ (2) + b 7 &= 4 + b b &= 3 <strong>L'expression de la fonction est $g(x) = 2x+3$.</strong>"
+        },
+        {
+          "id": "4.1.20",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "La vitesse de la lumière est d'environ $3 \\times 10^5$ km/s. La distance Terre-Soleil est de $150$ millions de km. Combien de temps (en minutes et secondes) la lumière met-elle pour nous parvenir du Soleil ?",
+          "questionType": "text",
+          "expectedAnswer": "8min20s",
+          "images": [],
+          "correction": "On calcule le temps avec la formule $t = \\dfrac{d}{v}$. • On écrit les données en notation scientifique : $d = 150 \\times 10^6 = 1,5 \\times 10^8$ km. • On calcule le temps en secondes : t = \\dfrac{1,5 $\\times$ 10^8}{3 $\\times$ 10^5} = 0,5 $\\times$ 10^3 = 500 \\text{ s} • On convertit en minutes et secondes. $500$ divisé par $60$ donne $8$ (car $8 \\times 60 = 480$) avec un reste de $20$. <strong>La lumière met $8$ minutes et $20$ secondes.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "4.2",
+      "title": "Scratch",
+      "courseReminder": "Scratch est un langage de programmation visuel qui utilise des blocs d'instructions à assembler. Voici les blocs les plus courants à mémoriser pour les automatismes : \\begin{tabularx}{\\linewidth}{|l|X|} \\hline <strong>Bloc</strong> & <strong>Description</strong> \\hline<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-course-4-2-9b80d4bc.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>& Déclenche le script lorsque l'utilisateur clique sur le drapeau vert.<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-course-4-2-d0cb0616.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>& Fait avancer le lutin dans sa direction actuelle.<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-course-4-2-756c39d5.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>& Fait pivoter le lutin sur lui-même (ici, sens anti-horaire).<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-course-4-2-ef5aaebb.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>& Oriente le lutin dans une direction absolue ($90^\\circ$ = vers la droite).<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-course-4-2-52b5bbac.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>& Le lutin laissera une trace lors de ses déplacements.<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-course-4-2-f8946af7.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>& Efface tous les tracés de l'écran.<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-course-4-2-cdd0f3b8.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>& Exécute les instructions à l'intérieur de la boucle un nombre de fois défini.<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-course-4-2-33311554.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>& Attribue une valeur à une variable.<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-course-4-2-bea893b0.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>& Augmente la valeur d'une variable.<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-course-4-2-2e95061f.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>& Pose une question à l'utilisateur et stocke sa réponse dans le bloc \\ovalsensing{réponse}.<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-course-4-2-9e401ec1.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>& Exécute des instructions uniquement si une condition est vraie. \\hline \\end{tabularx}",
+      "exercises": [
+        {
+          "id": "4.2.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Un script contient le bloc suivant. De combien de pas le lutin avance-t-il ? \\begin{scratch}[print,fill blocks] \\blockmove{avancer de \\ovalnum{50} pas} \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "50",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le bloc<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-4-2-1-1392cef9.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>est une instruction qui demande au lutin de se déplacer. <strong>Le lutin avance de $50$ pas.</strong>",
+          "scratchConfig": {
+            "script": "avancer de (50) pas",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Quel bloc faut-il utiliser pour démarrer un programme en cliquant sur le drapeau vert ?",
+          "questionType": "text",
+          "expectedAnswer": "Quanddrapeauvertcliqu",
+          "images": [],
+          "correction": "Tous les scripts principaux dans Scratch commencent par un bloc \"chapeau\" de la catégorie \"Événements\". <strong>Il faut utiliser le bloc</strong><div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-4-2-2-9b80d4bc.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>."
+        },
+        {
+          "id": "4.2.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Pour dessiner un carré, de quel angle en degrés faut-il tourner à chaque coin ?",
+          "questionType": "text",
+          "expectedAnswer": "90",
+          "images": [],
+          "correction": "Un carré a quatre angles droits. Un angle droit mesure $90$ degrés. <strong>Il faut tourner de $90$ degrés.</strong>"
+        },
+        {
+          "id": "4.2.4",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Quelle est la valeur finale de \\ovalvariable{score ?} \\begin{scratch}[print,fill blocks] \\blockvariable{mettre \\ovalvariable{score} à \\ovalnum{10}} \\blockvariable{ajouter \\ovalnum{5} à \\ovalvariable{score}} \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "15",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "On suit l'évolution de la variable. • La variable \\ovalvariable{score} est initialisée à $10$. • On lui ajoute $5$. Le calcul est $10+5=15$. <strong>La valeur finale de \\ovalvariable{score</strong> est $15$.}",
+          "scratchConfig": {
+            "script": "mettre [score] à (10) ajouter (5) à [score]",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.5",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "De combien de degrés au total le lutin a-t-il tourné ? \\scalebox{0.9}{ \\begin{scratch}[print,fill blocks] \\blockrepeat{répéter \\ovalnum{3} fois}{ \\blockmove{tourner \\turnRight{} de \\ovalnum{120} degrés} } \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "360",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "La boucle exécute $3$ fois une rotation de $120$ degrés. Le total de la rotation est : 3 $\\times$ 120^\\circ = 360^\\circ Cela correspond à un tour complet. <strong>Le lutin a tourné de $360$ degrés au total.</strong>",
+          "scratchConfig": {
+            "script": "\\blockrepeat{répéter (3) fois}{ tourner \\turnRight{ de (120) degrés} }",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.6",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Si l'utilisateur saisit $5$, que vaut \\ovalvariable{x à la fin ?} \\scalebox{0.85}{ \\begin{scratch}[print,fill blocks] \\blocksensing{demander \\ovalnum{nombre} et attendre} \\blockvariable{mettre \\ovalvariable{x} à \\ovalsensing{réponse}} \\blockvariable{ajouter \\ovalnum{3} à \\ovalvariable{x}} \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "8",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "On exécute le script mentalement. • La réponse de l'utilisateur ($5$) est stockée. • La variable \\ovalvariable{x} prend la valeur $5$. • On ajoute $3$ à \\ovalvariable{x}. La variable vaut maintenant $5+3=8$. <strong>À la fin, \\ovalvariable{x</strong> vaut $8$.}",
+          "scratchConfig": {
+            "script": "demander (nombre) et attendre mettre [x] à <réponse> ajouter (3) à [x]",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.7",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Si la variable \\ovalvariable{x} vaut $101$, que se passe-t-il ? \\scalebox{0.85}{ \\begin{scratch}[print,fill blocks] \\blockif{si \\booloperator{\\ovalvariable{x} > \\ovalnum{100}} alors}{ \\blocklook{dire \\ovalnum{Bravo !}} } \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "Bravo",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le script teste si la valeur de \\ovalvariable{x} est strictement supérieure à $100$. Puisque $101 > 100$, la condition est vraie. Le script exécute donc le bloc qui est à l'intérieur. <strong>Le lutin dit \"Bravo !\".</strong>",
+          "scratchConfig": {
+            "script": "si <[x] > (100)> alors { dire (Bravo !) }",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.8",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Pour tracer un trait, faut-il utiliser le bloc \\textit{stylo en position d'écriture avant ou après le bloc \\textit{avancer} ?}",
+          "questionType": "text",
+          "expectedAnswer": "Quanddrapeauvertcliqu",
+          "images": [],
+          "correction": "Pour que le déplacement du lutin laisse une trace visible, il faut d'abord \"tremper le stylo dans l'encre\" avant de bouger. <strong>Il faut utiliser le bloc \\textit{stylo en position d'écriture</strong> avant.}"
+        },
+        {
+          "id": "4.2.9",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Quel est l'effet du bloc \\textit{effacer tout ?}",
+          "questionType": "text",
+          "expectedAnswer": "Ileffacetouslesdessinsdelcran.",
+          "images": [],
+          "correction": "Ce bloc fait partie de la catégorie \"Stylo\". Il sert à nettoyer la scène de tous les tracés qui ont pu être faits précédemment par les lutins. <strong>Il efface tous les dessins de l'écran.</strong>"
+        },
+        {
+          "id": "4.2.10",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "On veut tracer un triangle équilatéral. De quel angle faut-il tourner après chaque côté ?",
+          "questionType": "scratch_complete",
+          "expectedAnswer": "120",
+          "images": [],
+          "correction": "Pour dessiner un polygone régulier à $n$ côtés, l'angle de rotation à chaque sommet est de $360 \\div n$. Un triangle équilatéral a $3$ côtés. 360 $\\div$ 3 = 120 <strong>Il faut tourner de $120$ degrés.</strong>",
+          "scratchConfig": {
+            "script": "s'orienter à ___ degrés\\navancer de 50 pas",
+            "gaps": [
+              {
+                "id": "angle",
+                "placeholder": "___",
+                "expected": "0"
+              }
+            ],
+            "options": [
+              {
+                "value": "0",
+                "display": "0"
+              },
+              {
+                "value": "90",
+                "display": "90"
+              },
+              {
+                "value": "180",
+                "display": "180"
+              },
+              {
+                "value": "-90",
+                "display": "-90"
+              }
+            ]
+          }
+        },
+        {
+          "id": "4.2.11",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Quelle figure est dessinée par ce script ? \\scalebox{0.8}{ \\begin{scratch}[print,fill blocks] \\blockrepeat{répéter \\ovalnum{2} fois}{ \\blockmove{avancer de \\ovalnum{50}} \\blockmove{tourner \\turnRight{} de \\ovalnum{90} degrés} \\blockmove{avancer de \\ovalnum{30}} \\blockmove{tourner \\turnRight{} de \\ovalnum{90} degrés} } \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "rectangle",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "La boucle est répétée $2$ fois. La séquence d'instructions est \"avancer $50$, tourner $90$, avancer $30$, tourner $90$\". Le lutin trace un premier côté de $50$, tourne à angle droit, trace un côté de $30$, tourne à angle droit, puis recommence. <strong>Le script trace un rectangle de $50$ pas de longueur sur $30$ pas de largeur.</strong>",
+          "scratchConfig": {
+            "script": "\\blockrepeat{répéter (2) fois}{ avancer de (50) tourner \\turnRight{ de (90) degrés} avancer de (30) tourner \\turnRight{ de (90) degrés} }",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.12",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Quelle expression correspond à ce script, si \\ovalvariable{x est la réponse donnée ?} \\scalebox{0.85}{ \\begin{scratch}[print,fill blocks] \\blockvariable{mettre \\ovalvariable{résultat} à \\ovaloperator{\\ovalvariable{x} * \\ovalnum{5} - \\ovalnum{2}}} \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "5x-2",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le script prend une valeur initiale, la multiplie par $5$, puis soustrait $2$ au résultat. <strong>L'expression correspondante est $5x - 2$.</strong>",
+          "scratchConfig": {
+            "script": "mettre [résultat] à ([x] * (5) - (2))",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.13",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Compléter le script pour tracer un segment vertical de $50$ pas vers le haut. \\begin{scratch}[print,fill blocks] \\blockmove{s'orienter à \\ovalnum{...}} \\blockmove{avancer de \\ovalnum{50}} \\end{scratch}",
+          "questionType": "scratch_complete",
+          "expectedAnswer": "0",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Dans Scratch, l'orientation $0^\\circ$ correspond à la direction \"vers le haut\". Pour tracer un segment vertical vers le haut, il faut donc s'orienter dans cette direction. <strong>Il faut compléter avec \\ovalnum{0</strong>.}",
+          "scratchConfig": {
+            "script": "s'orienter à (...) avancer de (50)",
+            "gaps": [
+              {
+                "id": "gap0",
+                "placeholder": "___",
+                "expected": "0"
+              }
+            ],
+            "options": [
+              {
+                "value": "0",
+                "display": "0"
+              },
+              {
+                "value": "1",
+                "display": "1"
+              },
+              {
+                "value": "5",
+                "display": "5"
+              },
+              {
+                "value": "10",
+                "display": "10"
+              }
+            ]
+          }
+        },
+        {
+          "id": "4.2.14",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Quelle est la valeur finale de \\ovalvariable{x ?} \\scalebox{0.9}{ \\begin{scratch}[print,fill blocks] \\blockvariable{mettre \\ovalvariable{x} à \\ovalnum{10}} \\blockrepeat{répéter \\ovalnum{3} fois}{ \\blockvariable{ajouter \\ovalnum{2} à \\ovalvariable{x}} } \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "16",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "La variable \\ovalvariable{x} est initialisée à $10$. La boucle \"ajouter $2$\" est exécutée $3$ fois. \\bullet \\, 1er tour : \\ovalvariable{x} $= 10 + 2 = 12$. \\bullet \\, 2ème tour : \\ovalvariable{x} $= 12 + 2 = 14$. \\bullet \\, 3ème tour : \\ovalvariable{x} $= 14 + 2 = 16$. <strong>La valeur finale de \\ovalvariable{x</strong> est $16$.}",
+          "scratchConfig": {
+            "script": "mettre [x] à (10) \\blockrepeat{répéter (3) fois}{ ajouter (2) à [x] }",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.15",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Programme : \"Choisir $x$, calculer $(x+4)(x-4)$\". Quel résultat pour $x=5$ ?",
+          "questionType": "numeric",
+          "expectedAnswer": "9",
+          "images": [],
+          "correction": "On remplace $x$ par $5$ dans l'expression. On peut reconnaître une identité remarquable. (5+4)(5-4) = 9 $\\times$ 1 = 9 <strong>Le résultat est $9$.</strong>"
+        },
+        {
+          "id": "4.2.16",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Que dit le lutin si \\ovalvariable{score vaut $10$ ?} \\scalebox{0.75}{ \\begin{scratch}[print,fill blocks] \\blockifelse{si \\booloperator{\\ovalvariable{score} > \\ovalnum{10}} alors}{ \\blocklook{dire \\ovalnum{Gagné}} }{ \\blocklook{dire \\ovalnum{Perdu}} } \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "Perdu",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le script teste si la valeur de \\ovalvariable{score} est \\textit{strictement} supérieure à $10$. Comme $10$ n'est pas strictement supérieur à $10$, la condition est fausse. Le script exécute donc la partie `sinon`. <strong>Le lutin dit \"Perdu\".</strong>",
+          "scratchConfig": {
+            "script": "si <[score] > (10)> alors { dire (Gagné) } sinon { dire (Perdu) }",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.17",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Compléter pour dessiner un hexagone régulier de côté $50$. \\scalebox{0.85}{ \\begin{scratch}[print,fill blocks] \\blockrepeat{répéter \\ovalnum{...} fois}{ \\blockmove{avancer de \\ovalnum{50}} \\blockmove{tourner \\turnRight{} de \\ovalnum{...} degrés} } \\end{scratch} }",
+          "questionType": "scratch_complete",
+          "expectedAnswer": "6",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Un hexagone régulier a $6$ côtés. La boucle doit donc être répétée $6$ fois. L'angle de rotation est $360 \\div 6 = 60$ degrés. <strong>Il faut compléter avec \\ovalnum{6</strong> et \\ovalnum{60}.}",
+          "scratchConfig": {
+            "script": "\\blockrepeat{répéter (...) fois}{ avancer de (50) tourner \\turnRight{ de (...) degrés} }",
+            "gaps": [
+              {
+                "id": "gap0",
+                "placeholder": "___",
+                "expected": "6"
+              }
+            ],
+            "options": [
+              {
+                "value": "6",
+                "display": "6"
+              },
+              {
+                "value": "7",
+                "display": "7"
+              },
+              {
+                "value": "12",
+                "display": "12"
+              },
+              {
+                "value": "5",
+                "display": "5"
+              }
+            ]
+          }
+        },
+        {
+          "id": "4.2.18",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Quelle est la valeur finale de \\ovalvariable{x ?} \\begin{scratch}[print,fill blocks] \\blockvariable{mettre \\ovalvariable{x} à \\ovalnum{5}} \\blockvariable{mettre \\ovalvariable{y} à \\ovalnum{2}} \\blockvariable{mettre \\ovalvariable{x} à \\ovalvariable{y}} \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "2",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "• La variable \\ovalvariable{x} est mise à $5$. • La variable \\ovalvariable{y} est mise à $2$. • La variable \\ovalvariable{x} prend la valeur actuelle de \\ovalvariable{y}, qui est $2$. <strong>La valeur finale de \\ovalvariable{x</strong> est $2$.}",
+          "scratchConfig": {
+            "script": "mettre [x] à (5) mettre [y] à (2) mettre [x] à [y]",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.19",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Un script trace un carré de côté $100$. On divise par $2$ la valeur du bloc \\textit{avancer. Qu'obtient-on ?}",
+          "questionType": "text",
+          "expectedAnswer": "carré",
+          "images": [],
+          "correction": "Le script original traçait un carré de côté $100$. En divisant la longueur par $2$, les angles de rotation ($90^\\circ$) restent les mêmes. La figure conserve sa forme. <strong>On obtient un carré plus petit, de côté $50$.</strong>"
+        },
+        {
+          "id": "4.2.20",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Programme : \"Si le nombre est pair, ajouter $1$. Sinon, le multiplier par $2$.\" Quel résultat pour $6$ ? Et pour $7$ ?",
+          "questionType": "text",
+          "expectedAnswer": "7",
+          "images": [],
+          "correction": "On teste les deux cas. \\bullet \\,Pour $6$ (qui est pair) : on applique \"ajouter $1$\". Le résultat est $6+1=7$. \\bullet \\, Pour $7$ (qui est impair) : on applique \"le multiplier par $2$\". Le résultat est $7 \\times 2=14$. <strong>Le résultat est $7$ pour le nombre $6$, et $14$ pour le nombre $7$.</strong>"
+        },
+        {
+          "id": "4.2.21",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Quelle figure est obtenue par ce script ? (A: triangle équilatéral, B: trois côtés d'un hexagone, C: un \"Z\") \\scalebox{0.85}{ \\begin{scratch}[print,fill blocks] \\blockpen{stylo en position d'écriture} \\blockrepeat{répéter \\ovalnum{3} fois}{ \\blockmove{avancer de \\ovalnum{50}} \\blockmove{tourner \\turnRight{} de \\ovalnum{120} degrés} } \\blockmove{avancer de \\ovalnum{50}} \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "A",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "La boucle `répéter 3 fois` dessine un triangle équilatéral. Une fois le triangle fermé, le lutin est revenu à son point de départ. La dernière instruction<div class=\"scratch-correction\"><img src=\"assets/images/scratch-fix-4-2-21-816f41c0.png\" alt=\"Script Scratch\" style=\"max-width: 100%; height: auto; margin: 10px 0;\"></div>trace un segment supplémentaire partant d'un des sommets du triangle. <strong>La figure ressemble à un \"Z\" avec des angles de $120^\\circ$ (réponse B la plus proche).</strong>",
+          "scratchConfig": {
+            "script": "stylo en position d'écriture \\blockrepeat{répéter (3) fois}{ avancer de (50) tourner \\turnRight{ de (120) degrés} } avancer de (50)",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.22",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Pour quelle(s) valeur(s) de \\ovalsensing{réponse le \\ovalvariable{Résultat} sera-t-il $0$ ?} \\scalebox{0.85}{ \\begin{scratch}[print,fill blocks] \\blockvariable{mettre \\ovalvariable{Résultat} à \\ovaloperator{(\\ovalsensing{réponse} + \\ovalnum{2}) * (\\ovalsensing{réponse} - \\ovalnum{1})}} \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "-2 et 1",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "On cherche les valeurs de la \\ovalsensing{réponse} qui annulent le produit. Un produit de facteurs est nul si et seulement si l'un de ses facteurs est nul. • Soit \\ovalsensing{réponse} $+ 2 = 0$, ce qui donne \\ovalsensing{réponse} $= -2$. • Soit \\ovalsensing{réponse} $- 1 = 0$, ce qui donne \\ovalsensing{réponse} $= 1$. <strong>Le résultat sera $0$ si la réponse est $-2$ ou $1$.</strong>",
+          "scratchConfig": {
+            "script": "mettre [Résultat] à ((<réponse> + (2)) * (<réponse> - (1)))",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.23",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Le bloc `Motif` dessine un carré de côté $50$. Dessiner la figure obtenue. \\scalebox{0.9}{ \\begin{scratch}[print,fill blocks] \\blockrepeat{répéter \\ovalnum{4} fois}{ \\blockmoreblocks{Motif} \\blockmove{avancer de \\ovalnum{50}} } \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "4 carrés",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le script répète $4$ fois : \"dessiner un carré de côté $50$\" puis \"avancer de $50$\". Le lutin dessine un carré, puis se déplace le long d'un de ses côtés pour se positionner pour le carré suivant. <strong>La figure obtenue est une bande de quatre carrés identiques, alignés et se touchant.</strong>",
+          "scratchConfig": {
+            "script": "\\blockrepeat{répéter (4) fois}{ Motif avancer de (50) }",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.24",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Compléter pour que le script calcule le carré du nombre demandé. \\scalebox{0.85}{ \\begin{scratch}[print,fill blocks] \\blocksensing{demander \\ovalnum{un nombre} et attendre} \\blockvariable{mettre \\ovalvariable{résultat} à \\ovaloperator{\\ovalsensing{réponse} * \\ovalnum{\\dots}}} \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "réponse",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Pour calculer le carré d'un nombre, il faut multiplier ce nombre par lui-même. La valeur saisie par l'utilisateur est stockée dans \\ovalsensing{réponse}. <strong>Il faut compléter le champ vide avec le bloc \\ovalsensing{réponse</strong>.}",
+          "scratchConfig": {
+            "script": "demander (un nombre) et attendre mettre [résultat] à (<réponse> * (\\dots))",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.25",
+          "difficulty": 3,
+          "duration": "4 minutes",
+          "question": "Quelle est la valeur finale de \\ovalvariable{prix ?} \\scalebox{0.85}{ \\begin{scratch}[print,fill blocks] \\blockvariable{mettre \\ovalvariable{prix} à \\ovalnum{100}} \\blockif{si \\booloperator{\\ovalvariable{prix} > \\ovalnum{50}} alors}{ \\blockvariable{mettre \\ovalvariable{prix} à \\ovaloperator{\\ovalvariable{prix} * \\ovalnum{0.8}}} } \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "80",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "• La variable \\ovalvariable{prix} est initialisée à $100$. • Le script vérifie si \\ovalvariable{prix} $> 50$. La condition $100 > 50$ est vraie. • Le script exécute donc l'instruction à l'intérieur du \"si\". \\ovalvariable{prix} prend la nouvelle valeur $100 \\times 0,8 = 80$. <strong>La valeur finale de \\ovalvariable{prix</strong> est $80$.}",
+          "scratchConfig": {
+            "script": "mettre [prix] à (100) si <[prix] > (50)> alors { mettre [prix] à ([prix] * (0.8)) }",
+            "display_only": true
+          }
+        },
+        {
+          "id": "4.2.26",
+          "difficulty": 3,
+          "duration": "4 minutes",
+          "question": "Compléter le script pour tracer une croix composée de $4$ segments. \\scalebox{0.85}{ \\begin{scratch}[print,fill blocks] \\blockrepeat{répéter \\ovalnum{4} fois}{ \\blockmove{avancer de \\ovalnum{50}} \\blockmove{avancer de \\ovalnum{-50}} \\blockmove{tourner \\turnRight{} de \\ovalnum{...} degrés} } \\end{scratch} }",
+          "questionType": "scratch_complete",
+          "expectedAnswer": "90",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Pour dessiner $4$ branches formant une croix régulière, le lutin doit tourner d'un quart de tour entre chaque branche. Un tour complet fait $360^\\circ$. 360 $\\div$ 4 = 90 <strong>Il faut compléter avec la valeur \\ovalnum{90</strong>.}",
+          "scratchConfig": {
+            "script": "\\blockrepeat{répéter (4) fois}{ avancer de (50) avancer de (-50) tourner \\turnRight{ de (...) degrés} }",
+            "gaps": [
+              {
+                "id": "gap0",
+                "placeholder": "___",
+                "expected": "90"
+              }
+            ],
+            "options": [
+              {
+                "value": "60",
+                "display": "60"
+              },
+              {
+                "value": "90",
+                "display": "90"
+              },
+              {
+                "value": "120",
+                "display": "120"
+              },
+              {
+                "value": "180",
+                "display": "180"
+              }
+            ]
+          }
+        },
+        {
+          "id": "4.2.27",
+          "difficulty": 3,
+          "duration": "4 minutes",
+          "question": "Montrer que le programme de calcul $(x+3)\\times 2 - 2x$ donne toujours le même résultat.",
+          "questionType": "text",
+          "expectedAnswer": "Lersultatesttoujours6.quellequesoitlavaleurdexaudpart.",
+          "images": [],
+          "correction": "Soit $x$ le nombre de départ. On traduit le programme en expression littérale, puis on la simplifie en développant. (x+3)$\\times$ 2 - 2x &= (2x + 6) - 2x &= (2x - 2x) + 6 &= 6 Le terme en $x$ s'annule. <strong>Le résultat est toujours $6$, quelle que soit la valeur de $x$ au départ.</strong>"
+        },
+        {
+          "id": "4.2.28",
+          "difficulty": 3,
+          "duration": "4 minutes",
+          "question": "Ce script est-il correct pour dessiner un losange ayant un angle de $60^\\circ$ ? \\scalebox{0.8}{ \\begin{scratch}[print,fill blocks] \\blockrepeat{répéter \\ovalnum{2} fois}{ \\blockmove{avancer de \\ovalnum{50}} \\blockmove{tourner \\turnRight{} de \\ovalnum{60} degrés} \\blockmove{avancer de \\ovalnum{50}} \\blockmove{tourner \\turnRight{} de \\ovalnum{120} degrés} } \\end{scratch} }",
+          "questionType": "scratch_view",
+          "expectedAnswer": "losange",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Oui, ce script dessine un losange. Un losange est un parallélogramme avec quatre côtés de même longueur. Le script répète deux fois une séquence qui trace deux côtés de longueur $50$. Les quatre côtés sont donc égaux. Les angles intérieurs seront $180^\\circ - 60^\\circ = 120^\\circ$ et $180^\\circ - 120^\\circ = 60^\\circ$. <strong>Oui, le script dessine un losange dont les angles sont de $60^\\circ$ et $120^\\circ$.</strong>",
+          "scratchConfig": {
+            "script": "\\blockrepeat{répéter (2) fois}{ avancer de (50) tourner \\turnRight{ de (60) degrés} avancer de (50) tourner \\turnRight{ de (120) degrés} }",
+            "display_only": true
+          }
+        }
+      ]
+    }
+  ]
+}

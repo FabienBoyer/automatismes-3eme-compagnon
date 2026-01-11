@@ -1,0 +1,740 @@
+{
+  "id": "3",
+  "chapter": 3,
+  "title": "",
+  "sections": [
+    {
+      "id": "3.1",
+      "title": "Probabilités",
+      "courseReminder": "Une <strong>probabilité</strong> mesure la \"chance\" qu'un événement se produise. Dans une situation où chaque issue a la même chance de se réaliser (on parle d'équiprobabilité), on la calcule avec la formule : $$ P(\\text{événement}) = \\dfrac{\\text{Nombre de cas favorables}}{\\text{Nombre de cas possibles}} $$\n\\begin{itemize}\n    \\item Une probabilité est toujours un nombre compris entre \\textbf{$0$} (événement impossible) et \\textbf{$1$} (événement certain).\n    \\item La somme des probabilités de toutes les issues est égale à $1$.\n    \\item L'événement contraire d'un événement A, noté $\\overline{A}$, a une probabilité de $P(\\overline{A}) = 1 - P(A)$.",
+      "exercises": [
+        {
+          "id": "3.1.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "On lance un dé à $6$ faces non truqué. Quelle est la probabilité d'obtenir un $5$ ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{1}{6}",
+          "images": [],
+          "correction": "Pour calculer la probabilité, on identifie le nombre de cas possibles et le nombre de cas favorables. • <strong>Cas possibles :</strong> Le dé a $6$ faces, numérotées de $1$ à $6$. Il y a donc $6$ issues possibles. • <strong>Cas favorables :</strong> L'événement \"obtenir un $5$\" ne correspond qu'à une seule face du dé. Il y a donc $1$ cas favorable. On applique ensuite la formule de la probabilité : $$ P(\\text{obtenir un 5}) = \\dfrac{1}{6} $$\n    \\medskip\\noindent\\textbf{La probabilité d'obtenir $5$ est $\\mathbf{\\dfrac{1}{6}}$.}"
+        },
+        {
+          "id": "3.1.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "On lance une pièce de monnaie équilibrée. Quelle est la probabilité d'obtenir \"Pile\" ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{1}{2}",
+          "images": [],
+          "correction": "On identifie le nombre de cas possibles et de cas favorables. • <strong>Cas possibles :</strong> Une pièce de monnaie a $2$ faces : \"Pile\" et \"Face\". Il y a donc $2$ issues possibles. • <strong>Cas favorables :</strong> L'événement \"obtenir Pile\" correspond à $1$ seule de ces faces. On applique la formule : $$ P(\\text{obtenir Pile}) = \\dfrac{1}{2} $$\n    \\medskip\\noindent\\textbf{La probabilité d'obtenir \"Pile\" est de $\\mathbf{\\dfrac{1}{2}}$.}"
+        },
+        {
+          "id": "3.1.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Une urne contient $3$ boules rouges et $2$ boules noires. On tire une boule au hasard. Quelle est la probabilité de tirer une boule rouge ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{3}{5}",
+          "images": [],
+          "correction": "D'abord, on détermine le nombre total d'issues possibles. • <strong>Cas possibles :</strong> Le nombre total de boules dans l'urne est $3 + 2 = 5$. Il y a donc $5$ issues possibles. • <strong>Cas favorables :</strong> L'événement \"tirer une boule rouge\" correspond aux $3$ boules rouges. Il y a $3$ cas favorables. La probabilité est donc : $$ P(\\text{tirer une rouge}) = \\dfrac{3}{5} $$\n    \\medskip\\noindent\\textbf{La probabilité de tirer une boule rouge est de $\\mathbf{\\dfrac{3}{5}}$.}"
+        },
+        {
+          "id": "3.1.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "On tire une carte au hasard dans un jeu de $32$ cartes. Quelle est la probabilité de tirer le roi de cœur ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{1}{32}",
+          "images": [],
+          "correction": "On identifie les cas possibles et favorables dans un jeu de $32$ cartes. • <strong>Cas possibles :</strong> Le jeu contient $32$ cartes. Il y a donc $32$ issues possibles. • <strong>Cas favorables :</strong> Il n'existe qu'une seule carte qui soit le roi de cœur dans le jeu. Il y a donc $1$ cas favorable. La probabilité est : $$ P(\\text{tirer le roi de cœur}) = \\dfrac{1}{32} $$\n    \\medskip\\noindent\\textbf{La probabilité de tirer le roi de cœur est de $\\mathbf{\\dfrac{1}{32}}$.}"
+        },
+        {
+          "id": "3.1.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "On lance un dé à $6$ faces. Quelle est la probabilité d'obtenir un $7$ ?",
+          "questionType": "text",
+          "expectedAnswer": "0",
+          "images": [],
+          "correction": "Un dé à $6$ faces est numéroté de $1$ à $6$. Il est donc impossible d'obtenir un $7$ en le lançant. Cet événement est un <strong>événement impossible</strong>. <strong>La probabilité d'obtenir $7$ est $\\mathbf{0}$.</strong>"
+        },
+        {
+          "id": "3.1.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Une roue de loterie est divisée en $8$ secteurs identiques, numérotés de $1$ à $8$. Quelle est la probabilité de tomber sur le secteur $3$ ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{1}{8}",
+          "images": [],
+          "correction": "La situation est équiprobable car les secteurs sont identiques. • <strong>Cas possibles :</strong> La roue a $8$ secteurs. Il y a $8$ issues possibles. • <strong>Cas favorables :</strong> Un seul secteur porte le numéro $3$. Il y a $1$ cas favorable. La probabilité est donc : $$ P(\\text{tomber sur 3}) = \\dfrac{1}{8} $$\n    \\medskip\\noindent\\textbf{La probabilité de tomber sur le secteur $3$ est de $\\mathbf{\\dfrac{1}{8}}$.}"
+        },
+        {
+          "id": "3.1.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "On tire une lettre au hasard dans le mot \"AUTOMATISMES\". Quelle est la probabilité de tirer la lettre \"A\" ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{1}{6}",
+          "images": [],
+          "correction": "On compte le nombre total de lettres, puis le nombre de lettres \"A\". <strong>1. Cas possibles :</strong> Le mot \"AUTOMATISMES\" est composé de $12$ lettres. Il y a $12$ issues possibles. <strong>2. Cas favorables :</strong> La lettre \"A\" apparaît $2$ fois dans ce mot. Il y a $2$ cas favorables. $$ P(\\text{tirer un \"A\"}) = \\dfrac{2}{12} = \\dfrac{1}{6} $$\n    \\medskip\\noindent\\textbf{La probabilité de tirer \"A\" est de $\\mathbf{\\dfrac{1}{6}}$.}"
+        },
+        {
+          "id": "3.1.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Dans une classe de $25$ élèves, il y a $10$ filles. On choisit un élève au hasard. Quelle est la probabilité que ce soit une fille ?",
+          "questionType": "text",
+          "expectedAnswer": "$ P(\\text{choisir une fille}) = \\dfrac{10}{25}  = \\dfrac{2}{5}",
+          "images": [],
+          "correction": "On applique la formule des probabilités à la situation. • <strong>Cas possibles :</strong> Il y a $25$ élèves au total. • <strong>Cas favorables :</strong> Il y a $10$ filles dans la classe. On calcule la probabilité et on simplifie : $$ P(\\text{choisir une fille}) = \\dfrac{10}{25}  = \\dfrac{2}{5} $$\n    \\medskip\\noindent\\textbf{La probabilité de choisir une fille est $\\mathbf{\\dfrac{2}{5}}$.}"
+        },
+        {
+          "id": "3.1.9",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "On lance un dé à $6$ faces. Quelle est la probabilité d'obtenir un nombre inférieur à $7$ ?",
+          "questionType": "text",
+          "expectedAnswer": "1",
+          "images": [],
+          "correction": "Les faces d'un dé classique sont numérotées $1, 2, 3, 4, 5, 6$. Tous ces nombres sont inférieurs à $7$. L'événement \"obtenir un nombre inférieur à $7$\" se réalisera donc à chaque lancer. C'est un <strong>événement certain</strong>. <strong>La probabilité d'obtenir un nombre inférieur à $7$ est de $\\mathbf{1}$.</strong>"
+        },
+        {
+          "id": "3.1.10",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "La météo annonce $3$ chances sur $5$ d'avoir de la pluie. Quelle est la probabilité qu'il pleuve ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{3}{5}",
+          "images": [],
+          "correction": "L'expression \"$X$ chances sur $Y$\" est une manière courante d'exprimer une probabilité. Cela se traduit directement par la fraction $\\dfrac{X}{Y}$. Ici, \"$3$ chances sur $5$\" signifie que la probabilité est de $\\dfrac{3}{5}$. <strong>La probabilité qu'il pleuve est de $\\mathbf{\\dfrac{3}{5}}$.</strong>"
+        },
+        {
+          "id": "3.1.11",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "On lance un dé à $6$ faces. Quelle est la probabilité d'obtenir un nombre pair ?",
+          "questionType": "text",
+          "expectedAnswer": "pair",
+          "images": [],
+          "correction": "On identifie les cas possibles et les cas favorables. • <strong>Cas possibles :</strong> Il y a $6$ faces, donc $6$ issues possibles. • <strong>Cas favorables :</strong> Les faces portant un nombre pair sont $2, 4$ et $6$. Il y a donc $3$ cas favorables. On calcule la probabilité et on la simplifie : $$ P(\\text{obtenir un nombre pair}) = \\dfrac{3}{6} = \\dfrac{1}{2} $$\n    \\medskip\\noindent\\textbf{La probabilité d'obtenir un nombre pair est de $\\mathbf{\\dfrac{1}{2}}$.}"
+        },
+        {
+          "id": "3.1.12",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "On tire une carte dans un jeu de $32$ cartes. Quelle est la probabilité de tirer un roi ?",
+          "questionType": "text",
+          "expectedAnswer": "$ P(\\text{tirer un roi}) = \\dfrac{4}{32} = \\dfrac{4}{4 \\times 8} = \\dfrac{1}{8}",
+          "images": [],
+          "correction": "On analyse la composition d'un jeu de $32$ cartes. • <strong>Cas possibles :</strong> Il y a $32$ cartes au total. • <strong>Cas favorables :</strong> Un jeu de $32$ cartes contient $4$ rois (cœur, pique, carreau, trèfle). Il y a donc $4$ cas favorables. On calcule et simplifie la probabilité : $$ P(\\text{tirer un roi}) = \\dfrac{4}{32} = \\dfrac{4}{4 \\times 8} = \\dfrac{1}{8} $$\n    \\medskip\\noindent\\textbf{La probabilité de tirer un roi est de $\\mathbf{\\dfrac{1}{8}}$.}"
+        },
+        {
+          "id": "3.1.13",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Une urne contient $5$ boules vertes, $3$ rouges et $2$ bleues. Quelle est la probabilité de ne pas tirer une boule verte ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{1}{2}",
+          "images": [],
+          "correction": "On peut résoudre ce problème de deux manières. <strong>Méthode 1 : Calcul direct</strong> • <strong>Cas possibles :</strong> Le nombre total de boules est $5 + 3 + 2 = 10$. • <strong>Cas favorables :</strong> Les boules qui ne sont pas vertes sont les rouges et les bleues. Leur nombre est $3 + 2 = 5$. $ P(\\text{ne pas tirer une verte}) = \\dfrac{5}{10} = \\dfrac{1}{2} $ <strong>Méthode 2 : Utiliser l'événement contraire</strong> L'événement contraire de \"ne pas tirer une verte\" est \"tirer une verte\". La probabilité de tirer une verte est $P(\\text{Verte}) = \\dfrac{5}{10} = \\dfrac{1}{2}$. La probabilité de l'événement contraire est $1 - P(\\text{Verte})$. $ P(\\text{ne pas tirer une verte}) = 1 - \\dfrac{1}{2} = \\dfrac{1}{2} $ <strong>La probabilité de ne pas tirer une boule verte est de $\\mathbf{\\dfrac{1}{2}}$.</strong>"
+        },
+        {
+          "id": "3.1.14",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "On lance un dé à $6$ faces. Quelle est la probabilité d'obtenir un multiple de $3$ ?",
+          "questionType": "text",
+          "expectedAnswer": "$ P(\\text{obtenir un multiple de 3}) = \\dfrac{2}{6} = \\dfrac{1}{3}",
+          "images": [],
+          "correction": "On identifie les multiples de $3$ parmi les faces du dé ce sont $3$ et $6$. Il y a donc $2$ cas favorables. On calcule et simplifie la probabilité : $$ P(\\text{obtenir un multiple de 3}) = \\dfrac{2}{6} = \\dfrac{1}{3} $$\n    \\medskip\\noindent\\textbf{La probabilité d'obtenir un multiple de $3$ est de $\\mathbf{\\dfrac{1}{3}}$.}"
+        },
+        {
+          "id": "3.1.15",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "On tire une lettre au hasard dans le mot \"MATHEMATIQUES\". Quelle est la probabilité de tirer une consonne ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{7}{12}",
+          "images": [],
+          "correction": "On compte le nombre de lettres et le nombre de consonnes. • <strong>Cas possibles :</strong> Le mot \"MATHEMATIQUES\" contient $12$ lettres. • <strong>Cas favorables :</strong> Les consonnes sont M, T, H, M, T, Q, S. Il y en a $7$. La probabilité est donc : $$ P(\\text{tirer une consonne}) = \\dfrac{7}{12} $$\n    \\medskip\\noindent\\textbf{La probabilité de tirer une consonne est de $\\mathbf{\\dfrac{7}{12}}$.}"
+        },
+        {
+          "id": "3.1.16",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "On lance deux pièces de monnaie. Quelle est la probabilité d'obtenir deux fois \"Pile\" ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{1}{4}",
+          "images": [],
+          "correction": "Pour visualiser les issues, on peut faire un arbre ou une liste. • <strong>Cas possibles :</strong> Les issues possibles sont (Pile, Pile), (Pile, Face), (Face, Pile), (Face, Face). Il y a donc $4$ issues au total. • <strong>Cas favorables :</strong> L'événement \"obtenir deux fois Pile\" ne correspond qu'à une seule de ces issues : (Pile, Pile). La probabilité est : $$ P(\\text{obtenir deux \"Pile\"}) = \\dfrac{1}{4} $$\n    \\medskip\\noindent\\textbf{La probabilité d'obtenir deux fois \"Pile\" est de $\\mathbf{\\dfrac{1}{4}}$.}"
+        },
+        {
+          "id": "3.1.17",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un sac contient des jetons numérotés de $1$ à $20$. On tire un jeton. Quelle est la probabilité que son numéro soit supérieur à $15$ ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{1}{4}",
+          "images": [],
+          "correction": "On identifie les numéros qui correspondent à la condition. • <strong>Cas possibles :</strong> Il y a $20$ jetons, donc $20$ issues possibles. • <strong>Cas favorables :</strong> Les numéros strictement supérieurs à $15$ sont $16, 17, 18, 19, 20$. Il y a donc $5$ cas favorables. On calcule et simplifie la probabilité : $$ P(\\text{numéro > 15}) = \\dfrac{5}{20} = \\dfrac{5}{4 \\times 5} = \\dfrac{1}{4} $$\n    \\medskip\\noindent\\textbf{La probabilité de tirer un numéro supérieur à $15$ est de $\\mathbf{\\dfrac{1}{4}}$.}"
+        },
+        {
+          "id": "3.1.18",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un élève a eu $15/20$ à son dernier contrôle. Si on convertit sa note en une probabilité de réussite, quelle est cette probabilité ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{3}{4}",
+          "images": [],
+          "correction": "Une note peut être interprétée comme un rapport entre les points obtenus (cas favorables) et le total des points possibles (cas possibles). La probabilité de réussite est donc directement la fraction de la note, que l'on peut simplifier. $$ P(\\text{réussite}) = \\dfrac{15}{20} = \\dfrac{3 \\times 5}{4 \\times 5} = \\dfrac{3}{4} $$\n    Cette probabilité peut aussi s'écrire $0,75$ ou $75\\%$.\\\\\n    \\medskip\\noindent\\textbf{La probabilité de réussite est de $\\mathbf{\\dfrac{3}{4}}$.}"
+        },
+        {
+          "id": "3.1.19",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "On lance deux dés équilibrés à six faces et on additionne les numéros obtenus. Quelle est la probabilité que la somme soit égale à $7$ ?",
+          "questionType": "text",
+          "expectedAnswer": "$ P(\\text{somme}=7) = \\dfrac{6}{36} = \\dfrac{1}{6}",
+          "images": [],
+          "correction": "Pour ce type de problème, il est utile de visualiser toutes les issues possibles, par exemple avec un tableau à double entrée. <strong>Cas possibles :</strong> Pour chaque lancer du premier dé ($6$ issues), il y a $6$ issues possibles pour le second dé. Le nombre total d'issues est donc $6 \\times 6 = 36$. <strong>Cas favorables :</strong> On liste les couples de résultats dont la somme est $7$ : $(1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1)$. Il y a $6$ couples favorables. On calcule et simplifie la probabilité : $$ P(\\text{somme}=7) = \\dfrac{6}{36} = \\dfrac{1}{6} $$\n    \\medskip\\noindent\\textbf{La probabilité que la somme soit égale à $7$ est de $\\mathbf{\\dfrac{1}{6}}$.}"
+        },
+        {
+          "id": "3.1.20",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Une urne contient $7$ jetons verts, $4$ jetons rouges, $3$ jetons bleus et $2$ jetons jaunes. On pioche un jeton au hasard. Quelle est la probabilité d'obtenir un jeton rouge ou un jeton jaune ?",
+          "questionType": "text",
+          "expectedAnswer": "$ P(\\text{rouge ou jaune}) = \\dfrac{6}{16} = \\dfrac{3}{8}",
+          "images": [],
+          "correction": "On calcule d'abord le nombre total de jetons. • <strong>Cas possibles :</strong> Le nombre total de jetons est $7 + 4 + 3 + 2 = 16$. • <strong>Cas favorables :</strong> L'événement \"obtenir un jeton rouge ou un jeton jaune\" correspond à $4$ jetons rouges $+ 2$ jetons jaunes, soit $4 + 2 = 6$ jetons. On calcule et simplifie la probabilité : $$ P(\\text{rouge ou jaune}) = \\dfrac{6}{16} = \\dfrac{3}{8} $$\n    \\medskip\\noindent\\textbf{La probabilité d'obtenir un jeton rouge ou jaune est de $\\mathbf{\\dfrac{3}{8}}$.}"
+        },
+        {
+          "id": "3.1.21",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "On tire une carte au hasard dans un jeu de $32$ cartes, on la note, puis on la remet dans le jeu. On tire une seconde carte. Quelle est la probabilité de tirer deux rois de suite ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{1}{64}",
+          "images": [],
+          "correction": "Comme on remet la carte après le premier tirage, les deux tirages sont des événements indépendants. La probabilité du second tirage n'est pas affectée par le premier. • <strong>Probabilité de tirer un roi au premier tirage :</strong> Il y a $4$ rois dans un jeu de $32$ cartes. $$ P(\\text{roi au 1er tirage}) = \\dfrac{4}{32} = \\dfrac{1}{8} $$\n        \\item \\textbf{Probabilité de tirer un roi au second tirage :}\\\\\n        $$ P(\\text{roi au 2nd tirage}) = \\dfrac{4}{32} = \\dfrac{1}{8} $$\n    \\end{enumerate}\n    Pour obtenir la probabilité que les deux événements se produisent, on multiplie leurs probabilités :\n    \\begin{align*}\n    P(\\text{roi, puis roi}) &=  \\dfrac{1}{8} \\times \\dfrac{1}{8} \\\\\n    &= \\dfrac{1}{64}\n    \\end{align*}\n    \\medskip\\noindent\\textbf{La probabilité de tirer deux rois de suite est de $\\mathbf{\\dfrac{1}{64}}$.}"
+        },
+        {
+          "id": "3.1.22",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un sac contient $3$ boules noires numérotées de $1$ à $3$, et $4$ boules rouges numérotées de $1$ à $4$. Quelle est la probabilité de tirer une boule dont le numéro est un nombre pair ?",
+          "questionType": "text",
+          "expectedAnswer": "\\dfrac{3}{7}",
+          "images": [],
+          "correction": "On commence par lister toutes les boules et on identifie celles qui ont un numéro pair. Au total, il y a $7$ boules dont $1 + 2 = 3$ boules avec un numéro pair. <strong>La probabilité de tirer une boule avec un numéro pair est de $\\mathbf{\\dfrac{3}{7}}$.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "3.2",
+      "title": "Statistiques : Moyenne, Médiane, Fréquence et Étendue",
+      "courseReminder": "• La <strong>fréquence</strong> d'une valeur est le quotient : $\\dfrac{\\text{effectif de la valeur}}{\\text{effectif total}}$. • La <strong>moyenne</strong> d'une série de valeurs est la somme de toutes les valeurs divisée par l'effectif total. • <strong>L'étendue</strong> est la différence entre la plus grande et la plus petite valeur de la série. • La <strong>médiane</strong> est la valeur qui partage une série <strong>ordonnée</strong> en deux groupes de même effectif. • Si l'effectif total est <strong>impair</strong>, la médiane est la valeur centrale. • Si l'effectif total est <strong>pair</strong>, la médiane est la moyenne des deux valeurs centrales.",
+      "exercises": [
+        {
+          "id": "3.2.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Dans une classe de $25$ élèves, $10$ sont des filles. Quelle est la fréquence de filles ?",
+          "questionType": "text",
+          "expectedAnswer": "0.4",
+          "images": [],
+          "correction": "On utilise la formule de la fréquence : $\\text{Fréquence} = \\dfrac{\\text{effectif de la valeur}}{\\text{effectif total}}$. • Effectif des filles : $10$. • Effectif total : $25$. \\text{Fréquence} &= \\dfrac{10}{25} &= 0,4 <strong>La fréquence de filles dans la classe est de $0,4$ (ou $\\frac{2}{5}$).</strong>"
+        },
+        {
+          "id": "3.2.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer la moyenne des notes suivantes : $10$ ; $12$ ; $17$.",
+          "questionType": "numeric",
+          "expectedAnswer": "13",
+          "images": [],
+          "correction": "Pour calculer la moyenne, on additionne toutes les valeurs et on divise par le nombre de valeurs. Il y a $3$ notes. \\text{Moyenne} &= \\dfrac{10 + 12 + 17}{3} &= \\dfrac{39}{3} &= 13 <strong>La moyenne de ces notes est $13$.</strong>"
+        },
+        {
+          "id": "3.2.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Déterminer la médiane de la série : $5$ ; $8$ ; $2$ ; $11$ ; $7$.",
+          "questionType": "text",
+          "expectedAnswer": "3",
+          "images": [],
+          "correction": "La série ordonnée est: $ 2 \\quad ; \\quad 5 \\quad ; \\quad 7 \\quad ; \\quad 8 \\quad ; \\quad 11 $ Il y a $5$ valeurs (effectif impair). La médiane est la valeur centrale soit la $\\frac{5+1}{2} = 3^{\\text{ème}}$ valeur de la série ordonnée. <strong>La médiane de la série est $7$.</strong>"
+        },
+        {
+          "id": "3.2.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer l'étendue de la série de notes : $8$ ; $12$ ; $5$ ; $18$ ; $15$.",
+          "questionType": "numeric",
+          "expectedAnswer": "13",
+          "images": [],
+          "correction": "L'étendue est la différence entre la plus grande valeur (maximum) et la plus petite valeur (minimum) de la série. • Plus grande valeur : $18$. • Plus petite valeur : $5$. \\text{Étendue} &= 18 - 5 &= 13 <strong>L'étendue de cette série est $13$.</strong>"
+        },
+        {
+          "id": "3.2.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Déterminer la médiane de la série : $10$ ; $20$ ; $12$ ; $18$.",
+          "questionType": "text",
+          "expectedAnswer": "15",
+          "images": [],
+          "correction": "On ordonne la série par ordre croissant: $ 10 ; 12 ; 18;20 $ L'effectif total est $4$ (pair). La médiane est la moyenne des deux valeurs centrales, qui sont la $2^{\\text{ème}}$ et la $3^{\\text{ème}}$, c'est-à-dire $12$ et $18$. \\text{Médiane} &= \\dfrac{12 + 18}{2} &= \\dfrac{30}{2} &= 15 <strong>La médiane de la série est $15$.</strong>"
+        },
+        {
+          "id": "3.2.6",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer la moyenne des nombres : $4$ ; $6$ ; $8$ ; $10$.",
+          "questionType": "numeric",
+          "expectedAnswer": "7",
+          "images": [],
+          "correction": "On additionne les $4$ nombres et on divise la somme par $4$. \\text{Moyenne} &= \\dfrac{4 + 6 + 8 + 10}{4} &= \\dfrac{28}{4} &= 7 <strong>La moyenne de ces nombres est $7$.</strong>"
+        },
+        {
+          "id": "3.2.7",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Dans un groupe de $20$ personnes, $5$ ont les yeux bleus. Quelle est la fréquence en pourcentage de personnes ayant les yeux bleus ?",
+          "questionType": "text",
+          "expectedAnswer": "25%",
+          "images": [],
+          "correction": "<strong>Étape 1 :</strong> On calcule la fréquence. \\text{Fréquence} &= \\dfrac{\\text{Effectif \"yeux bleus\"}}{\\text{Effectif total}} &= \\dfrac{5}{20} &= \\dfrac{1}{4} <strong>Étape 2 :</strong> On convertit la fréquence en pourcentage: $ \\dfrac{1}{4} = 0,25 $ Pour obtenir un pourcentage, on multiplie par $100$: $ 0,25 \\times 100 = 25 \\% $ <strong>La fréquence de personnes ayant les yeux bleus est de $25\\%$.</strong>"
+        },
+        {
+          "id": "3.2.8",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "L'étendue d'une série est $15$. La plus petite valeur est $3$. Quelle est la plus grande valeur ?",
+          "questionType": "text",
+          "expectedAnswer": "18",
+          "images": [],
+          "correction": "On part de la définition de l'étendue : $\\text{Étendue} = \\text{Valeur max} - \\text{Valeur min} $ On remplace par les valeurs connues : $ 15 = \\text{Valeur max} - 3 $ Pour trouver la valeur maximale, on isole l'inconnue : $ \\text{Valeur max} = 15 + 3 = 18 $\\\\\n    \\medskip\\noindent\\textbf{La plus grande valeur de la série est $18$.}"
+        },
+        {
+          "id": "3.2.9",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Voici les températures relevées en ${}^{\\circ}\\text{C}$ pendant une semaine : $14 ; 12 ; 11 ; 14 ; 15 ; 17 ; 14$. Calculer la température moyenne.",
+          "questionType": "numeric",
+          "expectedAnswer": "13.9",
+          "images": [],
+          "correction": "Pour calculer la moyenne, on additionne les $7$ températures et on divise la somme par $7$. $\\text{Moyenne} = \\dfrac{97}{7} \\approx 13,86$ On peut arrondir le résultat. <strong>La température moyenne est d'environ $13,9\\,{}^{\\circ}\\text{C}$.</strong>"
+        },
+        {
+          "id": "3.2.10",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer la médiane des températures de l'exercice précédent.",
+          "questionType": "numeric",
+          "expectedAnswer": "14",
+          "images": [],
+          "correction": "On ordonne la série par ordre croissant: $ 11;12;14;14;14;15;17$ L'effectif est $7$ (impair). La médiane est la valeur centrale, c'est-à-dire la $4^{\\text{ème}}$ valeur,ici $14$. <strong>La médiane des températures est $14\\,{}^{\\circ}\\text{C}$.</strong>"
+        },
+        {
+          "id": "3.2.11",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un élève a obtenu les notes suivantes, avec coefficients : $12$ (coeff $2$), $15$ (coeff $3$), $10$ (coeff $1$). Calculer sa moyenne pondérée.",
+          "questionType": "numeric",
+          "expectedAnswer": "13.2",
+          "images": [],
+          "correction": "Pour une moyenne pondérée, on multiplie chaque note par son coefficient, on additionne ces produits, puis on divise par la somme des coefficients. • Somme des produits (note $\\times$ coeff) : $(12 \\times 2) + (15 \\times 3) + (10 \\times 1) = 24 + 45 + 10 = 79$. • Somme des coefficients : $2 + 3 + 1 = 6$. Et $\\text{Moyenne} = \\dfrac{79}{6} \\approx 13,17$ <strong>La moyenne pondérée de l'élève est d'environ $13,2$.</strong>"
+        },
+        {
+          "id": "3.2.12",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "La moyenne de $4$ nombres est $10$. Trois de ces nombres sont $5, 8,$ et $12$. Quel est le quatrième nombre ?",
+          "questionType": "numeric",
+          "expectedAnswer": "15",
+          "images": [],
+          "correction": "Si la moyenne de $4$ nombres est $10$, alors leur somme est $4 \\times 10 = 40$. La somme des trois nombres connus est $5 + 8 + 12 = 25 $ Le quatrième nombre est la différence entre la somme totale et la somme des nombres connus: $ 40 - 25 = 15 $ <strong>Le quatrième nombre est $15$.</strong>"
+        },
+        {
+          "id": "3.2.13",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Interpréter la phrase : \"La médiane des salaires dans cette entreprise est de $1800$€\".",
+          "questionType": "text",
+          "expectedAnswer": "50",
+          "images": [],
+          "correction": "<strong>Au moins $50\\%$ des salariés de cette entreprise gagnent $1800$€ ou moins.</strong>"
+        },
+        {
+          "id": "3.2.14",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un élève a $12$ de moyenne sur ses $3$ premiers devoirs. Il obtient $16$ au $4^{\\text{ème}}$ devoir. Quelle est sa nouvelle moyenne ?",
+          "questionType": "text",
+          "expectedAnswer": "13",
+          "images": [],
+          "correction": "Si la moyenne est de $12$ sur $3$ devoirs, le total des points est $12 \\times 3 = 36$. Le nouveau total de points est: $36 + 16 = 52$. $ \\text{Nouvelle moyenne} = \\dfrac{52}{4} = 13 $ <strong>Sa nouvelle moyenne est de $13$.</strong>"
+        },
+        {
+          "id": "3.2.15",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Sur $15$ lancers de dé, on a obtenu $4$ fois le \"6\". Quelle est la fréquence d'apparition du \"6\" ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{4}{15}",
+          "images": [],
+          "correction": "<strong>1.</strong> Effectif de la valeur \"6\" : $4$. <strong>2.</strong> Effectif total: $15$ lancers. On a donc: $\\text{Fréquence} = \\dfrac{4}{15} $ et cette fraction ne peut pas être simplifiée. <strong>La fréquence d'apparition du \"6\" est de $\\dfrac{4}{15}$.</strong>"
+        },
+        {
+          "id": "3.2.16",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "La classe A a une moyenne de $12$ et une étendue de $8$. La classe B a une moyenne de $12$ et une étendue de $15$. Dans quelle classe les notes sont-elles les plus hétérogènes ?",
+          "questionType": "text",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "L'étendue mesure la dispersion d'une série statistique. Cela indique une plus grande hétérogénéité (des résultats moins regroupés). <strong>Les notes sont plus hétérogènes dans la classe B.</strong>"
+        },
+        {
+          "id": "3.2.17",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "On a relevé les performances, en mètres, d'un groupe de $13$ élèves au lancer du poids : $3,41 ; 5,25 ; 5,42 ; 4,3 ; 6,11 ; 4,28 ; 5,15 ;$ $ 3,7 ; 6,07 ; 5,82 ; 4,62 ; 4,91 ; 4,01$ Quelle est la médiane de cette série ?",
+          "questionType": "text",
+          "expectedAnswer": "4.91",
+          "images": [],
+          "correction": "On ordonne les $13$ performances par ordre croissant: $ 3,41 \\ ; \\ 3,7 \\ ; \\ 4,01 \\ ; \\ 4,28 \\ ; \\ 4,3 \\ ; \\ 4,62 \\ ;$ $\\mathbf{4,91} ; \\ 5,15 \\ ; \\ 5,25 \\ ; \\ 5,42 \\ ; \\ 5,82 \\ ; \\ 6,07$; $ \\ 6,11 $\\\\\nL'effectif total est $13$ (impair). La médiane est la valeur centrale.\\\\\nC'est la $7^{\\text{ème}}$ valeur de la série ordonnée.\\\\\n    \\medskip\\noindent\\textbf{La médiane de cette série est de $4,91$ m.}"
+        },
+        {
+          "id": "3.2.18",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Dans une série de notes, la note médiane est 14 et la note moyenne est 11. Est-ce possible ? (Oui/Non) Justifier brièvement.",
+          "questionType": "text",
+          "expectedAnswer": "toutfaitpossible",
+          "images": [],
+          "correction": "Oui, c'est tout à fait possible. La moyenne et la médiane sont deux indicateurs différents. La <strong>médiane</strong> indique la valeur \"du milieu\" (la moitié des notes est au-dessus de 14, l'autre moitié en dessous). La <strong>moyenne</strong> est sensible aux valeurs extrêmes. Il est donc possible que la moitié de la classe ait eu 14 ou plus, mais que quelques notes très basses (par exemple, des 0 ou des 2) aient \"tiré\" la moyenne générale vers le bas. <strong>Oui, car la moyenne est sensible aux valeurs extrêmes (très basses), contrairement à la médiane.</strong>"
+        }
+      ]
+    },
+    {
+      "id": "3.3",
+      "title": "Lecture et interprétation de données",
+      "courseReminder": "Pour lire un graphique ou un tableau, il faut toujours commencer par identifier les informations présentes : • Le <strong>titre</strong> donne le contexte général. • Les <strong>axes</strong> (pour un graphique) ou les <strong>en-têtes</strong> de colonnes/lignes (pour un tableau) précisent ce qui est mesuré et dans quelles unités. • La <strong>légende</strong> explique la signification des couleurs, symboles ou types de traits. <strong>Lire une image</strong> sur un graphique : on part d’une valeur sur l’axe des abscisses ($x$), on monte jusqu’à la courbe, puis on lit la valeur correspondante sur l’axe des ordonnées ($y$). <strong>Lire un antécédent</strong> : on fait le chemin inverse, en partant de l’axe des ordonnées.",
+      "exercises": [
+        {
+          "id": "3.3.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "(Graphique A) Quel fruit a été le plus vendu ?",
+          "questionType": "text",
+          "expectedAnswer": "Le fruit le plus vendu est la banane",
+          "images": [
+            "graph-3-3-A.png"
+          ],
+          "correction": "% 1 Sur le graphique A, on cherche la barre la plus haute. La barre la plus haute correspond aux bananes (90 unités). <strong>Le fruit le plus vendu est la banane.</strong>"
+        },
+        {
+          "id": "3.3.2",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "(Graphique A) Quel fruit a été le moins vendu ?",
+          "questionType": "text",
+          "expectedAnswer": "Le fruit le moins vendu est l'orange",
+          "images": [
+            "graph-3-3-A.png"
+          ],
+          "correction": "% 2 Sur le graphique A, on cherche la barre la plus basse. La barre la plus basse correspond aux oranges (50 unités). <strong>Le fruit le moins vendu est l'orange.</strong>"
+        },
+        {
+          "id": "3.3.3",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "(Graphique A) Combien de poires ont été vendues ?",
+          "questionType": "numeric",
+          "expectedAnswer": "65",
+          "images": [
+            "graph-3-3-A.png"
+          ],
+          "correction": "% 3 On lit la hauteur de la barre correspondant aux poires sur le graphique A. <strong>65 poires ont été vendues.</strong>"
+        },
+        {
+          "id": "3.3.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "(Graphique A) A-t-on vendu plus de pommes ou de poires ?",
+          "questionType": "text",
+          "expectedAnswer": "On a vendu plus de pommes",
+          "images": [
+            "graph-3-3-A.png"
+          ],
+          "correction": "% 4 On compare la hauteur des barres ”Pommes” (80) et ”Poires” (65) sur le graphique A. <strong>On a vendu plus de pommes.</strong>"
+        },
+        {
+          "id": "3.3.5",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "(Graphique A) Combien de bananes de plus que d’oranges ont été vendues ?",
+          "questionType": "numeric",
+          "expectedAnswer": "40",
+          "images": [
+            "graph-3-3-A.png"
+          ],
+          "correction": "% 5 On calcule la différence entre la quantité de bananes (90) et d’oranges (50). $90 - 50 = 40$. <strong>Il a été vendu 40 bananes de plus que d’oranges.</strong>"
+        },
+        {
+          "id": "3.3.6",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "(Graphique A) Calculer le nombre total de fruits vendus.",
+          "questionType": "numeric",
+          "expectedAnswer": "285",
+          "images": [
+            "graph-3-3-A.png"
+          ],
+          "correction": "% 6 On additionne les quantités de chaque fruit. $80 \\text{ (Pommes)} + 65 \\text{ (Poires)} + 90 \\text{ (Bananes)} + 50 \\text{ (Oranges)} = 285$. <strong>Au total, 285 fruits ont été vendus.</strong>"
+        },
+        {
+          "id": "3.3.7",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "(Graphique A) Calculer la fréquence de vente des pommes parmi tous les fruits vendus (en fraction).",
+          "questionType": "numeric",
+          "expectedAnswer": "16/57",
+          "images": [
+            "graph-3-3-A.png"
+          ],
+          "correction": "% 7 On calcule $\\dfrac{\\text{effectif pommes}}{\\text{effectif total}}$. Le total est de 285 fruits. On simplifie la fraction par 5. $\\dfrac{80}{285} = \\dfrac{16 \\times 5}{57 \\times 5} = \\dfrac{16}{57}$. <strong>La fréquence de vente des pommes est de $\\mathbf{\\dfrac{16}{57}}$.</strong>"
+        },
+        {
+          "id": "3.3.8",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "(Graphique A) Si une pomme coûte 0,50€, quel revenu a été généré par la vente des pommes ?",
+          "questionType": "text",
+          "expectedAnswer": "40",
+          "images": [
+            "graph-3-3-A.png"
+          ],
+          "correction": "% 8 On multiplie le nombre de pommes vendues (80) par le prix unitaire (0,50€). $80 \\times 0,50 = 40$. <strong>Le revenu généré par les pommes est de $\\mathbf{40}$€.</strong>"
+        },
+        {
+          "id": "3.3.9",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "(Graphique B) Quelle était la température à 8h du matin ?",
+          "questionType": "numeric",
+          "expectedAnswer": "12",
+          "images": [
+            "graph-3-3-B.png"
+          ],
+          "correction": "% 9 On se place sur l'axe des abscisses à 8h. On monte à la courbe et on lit la valeur sur l'axe des ordonnées. <strong>À 8h du matin, la température était de $\\mathbf{12^\\circ}$C.</strong>"
+        },
+        {
+          "id": "3.3.10",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "(Graphique B) Quelle était la température minimale enregistrée ?",
+          "questionType": "numeric",
+          "expectedAnswer": "6",
+          "images": [
+            "graph-3-3-B.png"
+          ],
+          "correction": "% 10 On cherche le point le plus bas de la courbe sur le graphique B. On lit son ordonnée. <strong>La température minimale a été de $\\mathbf{6^\\circ}$C (à 4h).</strong>"
+        },
+        {
+          "id": "3.3.11",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "(Graphique B) À quelle heure la température a-t-elle atteint son maximum ?",
+          "questionType": "numeric",
+          "expectedAnswer": "14",
+          "images": [
+            "graph-3-3-B.png"
+          ],
+          "correction": "% 11 On cherche le point le plus haut sur la courbe (Graphique B). On lit son abscisse. <strong>La température a atteint son maximum à $\\mathbf{14h}$ (20°C).</strong>"
+        },
+        {
+          "id": "3.3.12",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "(Graphique B) À quelles heures la température était-elle de 12°C ?",
+          "questionType": "numeric",
+          "expectedAnswer": "8 et 24",
+          "images": [
+            "graph-3-3-B.png"
+          ],
+          "correction": "% 12 On trace une ligne horizontale à $y=12$ (Graphique B). On regarde les abscisses des points d'intersection. <strong>La température était de $\\mathbf{12^\\circ}$C à $\\mathbf{8h}$ et à $\\mathbf{24h}$.</strong>"
+        },
+        {
+          "id": "3.3.13",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "(Graphique B) La température à midi (12h) était-elle supérieure à 15°C ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [
+            "graph-3-3-B.png"
+          ],
+          "correction": "% 13 On estime la position de la courbe à l'abscisse 12h (Graphique B). Le point est visiblement au-dessus de la ligne 15°C. <strong>Oui, la température était supérieure à $\\mathbf{15^\\circ}$C.</strong>"
+        },
+        {
+          "id": "3.3.14",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "(Graphique B) Estimer la température à 10h.",
+          "questionType": "text",
+          "expectedAnswer": "15",
+          "images": [
+            "graph-3-3-B.png"
+          ],
+          "correction": "% 14 10h est à mi-chemin entre 8h (12°C) et 12h (environ 18°C). Une bonne estimation serait la moyenne des deux. $(12+18)/2 = 15$. <strong>On peut estimer la température à 10h à $\\mathbf{15^\\circ}$C.</strong>"
+        },
+        {
+          "id": "3.3.15",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "(Graphique C) Quel sport est le plus pratiqué ?",
+          "questionType": "text",
+          "expectedAnswer": "Le sport le plus pratiqué est le Football (40\\%)",
+          "images": [
+            "graph-3-3-C.png"
+          ],
+          "correction": "% 15 (Nouveau) On lit la légende du graphique C. La plus grande section est celle du Football. <strong>Le sport le plus pratiqué est le Football (40\\%).</strong>"
+        },
+        {
+          "id": "3.3.16",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "(Graphique C) Quel pourcentage d'élèves pratiquent le Judo ?",
+          "questionType": "text",
+          "expectedAnswer": "20\\% des élèves pratiquent le Judo",
+          "images": [
+            "graph-3-3-C.png"
+          ],
+          "correction": "% 16 (Nouveau) On lit directement le pourcentage dans le secteur \"Judo\" du graphique C. <strong>20\\% des élèves pratiquent le Judo.</strong>"
+        },
+        {
+          "id": "3.3.17",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "(Graphique C) Calculer le nombre d'élèves qui pratiquent la Natation.",
+          "questionType": "numeric",
+          "expectedAnswer": "18",
+          "images": [
+            "graph-3-3-C.png"
+          ],
+          "correction": "% 17 (Nouveau) Le graphique C indique 15\\% de Natation pour un total de 120 élèves. $15\\%$ de $120 = 0,15 \\times 120 = 18$. <strong>Il y a $\\mathbf{18}$ élèves qui pratiquent la Natation.</strong>"
+        },
+        {
+          "id": "3.3.18",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "(Graphique C) Vrai ou Faux : Le Football et le Basketball représentent moins des deux tiers des élèves.",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [
+            "graph-3-3-C.png"
+          ],
+          "correction": "% 18 (Nouveau) Football + Basketball = $40\\% + 25\\% = 65\\%$. Deux tiers = $\\dfrac{2}{3} \\approx 66,7\\%$. Comme $65\\% < 66,7\\%$, l'affirmation est vraie. <strong>Vrai, 65\\% est bien inférieur à $\\mathbf{\\dfrac{2}{3}}$.</strong>"
+        },
+        {
+          "id": "3.3.19",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "(Graphique D) Au bout de combien de temps l’athlète s’est-elle arrêtée pour son premier changement d’équipement ?",
+          "questionType": "numeric",
+          "expectedAnswer": "15",
+          "images": [
+            "graph-3-3-D.png"
+          ],
+          "correction": "% 19 Sur le graphique D, le premier segment horizontal (arrêt) commence à la fin de l'épreuve 1. <strong>L’athlète s’est arrêtée au bout de $\\mathbf{15}$ minutes.</strong>"
+        },
+        {
+          "id": "3.3.20",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "(Graphique D) Quelle est la longueur, en km, du parcours de l’épreuve de cyclisme (partie 2) ?",
+          "questionType": "text",
+          "expectedAnswer": "10",
+          "images": [
+            "graph-3-3-D.png"
+          ],
+          "correction": "% 20 L’épreuve 2 (Graphique D) commence à une distance de 0,4 km et se termine à 10,4 km. $10,4 - 0,4 = 10$. <strong>Le parcours de cyclisme fait $\\mathbf{10}$ km.</strong>"
+        },
+        {
+          "id": "3.3.21",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "(Graphique D) Pendant laquelle des trois épreuves (natation, cyclisme, course à pied) l’athlète a-t-elle été la moins rapide ?",
+          "questionType": "text",
+          "expectedAnswer": "L’athlète a été la moins rapide pendant la natation (partie 1)",
+          "images": [
+            "graph-3-3-D.png"
+          ],
+          "correction": "% 21 La vitesse la plus faible correspond à la pente la plus douce sur le graphique D. Le premier segment (natation) est visiblement celui qui a la pente la plus faible. <strong>L’athlète a été la moins rapide pendant la natation (partie 1).</strong>"
+        },
+        {
+          "id": "3.3.22",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "(Graphique D) La vitesse moyenne de l’athlète sur l’ensemble du triathlon (longueur 12,9 km, durée totale 57 min) est-elle supérieure à 14 km/h ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [
+            "graph-3-3-D.png"
+          ],
+          "correction": "% 22 On calcule $v = d/t$. $d = 12,9$ km. $t = 57$ min $= 57/60$ h $= 0,95$ h. $v = 12,9 / 0,95 \\approx 13,58$ km/h. $13,58$ km/h est inférieur à $14$ km/h. <strong>L’affirmation est fausse.</strong>"
+        },
+        {
+          "id": "3.3.23",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "(Graphique E) Combien d'élèves ont obtenu une note dans l'intervalle [10 ; 15[ ?",
+          "questionType": "numeric",
+          "expectedAnswer": "15",
+          "images": [
+            "graph-3-3-E.png"
+          ],
+          "correction": "% 23 (Nouveau) On lit la hauteur du rectangle correspondant à l'intervalle [10 ; 15[ sur le graphique E. <strong>15 élèves ont obtenu cette note.</strong>"
+        },
+        {
+          "id": "3.3.24",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "(Graphique E) Combien d'élèves ont obtenu une note inférieure à 10 ?",
+          "questionType": "numeric",
+          "expectedAnswer": "10",
+          "images": [
+            "graph-3-3-E.png"
+          ],
+          "correction": "% 24 (Nouveau) On additionne les effectifs des classes [0 ; 5[ et [5 ; 10[. $4 + 6 = 10$. <strong>10 élèves ont obtenu une note inférieure à 10.</strong>"
+        },
+        {
+          "id": "3.3.25",
+          "difficulty": 2,
+          "duration": "1 minute",
+          "question": "(Graphique E) Quelle est la classe modale (l'intervalle avec le plus d'élèves) ?",
+          "questionType": "text",
+          "expectedAnswer": "Laclassemodaleest1015.",
+          "images": [
+            "graph-3-3-E.png"
+          ],
+          "correction": "% 25 (Nouveau) La classe modale est l'intervalle avec le plus grand effectif (le rectangle le plus haut). <strong>La classe modale est [10 ; 15[.</strong>"
+        },
+        {
+          "id": "3.3.26",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "(Graphique E) Quel est le pourcentage d'élèves ayant obtenu au moins 15/20 ?",
+          "questionType": "numeric",
+          "expectedAnswer": "167%",
+          "images": [
+            "graph-3-3-E.png"
+          ],
+          "correction": "% 26 (Nouveau) L'effectif total est de 30 élèves. Le nombre d'élèves ayant au moins 15 est 5 (classe [15 ; 20]). La fréquence est $\\dfrac{5}{30} = \\dfrac{1}{6}$. $\\dfrac{1}{6} \\approx 0,1666...$ soit $16,7\\%$. <strong>Le pourcentage est de $\\mathbf{\\dfrac{1}{6}}$ (environ $\\mathbf{16,7\\%}$).</strong>"
+        }
+      ]
+    }
+  ]
+}

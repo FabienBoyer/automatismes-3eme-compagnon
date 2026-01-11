@@ -1,0 +1,2262 @@
+{
+  "id": "5",
+  "chapter": 5,
+  "title": "Tests hebdomadaires",
+  "sections": [
+    {
+      "id": "5.1",
+      "title": "Test 1 (Semaine 1)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.1.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer et donner le résultat sous forme d'une fraction irréductible : $$ A = \\frac{7}{3} - \\frac{2}{3} \\times \\frac{5}{4} $$",
+          "questionType": "numeric",
+          "expectedAnswer": "\\frac{3}{2}",
+          "images": [],
+          "correction": "On respecte la priorité de la multiplication : $A = \\frac{7}{3} - \\frac{10}{12} = \\frac{28}{12} - \\frac{10}{12} = \\frac{18}{12}$. On simplifie : $A = \\frac{3}{2}$."
+        },
+        {
+          "id": "5.1.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un triangle ABC est rectangle en A. On donne AB = 8 cm et BC = 10 cm. Calculer la longueur AC.",
+          "questionType": "numeric",
+          "expectedAnswer": "6",
+          "images": [],
+          "correction": "Théorème de Pythagore : $BC^2 = AB^2 + AC^2 \\implies 10^2 = 8^2 + AC^2 \\implies 100 = 64 + AC^2$. Donc $AC^2 = 36$, et $AC = \\sqrt{36} = 6$ cm."
+        },
+        {
+          "id": "5.1.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit la fonction $f$ telle que $f(x) = 5x - 9$. Calculer l'image de $-2$ par $f$.",
+          "questionType": "numeric",
+          "expectedAnswer": "-19",
+          "images": [],
+          "correction": "On remplace $x$ par $-2$ : $f(-2) = 5 \\times (-2) - 9 = -10 - 9 = -19$. L'image est -19."
+        },
+        {
+          "id": "5.1.4",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un article coûtant 120€ subit une augmentation de 20\\%, puis une réduction de 20\\%. Quel est son prix final ?",
+          "questionType": "numeric",
+          "expectedAnswer": "115.20",
+          "images": [],
+          "correction": "1. Augmentation ($\\times 1,2$) : $120 \\times 1,2 = 144$€. 2. Réduction ($\\times 0,8$) : $144 \\times 0,8 = 115,20$€. Le prix final est de 115,20€."
+        },
+        {
+          "id": "5.1.5",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "On lance deux dés équilibrés à 6 faces et on additionne les scores. Quelle est la probabilité que la somme soit égale à 5 ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{1}{9}",
+          "images": [],
+          "correction": "Il y a $6 \\times 6 = 36$ issues. Les sommes égales à 5 sont (1;4), (4;1), (2;3), (3;2). Il y a 4 cas favorables. La probabilité est $\\frac{4}{36} = \\frac{1}{9}$."
+        },
+        {
+          "id": "5.1.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> Que vaudra la variable \\begin{scratch} \\ovalvariable{x} \\end{scratch} à la fin de ce script ? \\begin{scratch} \\blockvariable{mettre \\ovalvariable{x} à \\ovalnum{5}} \\blockvariable{mettre \\ovalvariable{y} à \\ovaloperator{\\ovalvariable{x} * \\ovalnum{2}}} \\blockvariable{ajouter \\ovalvariable{y} à \\ovalvariable{x}} \\end{scratch} <strong>A:</strong> 10 <strong>B:</strong> 15 <strong>C:</strong> 5",
+          "questionType": "scratch_view",
+          "expectedAnswer": "B",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "`x` vaut 5. `y` prend la valeur $5 \\times 2 = 10$. `x` devient $5 + 10 = 15$. La réponse est <strong>B</strong>.",
+          "scratchConfig": {
+            "script": "[x]",
+            "display_only": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.2",
+      "title": "Test 2 (Semaine 2)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.2.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "La distance Terre-Lune est d'environ 384 000 km. Donner cette distance en notation scientifique.",
+          "questionType": "text",
+          "expectedAnswer": "3.84 \\times 10^{5}",
+          "images": [],
+          "correction": "On place la virgule après le premier chiffre non nul (3,84) et on compte le décalage de 5 rangs vers la droite. Le résultat est $3,84 \\times 10^5$ km."
+        },
+        {
+          "id": "5.2.2",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Un cycliste parcourt 45 km en 1h30. Quelle est sa vitesse moyenne en km/h ?",
+          "questionType": "text",
+          "expectedAnswer": "30",
+          "images": [],
+          "correction": "On utilise $V = d/t$ avec $t$ en heures. 1h30 = 1,5 h. $V = \\frac{45}{1,5} = 30$ km/h."
+        },
+        {
+          "id": "5.2.3",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "<strong>(QCM)</strong> Dans un triangle ABC rectangle en A, AC = 12 cm et $\\widehat{ABC} = 30^\\circ$. Quelle est la longueur de [BC] ? <strong>A:</strong> $12 \\times \\sin(30^\\circ)$ <strong>B:</strong> $\\frac{12}{\\cos(30^\\circ)}$ <strong>C:</strong> $\\frac{12}{\\sin(30^\\circ)}$",
+          "questionType": "text",
+          "expectedAnswer": "C",
+          "images": [],
+          "correction": "On connaît l'angle $\\widehat{B}$, son côté opposé [AC] et on cherche l'hypoténuse [BC]. On utilise le sinus : $\\sin(\\widehat{B}) = \\frac{AC}{BC}$, donc $BC = \\frac{AC}{\\sin(\\widehat{B})}$. La réponse est <strong>C</strong>."
+        },
+        {
+          "id": "5.2.4",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Programme : \"Choisir un nombre, lui soustraire 5, multiplier le résultat par 3\". Quel résultat pour 2 ?",
+          "questionType": "text",
+          "expectedAnswer": "-9",
+          "images": [],
+          "correction": "On applique le programme : $(2 - 5) \\times 3 = -3 \\times 3 = -9$. Le résultat est -9."
+        },
+        {
+          "id": "5.2.5",
+          "difficulty": 1,
+          "duration": "3 minutes",
+          "question": "Notes : 12 ; 15 ; 8 ; 10 ; 17. Calculer la moyenne et la médiane.",
+          "questionType": "numeric",
+          "expectedAnswer": "12",
+          "images": [],
+          "correction": "Moyenne : $\\frac{12+15+8+10+17}{5} = \\frac{62}{5} = 12,4$. Série ordonnée : 8, 10, <strong>12</strong>, 15, 17. La médiane est 12."
+        },
+        {
+          "id": "5.2.6",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Factoriser l'expression $E = (3x-2)^2 - 16$.",
+          "questionType": "text",
+          "expectedAnswer": "(3x-6)(3x+2)",
+          "images": [],
+          "correction": "On reconnaît l'identité remarquable $a^2-b^2$ avec $a=3x-2$ et $b=4$. $E = [(3x-2)-4][(3x-2)+4] = (3x-6)(3x+2)$."
+        }
+      ]
+    },
+    {
+      "id": "5.3",
+      "title": "Test 3 (Semaine 3)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.3.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un pull coûte 45€. Son prix augmente de 10\\%. Quel est son nouveau prix ?",
+          "questionType": "numeric",
+          "expectedAnswer": "49.50",
+          "images": [],
+          "correction": "Augmenter de 10\\% revient à multiplier par 1,1. $45 \\times 1,1 = 49,5$. Le nouveau prix est 49,50€."
+        },
+        {
+          "id": "5.3.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre : $7x + 5 = 2x - 10$.",
+          "questionType": "text",
+          "expectedAnswer": "-3",
+          "images": [],
+          "correction": "$7x - 2x = -10 - 5 \\implies 5x = -15 \\implies x = -3$."
+        },
+        {
+          "id": "5.3.3",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un sac contient 5 boules rouges, 3 vertes et 2 bleues. On tire successivement et sans remise deux boules. Quelle est la probabilité de tirer deux boules rouges ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{2}{9}",
+          "images": [],
+          "correction": "$P(\\text{1ère R}) = \\frac{5}{10}$. Il reste 9 boules dont 4 rouges. $P(\\text{2ème R}) = \\frac{4}{9}$. $P(\\text{2 Rouges}) = \\frac{5}{10} \\times \\frac{4}{9} = \\frac{20}{90} = \\frac{2}{9}$."
+        },
+        {
+          "id": "5.3.4",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Un cylindre a un rayon de base de 3 cm et une hauteur de 10 cm. Calculer son volume exact, puis une valeur approchée au cm$^3$ près.",
+          "questionType": "numeric",
+          "expectedAnswer": "90\\pi",
+          "images": [],
+          "correction": "On utilise $V = \\pi r^2 h = \\pi \\times 3^2 \\times 10 = 90\\pi$. Volume exact : $90\\pi$ cm$^3$. Valeur approchée : $90\\pi \\approx 283$ cm$^3$."
+        },
+        {
+          "id": "5.3.5",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> Quel script dessine un triangle équilatéral de côté 50 ? <strong>A:</strong> Répéter 3 fois (avancer 50, tourner 60°) <strong>B:</strong> Répéter 3 fois (avancer 50, tourner 120°) <strong>C:</strong> Répéter 3 fois (avancer 120, tourner 50°)",
+          "questionType": "text",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "Pour un triangle équilatéral, il faut 3 côtés et tourner de l'angle extérieur $360/3=120^\\circ$. La réponse est <strong>B</strong>."
+        },
+        {
+          "id": "5.3.6",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Simplifier : $F = 3(x-4) - (2x - 5)$.",
+          "questionType": "text",
+          "expectedAnswer": "x-7",
+          "images": [],
+          "correction": "On développe et on réduit : $F = 3x - 12 - 2x + 5 = x - 7$."
+        }
+      ]
+    },
+    {
+      "id": "5.4",
+      "title": "Test 4 (Semaine 4)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.4.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Les nombres 126 et 90 sont-ils divisibles par 2, 3, 5, 9 et 10 ? Citer tous les diviseurs corrects pour chaque.",
+          "questionType": "text",
+          "expectedAnswer": "126: 2, 3, 9 | 90: 2, 3, 5, 9, 10",
+          "images": [],
+          "correction": "- 126 : divisible par 2, 3, 9. - 90 : divisible par 2, 3, 5, 9, 10."
+        },
+        {
+          "id": "5.4.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit la fonction $g(x) = x^2 - 4x + 3$. Calculer l'image de 5.",
+          "questionType": "numeric",
+          "expectedAnswer": "8",
+          "images": [],
+          "correction": "$g(5) = 5^2 - 4(5) + 3 = 25 - 20 + 3 = 8$. L'image de 5 est 8."
+        },
+        {
+          "id": "5.4.3",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un terrain de 20m sur 30m contient une piscine circulaire de 8m de diamètre. Quelle surface de gazon restera-t-il (valeur approchée au m$^2$ près) ?",
+          "questionType": "text",
+          "expectedAnswer": "550",
+          "images": [],
+          "correction": "Aire terrain = $20 \\times 30 = 600\\,\\text{m}^2$. Rayon piscine = 4 m $\\implies$ Aire piscine = $\\pi \\times 4^2 \\approx 50\\,\\text{m}^2$. Gazon restant $\\approx 600 - 50 = 550\\,\\text{m}^2$."
+        },
+        {
+          "id": "5.4.4",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> Si (MN) // (BC), AM = 2, AB = 5 et MN = 3, que vaut BC ? <strong>A:</strong> 7,5 <strong>B:</strong> 6 <strong>C:</strong> 1,2",
+          "questionType": "text",
+          "expectedAnswer": "A",
+          "images": [],
+          "correction": "Thalès : $\\frac{AM}{AB} = \\frac{MN}{BC} \\implies \\frac{2}{5} = \\frac{3}{BC}$. $BC = \\frac{3 \\times 5}{2} = 7,5$. La réponse est <strong>A</strong>."
+        },
+        {
+          "id": "5.4.5",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "On lance un dé à 12 faces. Quelle est la probabilité que le résultat soit un nombre premier ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{5}{12}",
+          "images": [],
+          "correction": "Nombres premiers de 1 à 12 : 2, 3, 5, 7, 11. Il y en a 5. La probabilité est $\\frac{5}{12}$."
+        },
+        {
+          "id": "5.4.6",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Dessiner à main levée la figure obtenue par ce script. \\begin{scratch} \\blockrepeat{répéter \\ovalnum{5} fois}{ \\blockmove{avancer de \\ovalnum{50}} \\blockmove{tourner \\turnRight{} de \\ovalnum{144} degrés} } \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "toile5branches",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le script trace 5 côtés en tournant de 144°. C'est la construction d'une étoile à 5 branches (pentagramme).",
+          "scratchConfig": {
+            "script": "\\blockrepeat{répéter (5) fois}{ avancer de (50) tourner \\turnRight{ de (144) degrés} }",
+            "display_only": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.5",
+      "title": "Test 5 (Semaine 5)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.5.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un pack de 6 bouteilles d'eau coûte 1,80€. Est-ce proportionnel ? Si oui, prix d'une bouteille ?",
+          "questionType": "text",
+          "expectedAnswer": "proportionnel",
+          "images": [],
+          "correction": "Prix à l'unité : $1,80 \\div 6 = 0,30€$. Le prix est constant. Oui, c'est proportionnel. Une bouteille coûte 0,30€."
+        },
+        {
+          "id": "5.5.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer le périmètre d'un cercle de diamètre 10 cm (valeur exacte).",
+          "questionType": "numeric",
+          "expectedAnswer": "10\\pi",
+          "images": [],
+          "correction": "$P = \\pi \\times D = \\pi \\times 10 = 10\\pi$. Le périmètre exact est $10\\pi$ cm."
+        },
+        {
+          "id": "5.5.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> $h(x)$ est une droite passant par A(0 ; -1) et B(2 ; 3). L'expression de $h(x)$ est : <strong>A:</strong> $h(x) = x-1$ <strong>B:</strong> $h(x) = -2x-1$ <strong>C:</strong> $h(x) = 2x-1$",
+          "questionType": "text",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "Ordonnée à l'origine $b=-1$. Coeff. directeur $a = \\frac{3-(-1)}{2-0} = 2$. L'expression est $h(x)=2x-1$. La réponse est <strong>C</strong>."
+        },
+        {
+          "id": "5.5.4",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un escalier de 5m de long est à 3m de la base d'un mur. À quelle hauteur l'escalier s'appuie-t-il sur le mur ?",
+          "questionType": "text",
+          "expectedAnswer": "4",
+          "images": [],
+          "correction": "Pythagore : $h^2 + 3^2 = 5^2 \\implies h^2 + 9 = 25 \\implies h^2=16$. La hauteur est de $\\sqrt{16} = 4$ m."
+        },
+        {
+          "id": "5.5.5",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Prog: \"Choisir un nombre; Ajouter 3; Mettre au carré; Soustraire 9\". Montrer que le résultat est $x^2+6x$.",
+          "questionType": "text",
+          "expectedAnswer": "x^2+6x",
+          "images": [],
+          "correction": "Programme : $(x+3)^2-9$. On développe : $(x^2+6x+9)-9 = x^2+6x$. Le résultat est bien $x^2+6x$."
+        },
+        {
+          "id": "5.5.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Notes : 12, 8, 15, 11, 18, 12, 9. Calculer la moyenne, l'étendue et la médiane.",
+          "questionType": "numeric",
+          "expectedAnswer": "10",
+          "images": [],
+          "correction": "Moyenne $\\approx 12,1$. Étendue : $18-8=10$. Série ordonnée : 8, 9, 11, <strong>12</strong>, 12, 15, 18. Médiane : 12."
+        }
+      ]
+    },
+    {
+      "id": "5.6",
+      "title": "Test 6 (Semaine 6)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.6.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Développer et réduire : $B = (2x - 5)(x + 3)$.",
+          "questionType": "text",
+          "expectedAnswer": "2x2+x-15",
+          "images": [],
+          "correction": "$B = 2x^2 + 6x - 5x - 15 = 2x^2 + x - 15$."
+        },
+        {
+          "id": "5.6.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un triangle RST est rectangle en S, avec RS = 7 cm et ST = 10 cm. Quelle est son aire ?",
+          "questionType": "text",
+          "expectedAnswer": "35",
+          "images": [],
+          "correction": "Aire = $\\frac{\\text{base} \\times \\text{hauteur}}{2} = \\frac{7 \\times 10}{2} = 35$. L'aire est de $35\\,\\text{cm}^2$."
+        },
+        {
+          "id": "5.6.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit $f(x) = -4x + 8$. Déterminer l'antécédent de 12.",
+          "questionType": "text",
+          "expectedAnswer": "-1",
+          "images": [],
+          "correction": "On résout $-4x+8=12 \\implies -4x = 4 \\implies x=-1$. L'antécédent est -1."
+        },
+        {
+          "id": "5.6.4",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "L'étendue d'une série est 15. La plus petite valeur est 4. Quelle est la plus grande ?",
+          "questionType": "text",
+          "expectedAnswer": "19",
+          "images": [],
+          "correction": "Max = Min + Étendue = $4+15=19$. La plus grande valeur est 19."
+        },
+        {
+          "id": "5.6.5",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> La décomposition en facteurs premiers de 195 est : <strong>A:</strong> $5 \\times 39$ <strong>B:</strong> $3 \\times 5 \\times 13$ <strong>C:</strong> $1 \\times 195$",
+          "questionType": "text",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "$195 = 5 \\times 39 = 5 \\times 3 \\times 13$. La réponse est <strong>B</strong>. (A et C ne sont pas des décompositions en facteurs premiers)."
+        },
+        {
+          "id": "5.6.6",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Que va dire le lutin ? \\begin{scratch} \\blockvariable{mettre \\ovalvariable{N} à \\ovalnum{16}} \\blockifelse{si \\booloperator{\\ovalvariable{N} > \\ovalnum{15}} alors}{ \\blocklook{dire \\ovalnum{Cas 1}} }{ \\blocklook{dire \\ovalnum{Cas 2}} } \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "Cas1",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "N vaut 16. La condition $16 > 15$ est vraie. Le script exécute la partie `alors`. Le lutin dit \"Cas 1\".",
+          "scratchConfig": {
+            "script": "mettre [N] à (16) si <[N] > (15)> alors { dire (Cas 1) } sinon { dire (Cas 2) }",
+            "display_only": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.7",
+      "title": "Test 7 (Semaine 7)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.7.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Le nombre 12345 est-il divisible par 3 ? Et par 5 ? Justifier.",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "- Par 3 : $1+2+3+4+5=15$. 15 est un multiple de 3. <strong>Oui</strong>. - Par 5 : Le nombre se termine par 5. <strong>Oui</strong>."
+        },
+        {
+          "id": "5.7.2",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Le volume d'une pyramide à base carrée est de 50 cm³. Le côté de la base mesure 5 cm. Quelle est sa hauteur ? (\\textit{Rappel : $V = \\frac{1}{3} \\times \\text{Aire}_{\\text{base}} \\times h$})",
+          "questionType": "text",
+          "expectedAnswer": "6",
+          "images": [],
+          "correction": "Aire base $B = 5^2=25$. On a $50 = \\frac{1}{3} \\times 25 \\times h \\implies 150 = 25h$. $h = \\frac{150}{25}=6$. La hauteur est de 6 cm."
+        },
+        {
+          "id": "5.7.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Programme : \"Choisir un nombre, multiplier par 4, ajouter -8\". Quel nombre faut-il choisir pour obtenir 0 ?",
+          "questionType": "text",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "On résout $4x - 8 = 0 \\implies 4x = 8 \\implies x=2$. Il faut choisir 2."
+        },
+        {
+          "id": "5.7.4",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Calculer les deux tiers de 90€.",
+          "questionType": "numeric",
+          "expectedAnswer": "60",
+          "images": [],
+          "correction": "$(90 \\div 3) \\times 2 = 30 \\times 2 = 60$. Cela fait 60€."
+        },
+        {
+          "id": "5.7.5",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Une urne contient 20 boules dont 8 sont bleues. Les autres sont vertes. Quelle est la probabilité de tirer une boule verte ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{3}{5}",
+          "images": [],
+          "correction": "Il y a $20-8=12$ boules vertes. La probabilité est $\\frac{12}{20} = \\frac{3}{5}$."
+        },
+        {
+          "id": "5.7.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> La forme développée de $(x-6)^2$ est : <strong>A:</strong> $x^2 - 36$ <strong>B:</strong> $x^2 - 12x + 36$ <strong>C:</strong> $x^2 + 12x + 36$",
+          "questionType": "text",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "Identité remarquable $(a-b)^2 = a^2-2ab+b^2$. $(x-6)^2 = x^2 - 2(x)(6) + 6^2 = x^2 - 12x + 36$. La réponse est <strong>B</strong>."
+        }
+      ]
+    },
+    {
+      "id": "5.8",
+      "title": "Test 8 (Semaine 8)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.8.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Donner l'écriture décimale de $\\frac{5}{8}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0.625",
+          "images": [],
+          "correction": "On effectue la division $5 \\div 8 = 0,625$."
+        },
+        {
+          "id": "5.8.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Une vitesse de 15 m/s correspond à combien de km/h ?",
+          "questionType": "numeric",
+          "expectedAnswer": "54",
+          "images": [],
+          "correction": "Pour passer de m/s en km/h, on multiplie par 3,6. $15 \\times 3,6 = 54$. La vitesse est de 54 km/h."
+        },
+        {
+          "id": "5.8.3",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Résoudre : $(4x - 8)(x + 3) = 0$.",
+          "questionType": "text",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "Un produit est nul si l'un de ses facteurs est nul. $4x-8=0 \\implies x=2$. Ou $x+3=0 \\implies x=-3$. Solutions : -3 et 2."
+        },
+        {
+          "id": "5.8.4",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Série : 3, 9, 2, 11, 7, 5. Déterminer la médiane.",
+          "questionType": "text",
+          "expectedAnswer": "6",
+          "images": [],
+          "correction": "Série ordonnée : 2, 3, <strong>5</strong>, <strong>7</strong>, 9, 11. L'effectif est pair. Médiane = $\\frac{5+7}{2} = 6$."
+        },
+        {
+          "id": "5.8.5",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "<strong>(QCM)</strong> Le triangle 2 est l'image du triangle 1 par : \\begin{tikzpicture}[scale=0.5] \\coordinate (A) at (0,0.5); \\coordinate (B) at (2,0.5); \\coordinate (C) at (1,2); \\draw[thick, blue, fill=blue!20] (A)--(B)--(C)--cycle; \\node at (1,1) {1}; \\begin{scope}[yshift=-0.5cm, yscale=-1, xshift=4cm] \\coordinate (A2) at (0,0.5); \\coordinate (B2) at (2,0.5); \\coordinate (C2) at (1,2); \\draw[thick, red, fill=red!20] (A2)--(B2)--(C2)--cycle; \\node at (1,1) {2}; \\end{scope} \\draw[dashed] (-1,0)--(7,0); \\end{tikzpicture} <strong>A:</strong> une translation <strong>B:</strong> une symétrie axiale <strong>C:</strong> une rotation",
+          "questionType": "text",
+          "expectedAnswer": "symtrieaxiale",
+          "images": [
+            "5-8-5.png"
+          ],
+          "correction": "La figure 2 est une image \"miroir\" de la figure 1 par rapport à un axe horizontal. C'est une symétrie axiale. La réponse est <strong>B</strong>.",
+          "jsxgraphConfig": {
+            "boundingBox": [
+              -2.0,
+              1.0,
+              8.0,
+              -1.0
+            ],
+            "axis": true,
+            "grid": true,
+            "elements": [
+              {
+                "type": "segment",
+                "points": [
+                  [
+                    -1.0,
+                    0.0
+                  ],
+                  [
+                    7.0,
+                    0.0
+                  ]
+                ],
+                "style": {
+                  "strokeColor": "#333",
+                  "strokeWidth": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "5.8.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Compléter le script pour qu'il calcule $x^2 + 5$. \\begin{scratch} \\blockvariable{mettre \\ovalvariable{Résultat} à \\ovaloperator{\\ovalvariable{x} * \\ovalvariable{x}}} \\blockvariable{ajouter \\ovalnum{...} à \\ovalvariable{Résultat}} \\end{scratch}",
+          "questionType": "scratch_complete",
+          "expectedAnswer": "5",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le script calcule $x^2$. Pour obtenir $x^2+5$, il faut ajouter 5. Il faut compléter avec le nombre 5.",
+          "scratchConfig": {
+            "script": "mettre [Résultat] à ([x] * [x]) ajouter (...) à [Résultat]",
+            "gaps": [
+              {
+                "id": "gap0",
+                "placeholder": "___",
+                "expected": "5"
+              }
+            ],
+            "options": [
+              {
+                "value": "5",
+                "display": "5"
+              },
+              {
+                "value": "6",
+                "display": "6"
+              },
+              {
+                "value": "10",
+                "display": "10"
+              },
+              {
+                "value": "4",
+                "display": "4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.9",
+      "title": "Test 9 (Semaine 9)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.9.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer $2 \\times 10^5 \\times 3 \\times 10^{-2}$ et donner le résultat en notation scientifique.",
+          "questionType": "text",
+          "expectedAnswer": "6 \\times 10^{3}",
+          "images": [],
+          "correction": "On regroupe : $(2 \\times 3) \\times (10^5 \\times 10^{-2}) = 6 \\times 10^{3}$. Le résultat est $6 \\times 10^3$."
+        },
+        {
+          "id": "5.9.2",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Le périmètre d'un rectangle est 26 cm. Sa longueur mesure 3 cm de plus que sa largeur. Quelles sont ses dimensions ?",
+          "questionType": "text",
+          "expectedAnswer": "5",
+          "images": [],
+          "correction": "Soit $l$ la largeur. La longueur est $l+3$. Le périmètre est $2(l + l+3) = 4l+6$. $4l+6=26 \\implies 4l=20 \\implies l=5$. Largeur = 5 cm, longueur = 8 cm."
+        },
+        {
+          "id": "5.9.3",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Dans une classe de 30 élèves, 12 ont choisi l'option latin. Quelle est la fréquence d'élèves latinistes en pourcentage ?",
+          "questionType": "text",
+          "expectedAnswer": "40",
+          "images": [],
+          "correction": "Fréquence : $\\frac{12}{30} = 0,4$. Pourcentage : $0,4 \\times 100 = 40\\%$."
+        },
+        {
+          "id": "5.9.4",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un rectangle a une aire de 48 cm². Sa longueur est de 8 cm. Quel est son périmètre ?",
+          "questionType": "numeric",
+          "expectedAnswer": "28",
+          "images": [],
+          "correction": "Largeur = Aire / Longueur = $48 \\div 8 = 6$ cm. Périmètre = $2(8+6) = 28$ cm."
+        },
+        {
+          "id": "5.9.5",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "On lance un dé équilibré. Quelle est la probabilité de ne pas obtenir un 6 ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{5}{6}",
+          "images": [],
+          "correction": "$P(\\text{pas 6}) = 1 - P(6) = 1 - \\frac{1}{6} = \\frac{5}{6}$."
+        },
+        {
+          "id": "5.9.6",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "<strong>(QCM)</strong> Soit $f(x)= (x-3)^2$. Quel est le plus petit antécédent entier de 9 par $f$ ? <strong>A:</strong> 0 <strong>B:</strong> 6 <strong>C:</strong> 36",
+          "questionType": "numeric",
+          "expectedAnswer": "6",
+          "images": [],
+          "correction": "On résout $(x-3)^2=9$. $x-3=3 \\implies x=6$. Ou $x-3=-3 \\implies x=0$. Le plus petit antécédent est 0. La réponse est <strong>A</strong>."
+        }
+      ]
+    },
+    {
+      "id": "5.10",
+      "title": "Test 10 (Semaine 10)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.10.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Factoriser l'expression $G = x^2 - 49$.",
+          "questionType": "text",
+          "expectedAnswer": "(x-7)(x+7)",
+          "images": [],
+          "correction": "On utilise $a^2-b^2=(a-b)(a+b)$. $G = x^2 - 7^2 = (x-7)(x+7)$."
+        },
+        {
+          "id": "5.10.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit $f(x) = -3x+1$. Le point A(2 ; -5) appartient-il à sa courbe ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "On calcule $f(2) = -3(2) + 1 = -5$. L'ordonnée correspond. Oui, le point appartient à la courbe."
+        },
+        {
+          "id": "5.10.3",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un triangle IJK a pour côtés IJ = 8 cm, JK = 15 cm et IK = 17 cm. Ce triangle est-il rectangle ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "Réciproque de Pythagore. $17^2=289$. $8^2+15^2=64+225=289$. L'égalité est vérifiée, le triangle est rectangle en J."
+        },
+        {
+          "id": "5.10.4",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un T-shirt est soldé à -30\\%. Son prix après réduction est de 14€. Quel était son prix initial ?",
+          "questionType": "text",
+          "expectedAnswer": "20",
+          "images": [],
+          "correction": "Une réduction de 30\\% revient à multiplier par 0,7. Prix initial $\\times 0,7 = 14 \\implies$ Prix initial $= 14 \\div 0,7 = 20$. Le prix initial était de 20€."
+        },
+        {
+          "id": "5.10.5",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> Que dessine ce script ? \\begin{scratch} \\blockrepeat{répéter \\ovalnum{8} fois}{ \\blockmove{avancer de \\ovalnum{50}} \\blockmove{tourner \\turnRight{} de \\ovalnum{45} degrés} } \\end{scratch} <strong>A:</strong> Un carré <strong>B:</strong> Un octogone régulier",
+          "questionType": "scratch_view",
+          "expectedAnswer": "B",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le script répète 8 fois \"avancer\" en tournant de $360/8 = 45^\\circ$. Il dessine un octogone régulier. La réponse est <strong>B</strong>.",
+          "scratchConfig": {
+            "script": "\\blockrepeat{répéter (8) fois}{ avancer de (50) tourner \\turnRight{ de (45) degrés} }",
+            "display_only": true
+          }
+        },
+        {
+          "id": "5.10.6",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Quelle est la valeur finale de N ? \\begin{scratch} \\blockvariable{mettre \\ovalvariable{N} à \\ovalnum{1}} \\blockrepeat{répéter \\ovalnum{4} fois}{ \\blockvariable{mettre \\ovalvariable{N} à \\ovaloperator{\\ovalvariable{N} * \\ovalnum{2}}} } \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "16",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "N part de 1. T1: $1 \\times 2 = 2$. T2: $2 \\times 2 = 4$. T3: $4 \\times 2 = 8$. T4: $8 \\times 2 = 16$. La valeur finale est 16.",
+          "scratchConfig": {
+            "script": "mettre [N] à (1) \\blockrepeat{répéter (4) fois}{ mettre [N] à ([N] * (2)) }",
+            "display_only": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.11",
+      "title": "Test 11 (Semaine 11)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.11.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer et donner le résultat sous forme d'une fraction irréductible : $$ B = \\left(\\frac{1}{2} + \\frac{1}{3}\\right) \\div \\frac{5}{6} $$",
+          "questionType": "numeric",
+          "expectedAnswer": "1",
+          "images": [],
+          "correction": "Priorité aux parenthèses : $\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$. Le calcul devient : $B = \\frac{5}{6} \\div \\frac{5}{6} = 1$."
+        },
+        {
+          "id": "5.11.2",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Un cube a une arête de 4 cm. Quel est son volume ?",
+          "questionType": "numeric",
+          "expectedAnswer": "64",
+          "images": [],
+          "correction": "Volume d'un cube d'arête $c$ : $V = c^3$. $V = 4^3 = 64$. Le volume est de $64\\,\\text{cm}^3$."
+        },
+        {
+          "id": "5.11.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit la fonction affine $f(x) = -2x + 7$. Le point A(3 ; 1) appartient-il à la représentation graphique de $f$ ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "On calcule $f(3) = -2 \\times 3 + 7 = -6 + 7 = 1$. L'ordonnée correspond. <strong>Oui</strong>, le point appartient à la courbe."
+        },
+        {
+          "id": "5.11.4",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un article à 80€ est soldé à -15\\%. Quel est le nouveau prix ?",
+          "questionType": "numeric",
+          "expectedAnswer": "68",
+          "images": [],
+          "correction": "Une réduction de 15\\% revient à multiplier par $1 - 0,15 = 0,85$. $80 \\times 0,85 = 68$. Le nouveau prix est de 68€."
+        },
+        {
+          "id": "5.11.5",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "<strong>(QCM)</strong> Un triangle ABC est rectangle en B. On donne AB = 9 cm et BC = 12 cm. Combien mesure l'hypoténuse [AC] ? <strong>A:</strong> 15 cm <strong>B:</strong> 21 cm <strong>C:</strong> 144 cm",
+          "questionType": "numeric",
+          "expectedAnswer": "A",
+          "images": [],
+          "correction": "Pythagore : $AC^2 = AB^2 + BC^2 = 9^2 + 12^2 = 81 + 144 = 225$. $AC = \\sqrt{225} = 15$ cm. La réponse est <strong>A</strong>."
+        },
+        {
+          "id": "5.11.6",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Quelle est la valeur finale de la variable `distance` ? \\begin{scratch} \\blockvariable{mettre \\ovalvariable{distance} à \\ovalnum{0}} \\blockrepeat{répéter \\ovalnum{5} fois}{ \\blockvariable{ajouter \\ovalnum{10} à \\ovalvariable{distance}} } \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "50",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "La variable `distance` est initialisée à 0, puis on lui ajoute 10, cinq fois de suite. $0 + 5 \\times 10 = 50$. La valeur finale est 50.",
+          "scratchConfig": {
+            "script": "mettre [distance] à (0) \\blockrepeat{répéter (5) fois}{ ajouter (10) à [distance] }",
+            "display_only": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.12",
+      "title": "Test 12 (Semaine 12)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.12.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre l'équation : $(x - 7)(2x + 6) = 0$.",
+          "questionType": "text",
+          "expectedAnswer": "7",
+          "images": [],
+          "correction": "Un produit est nul si l'un de ses facteurs est nul. - Soit $x-7=0 \\implies x=7$. - Soit $2x+6=0 \\implies 2x=-6 \\implies x=-3$. Les solutions sont -3 et 7."
+        },
+        {
+          "id": "5.12.2",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Sur la figure, (DE) // (BC). On donne AD = 3, AB = 9, AC = 6. Calculer AE. \\begin{tikzpicture}[scale=0.6] \\coordinate (A) at (0,3); \\coordinate (B) at (6,0); \\coordinate (C) at (0,0); \\coordinate (D) at (2,2); \\coordinate (E) at (0,2); \\draw (A)--(B)--(C)--cycle; \\draw (D)--(E); \\node at (A)[above] {A}; \\node at (B)[right] {B}; \\node at (C)[left] {C}; \\node at (D)[above] {D}; \\node at (E)[left] {E}; \\end{tikzpicture}",
+          "questionType": "numeric",
+          "expectedAnswer": "2",
+          "images": [
+            "5-12-2.png"
+          ],
+          "correction": "Thalès : $\\frac{AD}{AB} = \\frac{AE}{AC} \\implies \\frac{3}{9} = \\frac{AE}{6}$. $AE = \\frac{3 \\times 6}{9} = \\frac{18}{9} = 2$. La longueur AE est 2."
+        },
+        {
+          "id": "5.12.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Une voiture neuve coûte 25 000€. Sa valeur baisse de 20\\% la première année. Quelle est sa valeur après un an ?",
+          "questionType": "text",
+          "expectedAnswer": "20",
+          "images": [],
+          "correction": "Une baisse de 20\\% revient à multiplier par $1 - 0,2 = 0,8$. $25\\,000 \\times 0,8 = 20\\,000$. La valeur est de 20 000€."
+        },
+        {
+          "id": "5.12.4",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Quelle est la probabilité d'obtenir un nombre strictement supérieur à 4 en lançant un dé à 6 faces ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{1}{3}",
+          "images": [],
+          "correction": "Les nombres > 4 sont 5 et 6. Il y a 2 cas favorables sur 6. La probabilité est $\\frac{2}{6} = \\frac{1}{3}$."
+        },
+        {
+          "id": "5.12.5",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Que dessine le script suivant ? \\begin{scratch} \\blockrepeat{répéter \\ovalnum{2} fois}{ \\blockmove{avancer de \\ovalnum{100}} \\blockmove{tourner \\turnRight{} de \\ovalnum{90} degrés} \\blockmove{avancer de \\ovalnum{50}} \\blockmove{tourner \\turnRight{} de \\ovalnum{90} degrés} } \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "rectangle",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "La séquence \"avancer 100, tourner 90, avancer 50, tourner 90\" est répétée 2 fois, ce qui trace un rectangle de 100 pas sur 50.",
+          "scratchConfig": {
+            "script": "\\blockrepeat{répéter (2) fois}{ avancer de (100) tourner \\turnRight{ de (90) degrés} avancer de (50) tourner \\turnRight{ de (90) degrés} }",
+            "display_only": true
+          }
+        },
+        {
+          "id": "5.12.6",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "<strong>(QCM)</strong> L'écriture scientifique de $0,000\\,58$ est : <strong>A:</strong> $5,8 \\times 10^4$ <strong>B:</strong> $58 \\times 10^{-5}$ <strong>C:</strong> $5,8 \\times 10^{-4}$",
+          "questionType": "text",
+          "expectedAnswer": "5.8",
+          "images": [],
+          "correction": "On décale la virgule de 4 rangs vers la droite, donc l'exposant est -4. L'écriture est $5,8 \\times 10^{-4}$. La réponse est <strong>C</strong>."
+        }
+      ]
+    },
+    {
+      "id": "5.13",
+      "title": "Test 13 (Semaine 13)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.13.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Développer et réduire l'expression : $C = (x+5)^2$.",
+          "questionType": "text",
+          "expectedAnswer": "x^2+10x+25",
+          "images": [],
+          "correction": "On utilise l'identité remarquable $(a+b)^2 = a^2+2ab+b^2$. $(x+5)^2 = x^2 + 2(x)(5) + 5^2 = x^2+10x+25$."
+        },
+        {
+          "id": "5.13.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer l'aire exacte d'un disque de rayon 4 cm.",
+          "questionType": "numeric",
+          "expectedAnswer": "16\\pi",
+          "images": [],
+          "correction": "La formule est $A=\\pi r^2$. $A = \\pi \\times 4^2 = 16\\pi$. L'aire exacte est $16\\pi\\,\\text{cm}^2$."
+        },
+        {
+          "id": "5.13.3",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "La fonction linéaire $f$ est telle que $f(5) = 15$. Déterminer l'expression de $f(x)$.",
+          "questionType": "text",
+          "expectedAnswer": "3x",
+          "images": [],
+          "correction": "Une fonction linéaire s'écrit $f(x)=ax$. $f(5)=15 \\implies a \\times 5 = 15 \\implies a=3$. L'expression est $f(x)=3x$."
+        },
+        {
+          "id": "5.13.4",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer la moyenne de la série : 8, 11, 11, 15, 15.",
+          "questionType": "numeric",
+          "expectedAnswer": "12",
+          "images": [],
+          "correction": "$\\frac{8+11+11+15+15}{5} = \\frac{60}{5} = 12$. La moyenne est 12."
+        },
+        {
+          "id": "5.13.5",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> La médiane de la série 2; 5; 7; 9; 10; 12 est : <strong>A:</strong> 7 <strong>B:</strong> 9 <strong>C:</strong> 8",
+          "questionType": "text",
+          "expectedAnswer": "8",
+          "images": [],
+          "correction": "La série ordonnée a un effectif pair (6). La médiane est la moyenne des deux valeurs centrales (7 et 9). $\\frac{7+9}{2}=8$. La réponse est <strong>C</strong>."
+        },
+        {
+          "id": "5.13.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Compléter le script pour qu'il affiche \"Positif\" si `nombre` est $\\ge 0$. \\begin{scratch} \\blockif{si \\booloperator{\\ovalvariable{nombre} >= \\ovalnum{...}} alors}{ \\blocklook{dire \\ovalnum{Positif}} } \\end{scratch}",
+          "questionType": "scratch_complete",
+          "expectedAnswer": "0",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "La condition \"supérieur ou égal à 0\" se traduit par $\\ge 0$. Il faut compléter avec le nombre 0.",
+          "scratchConfig": {
+            "script": "si <[nombre] >= (...)> alors { dire (Positif) }",
+            "gaps": [
+              {
+                "id": "gap0",
+                "placeholder": "___",
+                "expected": "0"
+              }
+            ],
+            "options": [
+              {
+                "value": "0",
+                "display": "0"
+              },
+              {
+                "value": "1",
+                "display": "1"
+              },
+              {
+                "value": "5",
+                "display": "5"
+              },
+              {
+                "value": "10",
+                "display": "10"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.14",
+      "title": "Test 14 (Semaine 14)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.14.1",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Le nombre 111 est-il un nombre premier ? Justifier.",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "La somme des chiffres de 111 est $1+1+1=3$. Comme 3 est un multiple de 3, 111 est divisible par 3. <strong>Non</strong>, 111 n'est pas premier."
+        },
+        {
+          "id": "5.14.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "B est l'image de A par une translation, et M est l'image de N par cette même translation. Quelle est la nature du quadrilatère ABMN ?",
+          "questionType": "text",
+          "expectedAnswer": "parallélogramme",
+          "images": [],
+          "correction": "Si T(A)=B et T(N)=M, alors les vecteurs $\\vv{AB}$ et $\\vv{NM}$ sont égaux. Le quadrilatère ABMN est un parallélogramme."
+        },
+        {
+          "id": "5.14.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit $f(x) = (x-5)(x+1)$. Calculer $f(5)$ et $f(-1)$.",
+          "questionType": "numeric",
+          "expectedAnswer": "0",
+          "images": [],
+          "correction": "$f(5)=(5-5)(5+1) = 0 \\times 6 = 0$. $f(-1)=(-1-5)(-1+1) = -6 \\times 0 = 0$."
+        },
+        {
+          "id": "5.14.4",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Dans un jeu de 32 cartes, quelle est la probabilité de tirer une figure (Valet, Dame, Roi) ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{3}{8}",
+          "images": [],
+          "correction": "Il y a 3 figures par couleur (4), soit $3 \\times 4 = 12$ figures. La probabilité est $\\frac{12}{32} = \\frac{3}{8}$."
+        },
+        {
+          "id": "5.14.5",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "<strong>(QCM)</strong> Dans un triangle ABC rectangle en C, BC=5 et AB=13. Le cosinus de $\\widehat{ABC}$ est : <strong>A:</strong> $\\frac{5}{13}$ <strong>B:</strong> $\\frac{12}{13}$ <strong>C:</strong> $\\frac{5}{12}$",
+          "questionType": "text",
+          "expectedAnswer": "A",
+          "images": [],
+          "correction": "$\\cos(\\widehat{ABC}) = \\frac{\\text{adjacent}}{\\text{hypoténuse}} = \\frac{BC}{AB} = \\frac{5}{13}$. La réponse est <strong>A</strong>."
+        },
+        {
+          "id": "5.14.6",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Quelle est la valeur finale de x ? \\begin{scratch} \\blockvariable{mettre \\ovalvariable{x} à \\ovalnum{2}} \\blockvariable{mettre \\ovalvariable{x} à \\ovaloperator{(\\ovalvariable{x} + \\ovalnum{1}) * \\ovalvariable{x}}} \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "6",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "`x` vaut 2. La ligne suivante calcule $(2+1) \\times 2 = 6$ et met ce résultat dans `x`. La valeur finale est 6.",
+          "scratchConfig": {
+            "script": "mettre [x] à (2) mettre [x] à (([x] + (1)) * [x])",
+            "display_only": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.15",
+      "title": "Test 15 (Semaine 15)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.15.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Simplifier $\\sqrt{50}$ sous la forme $a\\sqrt{b}$ avec $b$ le plus petit possible.",
+          "questionType": "text",
+          "expectedAnswer": "5\\sqrt{2}",
+          "images": [],
+          "correction": "$50 = 25 \\times 2$. Donc $\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$."
+        },
+        {
+          "id": "5.15.2",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un verre cylindrique (rayon 4 cm, hauteur 10 cm) est rempli d'eau aux deux tiers. Quel volume d'eau contient-il (valeur exacte) ?",
+          "questionType": "text",
+          "expectedAnswer": "3203cm",
+          "images": [],
+          "correction": "Volume total $V = \\pi r^2 h = \\pi \\times 4^2 \\times 10 = 160\\pi$. Volume d'eau = $\\frac{2}{3} \\times 160\\pi = \\frac{320\\pi}{3}\\,\\text{cm}^3$."
+        },
+        {
+          "id": "5.15.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit $f(x) = 1,5x$ le prix des carottes (€) en fonction du poids $x$ (kg). Quel est le prix de 4 kg ?",
+          "questionType": "numeric",
+          "expectedAnswer": "6",
+          "images": [],
+          "correction": "On calcule $f(4) = 1,5 \\times 4 = 6$. Le prix est de 6€."
+        },
+        {
+          "id": "5.15.4",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer l'étendue de la série : -5 ; 2 ; 8 ; -1 ; 10.",
+          "questionType": "numeric",
+          "expectedAnswer": "15",
+          "images": [],
+          "correction": "Étendue = Max - Min = $10 - (-5) = 15$."
+        },
+        {
+          "id": "5.15.5",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "<strong>(QCM)</strong> Que dessine ce script ? \\begin{scratch} \\blockrepeat{répéter \\ovalnum{36} fois}{ \\blockmove{avancer de \\ovalnum{5}} \\blockmove{tourner \\turnRight{} de \\ovalnum{10} degrés} } \\end{scratch} <strong>A:</strong> Un cercle (ou presque) <strong>B:</strong> Une ligne brisée",
+          "questionType": "scratch_view",
+          "expectedAnswer": "A",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le lutin tourne de $36 \\times 10^\\circ = 360^\\circ$ au total, en traçant 36 petits segments. Il dessine un polygone régulier à 36 côtés, qui ressemble à un cercle. La réponse est <strong>A</strong>.",
+          "scratchConfig": {
+            "script": "\\blockrepeat{répéter (36) fois}{ avancer de (5) tourner \\turnRight{ de (10) degrés} }",
+            "display_only": true
+          }
+        },
+        {
+          "id": "5.15.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Quelle est la valeur finale de `score` ? \\begin{scratch} \\blockvariable{mettre \\ovalvariable{score} à \\ovalnum{100}} \\blockrepeat{répéter \\ovalnum{3} fois}{ \\blockvariable{ajouter \\ovalnum{-10} à \\ovalvariable{score}} } \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "70",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Départ : 100. T1: $100-10=90$. T2: $90-10=80$. T3: $80-10=70$. La valeur finale est 70.",
+          "scratchConfig": {
+            "script": "mettre [score] à (100) \\blockrepeat{répéter (3) fois}{ ajouter (-10) à [score] }",
+            "display_only": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.16",
+      "title": "Test 16 (Semaine 16)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.16.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre : $3x - 11 = 4$.",
+          "questionType": "text",
+          "expectedAnswer": "5",
+          "images": [],
+          "correction": "$3x = 4+11 \\implies 3x = 15 \\implies x=5$."
+        },
+        {
+          "id": "5.16.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "L'aire d'un carré est 25 cm². On lui applique une homothétie de rapport 3. Quelle est l'aire du nouveau carré ?",
+          "questionType": "text",
+          "expectedAnswer": "225",
+          "images": [],
+          "correction": "Dans une homothétie de rapport $k$, les aires sont multipliées par $k^2$. Nouvelle aire = $25 \\times 3^2 = 25 \\times 9 = 225\\,\\text{cm}^2$."
+        },
+        {
+          "id": "5.16.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> La probabilité d'obtenir \"Face\" est 0,5. Quelle est la probabilité de ne PAS obtenir \"Face\" ? <strong>A:</strong> 0 <strong>B:</strong> 0,5 <strong>C:</strong> 1",
+          "questionType": "text",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "$P(\\text{non Face}) = 1 - P(\\text{Face}) = 1 - 0,5 = 0,5$. La réponse est <strong>B</strong>."
+        },
+        {
+          "id": "5.16.4",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Soit $g(x) = (x-4)^2 + 1$. Pour quelle(s) valeur(s) de $x$ a-t-on $g(x)=1$ ?",
+          "questionType": "text",
+          "expectedAnswer": "4",
+          "images": [],
+          "correction": "On résout $(x-4)^2 + 1 = 1 \\implies (x-4)^2 = 0 \\implies x-4=0$. La seule solution est $x=4$."
+        },
+        {
+          "id": "5.16.5",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Compléter le script pour qu'il exécute le programme : \"Choisir un nombre, ajouter 5, multiplier par 3\". \\begin{scratch} \\blockvariable{mettre \\ovalvariable{résultat} à \\ovaloperator{\\ovalsensing{réponse} + \\ovalnum{5}}} \\blockvariable{mettre \\ovalvariable{résultat} à \\ovaloperator{\\ovalvariable{résultat} * \\ovalnum{3}}} \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "Correct",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le script est correct. La première ligne calcule `réponse + 5`, la seconde multiplie ce résultat par 3.",
+          "scratchConfig": {
+            "script": "mettre [résultat] à (<réponse> + (5)) mettre [résultat] à ([résultat] * (3))",
+            "display_only": true
+          }
+        },
+        {
+          "id": "5.16.6",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Traduire par des égalités : \"l'image de 2 par $f$ est 5\" et \"l'antécédent de -1 par $f$ est 4\".",
+          "questionType": "text",
+          "expectedAnswer": "4",
+          "images": [],
+          "correction": "- \"L'image de 2 est 5\" se traduit par $f(2)=5$. - \"L'antécédent de -1 est 4\" se traduit par $f(4)=-1$."
+        }
+      ]
+    },
+    {
+      "id": "5.17",
+      "title": "Test 17 (Semaine 17)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.17.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer 25\\% de 160.",
+          "questionType": "numeric",
+          "expectedAnswer": "40",
+          "images": [],
+          "correction": "Calculer 25\\% revient à diviser par 4. $160 \\div 4 = 40$."
+        },
+        {
+          "id": "5.17.2",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Un triangle a des côtés de 6 cm, 7 cm et 9 cm. Est-il rectangle ? Justifier.",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [],
+          "correction": "Réciproque de Pythagore : $9^2 = 81$. $6^2+7^2 = 36+49=85$. Comme $81 \\neq 85$, le triangle n'est pas rectangle."
+        },
+        {
+          "id": "5.17.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit $f(x)=2x+3$ et $g(x)=3x+2$. Pour $x=1$, a-t-on $f(x)=g(x)$ ?",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "$f(1)=2(1)+3=5$. $g(1)=3(1)+2=5$. <strong>Oui</strong>, $f(1)=g(1)$."
+        },
+        {
+          "id": "5.17.4",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "<strong>(QCM)</strong> Quel est le périmètre de la figure composée d'un carré de côté 5 et d'un demi-cercle ? \\begin{tikzpicture}[scale=0.5] \\draw (0,0) rectangle (5,5); \\draw (2.5,5) arc (0:180:2.5); \\end{tikzpicture} <strong>A:</strong> $20+5\\pi$ <strong>B:</strong> $15+2,5\\pi$ <strong>C:</strong> $15+5\\pi$",
+          "questionType": "numeric",
+          "expectedAnswer": "B",
+          "images": [
+            "5-17-4.png"
+          ],
+          "correction": "Le périmètre est la somme des 3 côtés du carré et du demi-cercle : $P = 3 \\times 5 + \\frac{\\pi \\times 5}{2} = 15 + 2,5\\pi$. La réponse est <strong>B</strong>."
+        },
+        {
+          "id": "5.17.5",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Calculer la moyenne pondérée de la série : \\begin{tabular}{|c|c|c|c|} \\hline Note & 10 & 12 & 15 \\hline Effectif & 5 & 3 & 2 \\hline \\end{tabular}",
+          "questionType": "numeric",
+          "expectedAnswer": "11.6",
+          "images": [],
+          "correction": "$M = \\frac{10\\times5+12\\times3+15\\times2}{5+3+2} = \\frac{50+36+30}{10} = 11,6$."
+        },
+        {
+          "id": "5.17.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Quelles sont les coordonnées du lutin après ce bloc ? \\begin{scratch} \\blockmove{aller à x: \\ovalnum{-30} y: \\ovalnum{50}} \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "-30  50",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le bloc `aller à` positionne le lutin aux coordonnées spécifiées. Le lutin se trouve en (-30 ; 50).",
+          "scratchConfig": {
+            "script": "aller à x: (-30) y: (50)",
+            "display_only": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.18",
+      "title": "Test 18 (Semaine 18)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.18.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Factoriser : $H = 5x^2 - 15x$.",
+          "questionType": "text",
+          "expectedAnswer": "5x(x-3)",
+          "images": [],
+          "correction": "Le facteur commun est $5x$. $H = 5x(x) - 5x(3) = 5x(x-3)$."
+        },
+        {
+          "id": "5.18.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Deux angles d'un triangle mesurent 40° et 60°. Quelle est la mesure du troisième ?",
+          "questionType": "text",
+          "expectedAnswer": "80",
+          "images": [],
+          "correction": "$180^\\circ - (40^\\circ+60^\\circ) = 180^\\circ - 100^\\circ = 80^\\circ$."
+        },
+        {
+          "id": "5.18.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Ce tableau est-il un tableau de proportionnalité ? \\begin{tabular}{|c|c|c|c|} \\hline Vol. (L) & 2 & 3 & 5 \\hline Prix (€) & 3 & 4,5 & 7,5 \\hline \\end{tabular}",
+          "questionType": "boolean",
+          "expectedAnswer": "Oui",
+          "images": [],
+          "correction": "On vérifie le coefficient : $\\frac{3}{2}=1,5$ ; $\\frac{4,5}{3}=1,5$ ; $\\frac{7,5}{5}=1,5$. Le coefficient est constant, donc <strong>oui</strong>."
+        },
+        {
+          "id": "5.18.4",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "On lance deux fois une pièce. Probabilité d'obtenir au moins une fois \"Pile\" ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{3}{4}",
+          "images": [],
+          "correction": "L'événement contraire est \"obtenir deux fois Face\", de probabilité $\\frac{1}{4}$. $P(\\text{au moins 1 Pile}) = 1 - \\frac{1}{4} = \\frac{3}{4}$."
+        },
+        {
+          "id": "5.18.5",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Quel script trace un \"L\" (lutin orienté vers le bas au départ) ? \\begin{scratch} \\blockmove{avancer de \\ovalnum{100}} \\blockmove{tourner \\turnLeft{} de \\ovalnum{90} degrés} \\blockmove{avancer de \\ovalnum{50}} \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "Correct",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Orienté vers le bas, il avance de 100, tourne à gauche de 90° (regarde vers la droite) et avance de 50. Le script est correct.",
+          "scratchConfig": {
+            "script": "avancer de (100) tourner \\turnLeft{ de (90) degrés} avancer de (50)",
+            "display_only": true
+          }
+        },
+        {
+          "id": "5.18.6",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "<strong>(QCM)</strong> Quel graphique représente une fonction linéaire ? <strong>A:</strong> Une droite ne passant pas par l'origine. <strong>B:</strong> Une parabole. <strong>C:</strong> Une droite passant par l'origine.",
+          "questionType": "text",
+          "expectedAnswer": "C",
+          "images": [],
+          "correction": "Une fonction linéaire représente une situation de proportionnalité, dont le graphique est une droite passant par l'origine. La réponse est <strong>C</strong>."
+        }
+      ]
+    },
+    {
+      "id": "5.19",
+      "title": "Test 19 (Semaine 19)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.19.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Donner l'écriture scientifique de 0,025.",
+          "questionType": "numeric",
+          "expectedAnswer": "2.5",
+          "images": [],
+          "correction": "On décale la virgule de 2 rangs vers la droite : $2,5 \\times 10^{-2}$."
+        },
+        {
+          "id": "5.19.2",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer l'aire d'un trapèze de hauteur 5 cm, petite base 4 cm et grande base 6 cm. \\textit{(Rappel : $A = \\frac{(B+b) \\times h}{2}$)}",
+          "questionType": "numeric",
+          "expectedAnswer": "25",
+          "images": [],
+          "correction": "$A = \\frac{(6+4) \\times 5}{2} = \\frac{10 \\times 5}{2} = 25$. L'aire est de $25\\,\\text{cm}^2$."
+        },
+        {
+          "id": "5.19.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre : $4x + 1 = -11$.",
+          "questionType": "text",
+          "expectedAnswer": "-3",
+          "images": [],
+          "correction": "$4x = -11 - 1 = -12 \\implies x = -3$."
+        },
+        {
+          "id": "5.19.4",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Déterminer la médiane de la série : 10, 8, 15, 6, 12, 18.",
+          "questionType": "text",
+          "expectedAnswer": "11",
+          "images": [],
+          "correction": "Série ordonnée : 6, 8, <strong>10</strong>, <strong>12</strong>, 15, 18. Médiane = $\\frac{10+12}{2}=11$."
+        },
+        {
+          "id": "5.19.5",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> En lançant un dé à six faces, la probabilité d'obtenir un nombre $\\le 2$ est : <strong>A:</strong> $\\frac{1}{6}$ <strong>B:</strong> $\\frac{1}{3}$ <strong>C:</strong> $\\frac{1}{2}$",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{1}{3}",
+          "images": [],
+          "correction": "Les cas favorables sont 1 et 2. Il y en a 2 sur 6. La probabilité est $\\frac{2}{6}=\\frac{1}{3}$. La réponse est <strong>B</strong>."
+        },
+        {
+          "id": "5.19.6",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Programme : \"Choisir un nombre, calculer son carré, puis soustraire 4\". Quel(s) nombre(s) choisir pour obtenir 0 ?",
+          "questionType": "numeric",
+          "expectedAnswer": "2et-2",
+          "images": [],
+          "correction": "On résout $x^2-4=0 \\implies x^2=4$. Les solutions sont 2 et -2."
+        }
+      ]
+    },
+    {
+      "id": "5.20",
+      "title": "Test 20 (Semaine 20)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.20.1",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Résoudre l'équation $\\dfrac{x}{3} = 7$.",
+          "questionType": "text",
+          "expectedAnswer": "21",
+          "images": [],
+          "correction": "On isole $x$ en multipliant par 3 : $x=7 \\times 3=21$."
+        },
+        {
+          "id": "5.20.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Une voiture consomme 5 L pour 100 km. Combien pour 250 km ?",
+          "questionType": "numeric",
+          "expectedAnswer": "12.5",
+          "images": [],
+          "correction": "Produit en croix : Consommation = $\\frac{5 \\times 250}{100} = 12,5$ L."
+        },
+        {
+          "id": "5.20.3",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un prix de 200€ subit une réduction de 10\\%, puis de 20\\%. Quel est le pourcentage de réduction total ?",
+          "questionType": "numeric",
+          "expectedAnswer": "28",
+          "images": [],
+          "correction": "Coefficients multiplicateurs : $0,9 \\times 0,8 = 0,72$. Une multiplication par 0,72 correspond à une baisse de $1-0,72=0,28$. La réduction totale est de 28\\%."
+        },
+        {
+          "id": "5.20.4",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Calculer la hauteur d'un triangle équilatéral de côté 8 cm (valeur exacte).",
+          "questionType": "numeric",
+          "expectedAnswer": "4\\sqrt{3}",
+          "images": [],
+          "correction": "Pythagore : $h^2 + 4^2 = 8^2 \\implies h^2+16=64 \\implies h^2=48$. La hauteur exacte est $\\sqrt{48} = 4\\sqrt{3}$ cm."
+        },
+        {
+          "id": "5.20.5",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Que dit le lutin si on saisit 9 ? \\begin{scratch} \\blockifelse{si \\booloperator{\\ovaloperator{\\ovalsensing{réponse} mod \\ovalnum{2}} = \\ovalnum{0}} alors}{ \\blocklook{dire \\ovalnum{Pair}} }{ \\blocklook{dire \\ovalnum{Impair}} } \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "impair",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le bloc \"mod\" calcule le reste de la division. Le reste de 9 divisé par 2 est 1. La condition \"reste=0\" est fausse. Le lutin dit \"Impair\".",
+          "scratchConfig": {
+            "script": "si <(<réponse> mod (2)) = (0)> alors { dire (Pair) } sinon { dire (Impair) }",
+            "display_only": true
+          }
+        },
+        {
+          "id": "5.20.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> Volume d'un cône de rayon $r=3$ cm et hauteur $h=10$ cm : (\\textit{Rappel : $V=\\frac{1}{3}\\pi r^2 h$}) <strong>A:</strong> $90\\pi\\,\\text{cm}^3$ <strong>B:</strong> $30\\pi\\,\\text{cm}^3$ <strong>C:</strong> $10\\pi\\,\\text{cm}^3$",
+          "questionType": "text",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "$V = \\frac{1}{3} \\times \\pi \\times 3^2 \\times 10 = \\frac{1}{3} \\times 90\\pi = 30\\pi$. La réponse est <strong>B</strong>."
+        }
+      ]
+    },
+    {
+      "id": "5.21",
+      "title": "Test 21 (Semaine 21)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.21.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre l'équation : $5x - 8 = 2x + 7$.",
+          "questionType": "text",
+          "expectedAnswer": "5",
+          "images": [],
+          "correction": "$5x - 2x = 7 + 8 \\implies 3x = 15 \\implies x=5$."
+        },
+        {
+          "id": "5.21.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit un point A(2 ; -3). Quelles sont les coordonnées de son symétrique par rapport à l'origine O du repère ?",
+          "questionType": "text",
+          "expectedAnswer": "-2  3",
+          "images": [],
+          "correction": "La symétrie de centre O transforme $(x,y)$ en $(-x,-y)$. Le symétrique de A(2;-3) est A'(-2 ; 3)."
+        },
+        {
+          "id": "5.21.3",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> L'expression $5^3 \\times 5^{-5}$ est égale à : <strong>A:</strong> $5^{-2}$ \\hspace{1cm} <strong>B:</strong> $5^{8}$ \\hspace{1cm} <strong>C:</strong> $25^{-2}$",
+          "questionType": "text",
+          "expectedAnswer": "A",
+          "images": [],
+          "correction": "On utilise $a^m \\times a^n = a^{m+n}$. $5^3 \\times 5^{-5} = 5^{3-5} = 5^{-2}$. La réponse est <strong>A</strong>."
+        },
+        {
+          "id": "5.21.4",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Une urne contient 10 boules rouges, 5 bleues et 5 vertes. Quelle est la probabilité de ne pas tirer une boule bleue ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{3}{4}",
+          "images": [],
+          "correction": "Total : 20 boules. $P(\\text{Bleue}) = \\frac{5}{20} = \\frac{1}{4}$. $P(\\text{non Bleue}) = 1 - \\frac{1}{4} = \\frac{3}{4}$."
+        },
+        {
+          "id": "5.21.5",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Programme : \"Choisir un nombre, multiplier par 10, ajouter 5\". Écrire l'expression de la fonction $f$ correspondante.",
+          "questionType": "text",
+          "expectedAnswer": "10x+5",
+          "images": [],
+          "correction": "Le programme traduit la fonction $f(x)=10x+5$."
+        },
+        {
+          "id": "5.21.6",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Quelle est la valeur finale de la variable `compteur` ? \\begin{scratch} \\blockvariable{mettre \\ovalvariable{compteur} à \\ovalnum{0}} \\blockrepeat{répéter \\ovalnum{5} fois}{ \\blockvariable{ajouter \\ovalnum{1} à \\ovalvariable{compteur}} \\blockvariable{mettre \\ovalvariable{compteur} à \\ovaloperator{\\ovalvariable{compteur} + \\ovalvariable{compteur}}} } \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "62",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "T0: 0. T1: $0+1=1 \\to 1+1=2$. T2: $2+1=3 \\to 3+3=6$. T3: $6+1=7 \\to 7+7=14$. T4: $14+1=15 \\to 15+15=30$. T5: $30+1=31 \\to 31+31=62$. La valeur finale est 62.",
+          "scratchConfig": {
+            "script": "mettre [compteur] à (0) \\blockrepeat{répéter (5) fois}{ ajouter (1) à [compteur] mettre [compteur] à ([compteur] + [compteur]) }",
+            "display_only": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.22",
+      "title": "Test 22 (Semaine 22)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.22.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer $\\dfrac{3}{4} \\div \\dfrac{9}{8}$ et donner le résultat sous forme de fraction irréductible.",
+          "questionType": "numeric",
+          "expectedAnswer": "\\frac{2}{3}",
+          "images": [],
+          "correction": "$\\frac{3}{4} \\times \\frac{8}{9} = \\frac{24}{36}$. On simplifie par 12 pour obtenir $\\frac{2}{3}$."
+        },
+        {
+          "id": "5.22.2",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> Le volume d'un pavé droit de dimensions 5 cm, 4 cm et 2 cm est de : <strong>A:</strong> 11 cm$^3$ <strong>B:</strong> 40 cm$^3$ <strong>C:</strong> 22 cm$^3$",
+          "questionType": "text",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "$V = L \\times l \\times h = 5 \\times 4 \\times 2 = 40\\,\\text{cm}^3$. La réponse est <strong>B</strong>."
+        },
+        {
+          "id": "5.22.3",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "La graphique de la fonction affine $g$ passe par A(1; 5) et B(3; 9). Déterminer $g(x)$.",
+          "questionType": "text",
+          "expectedAnswer": "2x+3",
+          "images": [],
+          "correction": "$a = \\frac{9-5}{3-1} = 2$. Donc $g(x)=2x+b$. Avec A(1;5) : $5=2(1)+b \\implies b=3$. $g(x) = 2x+3$."
+        },
+        {
+          "id": "5.22.4",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Calculer la moyenne de : 10, 20, 30, 40, 50.",
+          "questionType": "numeric",
+          "expectedAnswer": "30",
+          "images": [],
+          "correction": "$\\frac{10+20+30+40+50}{5} = \\frac{150}{5} = 30$. La moyenne est 30."
+        },
+        {
+          "id": "5.22.5",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Quelle est la valeur finale de `c` ? \\begin{scratch} \\blockvariable{mettre \\ovalvariable{a} à \\ovalnum{10}} \\blockvariable{mettre \\ovalvariable{b} à \\ovaloperator{\\ovalvariable{a} / \\ovalnum{2}}} \\blockvariable{mettre \\ovalvariable{c} à \\ovaloperator{\\ovalvariable{a} + \\ovalvariable{b}}} \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "15",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "`a`=10. `b`=$10/2=5$. `c`=$10+5=15$. La valeur finale est 15.",
+          "scratchConfig": {
+            "script": "mettre [a] à (10) mettre [b] à ([a] / (2)) mettre [c] à ([a] + [b])",
+            "display_only": true
+          }
+        },
+        {
+          "id": "5.22.6",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un mât de 12 m est maintenu par un câble de 13 m. À quelle distance du pied du mât le câble est-il fixé ?",
+          "questionType": "text",
+          "expectedAnswer": "5",
+          "images": [],
+          "correction": "Pythagore : $d^2+12^2=13^2 \\implies d^2+144=169 \\implies d^2=25$. La distance est $\\sqrt{25}=5$ m."
+        }
+      ]
+    },
+    {
+      "id": "5.23",
+      "title": "Test 23 (Semaine 23)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.23.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Développer et réduire $(4x-1)(x+5)$.",
+          "questionType": "text",
+          "expectedAnswer": "4x2+19x-5",
+          "images": [],
+          "correction": "$4x^2 + 20x - x - 5 = 4x^2 + 19x - 5$."
+        },
+        {
+          "id": "5.23.2",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Un écran de diagonale 15 cm a une largeur de 7,5 cm. Calculer sa longueur (arrondir au mm).",
+          "questionType": "numeric",
+          "expectedAnswer": "13.0",
+          "images": [],
+          "correction": "Pythagore : $L^2 + 7,5^2 = 15^2 \\implies L^2+56,25=225 \\implies L^2=168,75$. $L=\\sqrt{168,75}\\approx12,99$ cm. La longueur est d'environ 13,0 cm."
+        },
+        {
+          "id": "5.23.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un loyer de 500€ augmente de 2\\%. Quel est le nouveau loyer ?",
+          "questionType": "numeric",
+          "expectedAnswer": "510",
+          "images": [],
+          "correction": "Augmenter de 2\\% revient à multiplier par 1,02. $500 \\times 1,02 = 510$. Le nouveau loyer est de 510€."
+        },
+        {
+          "id": "5.23.4",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> La médiane de la série 3, 5, 8, 12, 15 est : <strong>A:</strong> 8,6 <strong>B:</strong> 8 <strong>C:</strong> 12",
+          "questionType": "text",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "La série est ordonnée, l'effectif est impair (5). La médiane est la valeur centrale, 8. La réponse est <strong>B</strong>."
+        },
+        {
+          "id": "5.23.5",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Quelle est la probabilité de tirer une carte rouge (cœur ou carreau) dans un jeu de 32 ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{1}{2}",
+          "images": [],
+          "correction": "Il y a 16 cartes rouges sur 32. La probabilité est $\\frac{16}{32}=\\frac{1}{2}$."
+        },
+        {
+          "id": "5.23.6",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Compléter la dernière ligne du script qui trace un \"H\". \\begin{scratch} \\blockmove{s'orienter à \\ovalnum{0}} \\blockmove{avancer de \\ovalnum{100}} \\blockmove{avancer de \\ovalnum{-50}} \\blockmove{tourner \\turnRight{} de \\ovalnum{90} degrés} \\blockmove{avancer de \\ovalnum{50}} \\blockmove{tourner \\turnLeft{} de \\ovalnum{90} degrés} \\blockmove{avancer de \\ovalnum{50}} \\blockmove{avancer de \\ovalnum{...}} \\end{scratch}",
+          "questionType": "scratch_complete",
+          "expectedAnswer": "-100",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Le lutin a tracé le montant gauche, la barre du milieu et le haut du montant droit. Pour finir, il doit descendre de 100 pas. Il faut compléter avec -100.",
+          "scratchConfig": {
+            "script": "s'orienter à (0) avancer de (100) avancer de (-50) tourner \\turnRight{ de (90) degrés} avancer de (50) tourner \\turnLeft{ de (90) degrés} avancer de (50) avancer de (...)",
+            "gaps": [
+              {
+                "id": "gap0",
+                "placeholder": "___",
+                "expected": "-100"
+              }
+            ],
+            "options": [
+              {
+                "value": "-100",
+                "display": "-100"
+              },
+              {
+                "value": "-90",
+                "display": "-90"
+              },
+              {
+                "value": "-200",
+                "display": "-200"
+              },
+              {
+                "value": "-50",
+                "display": "-50"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.24",
+      "title": "Test 24 (Semaine 24)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.24.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre $4(x-3) = 2x$.",
+          "questionType": "text",
+          "expectedAnswer": "6",
+          "images": [],
+          "correction": "$4x - 12 = 2x \\implies 2x = 12 \\implies x=6$."
+        },
+        {
+          "id": "5.24.2",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Calculer l'aire exacte d'un carré de côté 4 cm surmonté d'un triangle équilatéral de même côté. (\\textit{Rappel : $h = \\frac{c\\sqrt{3}}{2}$}).",
+          "questionType": "numeric",
+          "expectedAnswer": "16+4\\sqrt{3}",
+          "images": [],
+          "correction": "Aire carré = $4^2=16$. Hauteur triangle = $\\frac{4\\sqrt{3}}{2}=2\\sqrt{3}$. Aire triangle = $\\frac{4 \\times 2\\sqrt{3}}{2}=4\\sqrt{3}$. Aire totale = $16+4\\sqrt{3}\\,\\text{cm}^2$."
+        },
+        {
+          "id": "5.24.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer l'étendue des températures : -3°C, 5°C, 0°C, -1°C, 8°C.",
+          "questionType": "numeric",
+          "expectedAnswer": "11",
+          "images": [],
+          "correction": "Étendue = Max - Min = $8 - (-3) = 11$. L'étendue est de 11°C."
+        },
+        {
+          "id": "5.24.4",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "On lance deux dés. Probabilité que le produit des nombres soit égal à 6 ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{1}{9}",
+          "images": [],
+          "correction": "Cas favorables : (1,6), (6,1), (2,3), (3,2). Il y a 4 cas sur 36. La probabilité est $\\frac{4}{36}=\\frac{1}{9}$."
+        },
+        {
+          "id": "5.24.5",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> Laquelle de ces fonctions est linéaire ? <strong>A:</strong> $f(x)=x^2$ <strong>B:</strong> $f(x)=3x$ <strong>C:</strong> $f(x)=3x-2$",
+          "questionType": "text",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "Une fonction linéaire est de la forme $f(x)=ax$. La réponse est <strong>B</strong>."
+        },
+        {
+          "id": "5.24.6",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Un lutin part de (0,0) orienté vers la droite. Coordonnées finales ? \\begin{scratch} \\blockmove{avancer de \\ovalnum{50}} \\blockmove{tourner \\turnLeft{} de \\ovalnum{90} degrés} \\blockmove{avancer de \\ovalnum{30}} \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "50  30",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Il avance de 50 (vers la droite) $\\to$ (50;0). Il tourne à gauche (vers le haut). Il avance de 30 $\\to$ (50;30). Coordonnées finales : (50 ; 30).",
+          "scratchConfig": {
+            "script": "avancer de (50) tourner \\turnLeft{ de (90) degrés} avancer de (30)",
+            "display_only": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.25",
+      "title": "Test 25 (Semaine 25)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.25.1",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer $A = \\dfrac{4 \\times 10^5}{2 \\times 10^8}$ en écriture scientifique.",
+          "questionType": "text",
+          "expectedAnswer": "2 \\times 10^{-3}",
+          "images": [],
+          "correction": "$A = \\frac{4}{2} \\times 10^{5-8} = 2 \\times 10^{-3}$."
+        },
+        {
+          "id": "5.25.2",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Une pyramide a un volume de 48 cm³ et une hauteur de 6 cm. Quelle est l'aire de sa base ?",
+          "questionType": "text",
+          "expectedAnswer": "24",
+          "images": [],
+          "correction": "$V = \\frac{1}{3}Bh \\implies 48 = \\frac{1}{3} \\times B \\times 6 \\implies 48 = 2B$. L'aire de la base est $B=24\\,\\text{cm}^2$."
+        },
+        {
+          "id": "5.25.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Soit $f(x) = \\frac{1}{2}x - 3$. Quel est l'antécédent de 7 ?",
+          "questionType": "numeric",
+          "expectedAnswer": "20",
+          "images": [],
+          "correction": "$\\frac{1}{2}x - 3 = 7 \\implies \\frac{1}{2}x = 10 \\implies x=20$. L'antécédent est 20."
+        },
+        {
+          "id": "5.25.4",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Temps (min) : 12, 15, 11, 18, 14, 11, 13. Déterminer la médiane.",
+          "questionType": "text",
+          "expectedAnswer": "impair",
+          "images": [],
+          "correction": "Série ordonnée : 11, 11, 12, <strong>13</strong>, 14, 15, 18. L'effectif (7) est impair. La médiane est la 4ème valeur : 13."
+        },
+        {
+          "id": "5.25.5",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> Si N=10, que dit le lutin ? \\begin{scratch} \\blockifelse{si \\booloperator{\\ovaloperator{\\ovalvariable{N} mod \\ovalnum{3}} = \\ovalnum{0}} alors}{ \\blocklook{dire \\ovalnum{divisible}} }{ \\blocklook{dire \\ovalnum{non}} } \\end{scratch} <strong>A:</strong> divisible <strong>B:</strong> non <strong>C:</strong> Rien",
+          "questionType": "boolean",
+          "expectedAnswer": "Non",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "`10 mod 3` calcule le reste de la division de 10 par 3, qui est 1. La condition `1 = 0` est fausse. Le lutin dit \"non\". La réponse est <strong>B</strong>.",
+          "scratchConfig": {
+            "script": "si <([N] mod (3)) = (0)> alors { dire (divisible) } sinon { dire (non) }",
+            "display_only": true
+          }
+        },
+        {
+          "id": "5.25.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "M(3;4) est l'image de P par la symétrie centrale de centre O(0;0). Coordonnées de P ?",
+          "questionType": "text",
+          "expectedAnswer": "(-3, -4)",
+          "images": [],
+          "correction": "La symétrie de centre O transforme $(x,y)$ en $(-x,-y)$. P est donc le symétrique de M. Les coordonnées de P sont (-3;-4)."
+        }
+      ]
+    },
+    {
+      "id": "5.26",
+      "title": "Test 26 (Semaine 26)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.26.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Factoriser $D = (x+1)(x+2) + (x+1)(2x+3)$.",
+          "questionType": "text",
+          "expectedAnswer": "(x+1)(3x+5)",
+          "images": [],
+          "correction": "Le facteur commun est $(x+1)$. $D=(x+1)[(x+2)+(2x+3)] = (x+1)(3x+5)$."
+        },
+        {
+          "id": "5.26.2",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Calculer le périmètre d'une roue de vélo de 70 cm de diamètre (Arrondir au cm).",
+          "questionType": "numeric",
+          "expectedAnswer": "220",
+          "images": [],
+          "correction": "$P = \\pi D = \\pi \\times 70 \\approx 219,9$ cm. Le périmètre est d'environ 220 cm."
+        },
+        {
+          "id": "5.26.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "On lance un dé à 20 faces. Quelle est la probabilité de ne pas obtenir un multiple de 5 ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{4}{5}",
+          "images": [],
+          "correction": "Multiples de 5 : 5, 10, 15, 20 (4 cas). $P(\\text{multiple de 5}) = \\frac{4}{20}=\\frac{1}{5}$. $P(\\text{non}) = 1 - \\frac{1}{5} = \\frac{4}{5}$."
+        },
+        {
+          "id": "5.26.4",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Soit $f(x)=2x+1$ et $g(x)=-x+7$. Résoudre $f(x)=g(x)$.",
+          "questionType": "text",
+          "expectedAnswer": "2",
+          "images": [],
+          "correction": "$2x+1=-x+7 \\implies 3x=6 \\implies x=2$."
+        },
+        {
+          "id": "5.26.5",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> Pour calculer le côté adjacent à un angle $\\alpha$ (connaissant l'hypoténuse $H$), on utilise : <strong>A:</strong> $H \\times \\sin(\\alpha)$ <strong>B:</strong> $H \\times \\cos(\\alpha)$ <strong>C:</strong> $\\frac{H}{\\cos(\\alpha)}$",
+          "questionType": "numeric",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "$\\cos(\\alpha) = \\frac{Adj}{H} \\implies Adj = H \\times \\cos(\\alpha)$. La réponse est <strong>B</strong>."
+        },
+        {
+          "id": "5.26.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Programme : \"Choisir un nombre ; multiplier par 5 ; soustraire son double\". Quelle expression littérale correspond ?",
+          "questionType": "text",
+          "expectedAnswer": "3x",
+          "images": [],
+          "correction": "Soit $x$ le nombre. \"Multiplier par 5\" $\\to 5x$. \"Soustraire son double\" $\\to 5x-2x$. L'expression est $3x$."
+        }
+      ]
+    },
+    {
+      "id": "5.27",
+      "title": "Test 27 (Semaine 27)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.27.1",
+          "difficulty": 1,
+          "duration": "1 minute",
+          "question": "Calculer 150\\% de 20.",
+          "questionType": "numeric",
+          "expectedAnswer": "30",
+          "images": [],
+          "correction": "Multiplier par 150\\% revient à multiplier par 1,5. $20 \\times 1,5 = 30$."
+        },
+        {
+          "id": "5.27.2",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "La longueur d'un rectangle est le double de sa largeur. Son périmètre est 36 cm. Quelles sont ses dimensions ?",
+          "questionType": "text",
+          "expectedAnswer": "6",
+          "images": [],
+          "correction": "Soit $l$ la largeur, $L=2l$. $P=2(l+2l)=6l$. $36=6l \\implies l=6$. Largeur = 6 cm, longueur = 12 cm."
+        },
+        {
+          "id": "5.27.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> Le nombre 451 est-il divisible par 3 ? <strong>A:</strong> Oui <strong>B:</strong> Non <strong>C:</strong> On ne peut pas savoir",
+          "questionType": "text",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "Somme des chiffres : $4+5+1=10$. 10 n'est pas un multiple de 3. La réponse est <strong>B</strong>."
+        },
+        {
+          "id": "5.27.4",
+          "difficulty": 2,
+          "duration": "3 minutes",
+          "question": "Soit $f(x)=2x$ et $g(x)=x+1$. Calculer l'image de $g(3)$ par la fonction $f$.",
+          "questionType": "numeric",
+          "expectedAnswer": "8",
+          "images": [],
+          "correction": "On calcule d'abord $g(3)=3+1=4$. Puis on calcule l'image de ce résultat par $f$ : $f(4)=2 \\times 4=8$."
+        },
+        {
+          "id": "5.27.5",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Calculer la moyenne pondérée : \\begin{tabular}{|c|c|c|} \\hline Note & 8 & 14 \\hline Coeff. & 3 & 1 \\hline \\end{tabular}",
+          "questionType": "numeric",
+          "expectedAnswer": "9.5",
+          "images": [],
+          "correction": "$M = \\frac{8\\times3+14\\times1}{3+1} = \\frac{24+14}{4} = \\frac{38}{4} = 9,5$."
+        },
+        {
+          "id": "5.27.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un script pour dessiner un carré contient la ligne `tourner de 80 degrés`. Corriger l'erreur.",
+          "questionType": "text",
+          "expectedAnswer": "90",
+          "images": [],
+          "correction": "Pour un carré, la rotation doit être de 90°. Il faut remplacer `tourner de 80 degrés` par `tourner de 90 degrés`."
+        }
+      ]
+    },
+    {
+      "id": "5.28",
+      "title": "Test 28 (Semaine 28)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.28.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Calculer $-\\dfrac{1}{4} + \\dfrac{5}{6}$.",
+          "questionType": "numeric",
+          "expectedAnswer": "\\frac{7}{12}",
+          "images": [],
+          "correction": "Dénominateur commun 12 : $-\\frac{3}{12} + \\frac{10}{12} = \\frac{7}{12}$."
+        },
+        {
+          "id": "5.28.2",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "L'aire d'un disque est $25\\pi\\,\\text{cm}^2$. Quel est son rayon ? Quel est son périmètre exact ?",
+          "questionType": "numeric",
+          "expectedAnswer": "5cm",
+          "images": [],
+          "correction": "$A=\\pi r^2 \\implies 25\\pi=\\pi r^2 \\implies r^2=25 \\implies r=5$ cm. $P=2\\pi r = 2\\pi \\times 5 = 10\\pi$ cm."
+        },
+        {
+          "id": "5.28.3",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "La fonction linéaire $f$ passe par (3 ; 18). Quelle est l'expression de $f(x)$ ?",
+          "questionType": "text",
+          "expectedAnswer": "6x",
+          "images": [],
+          "correction": "$f(x)=ax$. $f(3)=18 \\implies a \\times 3 = 18 \\implies a=6$. L'expression est $f(x)=6x$."
+        },
+        {
+          "id": "5.28.4",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> La médiane d'une série est 15. Cela signifie que : <strong>A:</strong> La moyenne est 15. <strong>B:</strong> Au moins 50\\% des valeurs sont $\\le 15$. <strong>C:</strong> 15 est la valeur la plus fréquente.",
+          "questionType": "text",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "La médiane sépare la série en deux moitiés. La réponse est <strong>B</strong>."
+        },
+        {
+          "id": "5.28.5",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Probabilité que `résultat` soit impair ? \\begin{scratch} \\blockvariable{mettre \\ovalvariable{résultat} à \\ovaloperator{nombre aléatoire entre \\ovalnum{1} et \\ovalnum{5}}} \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "\\frac{3}{5}",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Issues : 1, 2, 3, 4, 5. Impairs : 1, 3, 5 (3 cas sur 5). La probabilité est $\\frac{3}{5}$.",
+          "scratchConfig": {
+            "script": "mettre [résultat] à (nombre aléatoire entre (1) et (5))",
+            "display_only": true
+          }
+        },
+        {
+          "id": "5.28.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Un triangle ABC est rectangle en A, AC = 12 et BC = 13. Calculer AB.",
+          "questionType": "numeric",
+          "expectedAnswer": "5",
+          "images": [],
+          "correction": "Pythagore : $AB^2+AC^2=BC^2 \\implies AB^2+12^2=13^2 \\implies AB^2+144=169 \\implies AB^2=25$. Donc $AB=5$."
+        }
+      ]
+    },
+    {
+      "id": "5.29",
+      "title": "Test 29 (Semaine 29)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.29.1",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Résoudre $\\dfrac{x}{5} - 1 = 3$.",
+          "questionType": "text",
+          "expectedAnswer": "20",
+          "images": [],
+          "correction": "$\\frac{x}{5}=4 \\implies x=20$."
+        },
+        {
+          "id": "5.29.2",
+          "difficulty": 3,
+          "duration": "2 minutes",
+          "question": "Un téléphone coûte 500€. Son prix augmente de 20\\%. À quel prix est-il vendu ?",
+          "questionType": "text",
+          "expectedAnswer": "600",
+          "images": [],
+          "correction": "Augmenter de 20\\% revient à multiplier par 1,2. $500 \\times 1,2 = 600$. Le prix est 600€."
+        },
+        {
+          "id": "5.29.3",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "Calculer la fréquence de voyelles dans \"AUTOMATISME\".",
+          "questionType": "numeric",
+          "expectedAnswer": "\\frac{6}{11}",
+          "images": [],
+          "correction": "Voyelles : A, U, O, A, I, E (6). Total de lettres : 11. La fréquence est $\\frac{6}{11}$."
+        },
+        {
+          "id": "5.29.4",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "<strong>(QCM)</strong> L'image de A(2;3) par la rotation de centre O, angle 90° (sens anti-horaire) est : <strong>A:</strong> (-3;2) <strong>B:</strong> (3;-2) <strong>C:</strong> (-2;-3)",
+          "questionType": "text",
+          "expectedAnswer": "(-3, 2)",
+          "images": [],
+          "correction": "Une rotation de +90° transforme $(x,y)$ en $(-y,x)$. L'image de A(2;3) est A'(-3;2). La réponse est <strong>A</strong>."
+        },
+        {
+          "id": "5.29.5",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "En configuration de Thalès \"papillon\" de centre A, on a AE = 4, AC = 6, AB = 5. Calculer AD.",
+          "questionType": "numeric",
+          "expectedAnswer": "7.5",
+          "images": [],
+          "correction": "Thalès papillon : $\\frac{AE}{AC}=\\frac{AB}{AD}$. $\\frac{4}{6}=\\frac{5}{AD} \\implies 4 \\times AD = 30 \\implies AD=7,5$."
+        },
+        {
+          "id": "5.29.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Quelle est la valeur finale de x ? \\begin{scratch} \\blockvariable{mettre \\ovalvariable{x} à \\ovalnum{1}} \\blockrepeat{répéter \\ovalnum{3} fois}{ \\blockvariable{mettre \\ovalvariable{x} à \\ovaloperator{\\ovalvariable{x} * \\ovalnum{3}}} } \\end{scratch}",
+          "questionType": "scratch_view",
+          "expectedAnswer": "27",
+          "images": [
+            "[SCRATCH_BLOCK]"
+          ],
+          "correction": "Départ x=1. T1: $1\\times3=3$. T2: $3\\times3=9$. T3: $9\\times3=27$. La valeur finale est 27.",
+          "scratchConfig": {
+            "script": "mettre [x] à (1) \\blockrepeat{répéter (3) fois}{ mettre [x] à ([x] * (3)) }",
+            "display_only": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5.30",
+      "title": "Test 30 (Semaine 30)",
+      "courseReminder": "",
+      "exercises": [
+        {
+          "id": "5.30.1",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Développer et réduire $J=(2x-3)(5x-4) - 10x^2$.",
+          "questionType": "text",
+          "expectedAnswer": "-23x+12",
+          "images": [],
+          "correction": "On développe : $J = (10x^2 - 8x - 15x + 12) - 10x^2 = -23x+12$."
+        },
+        {
+          "id": "5.30.2",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un carré a une diagonale de 10 cm. Calculer son aire.",
+          "questionType": "numeric",
+          "expectedAnswer": "50",
+          "images": [],
+          "correction": "Soit $c$ le côté. D'après Pythagore, $c^2+c^2=10^2 \\implies 2c^2=100 \\implies c^2=50$. L'aire du carré est $c^2$. L'aire est de $50\\,\\text{cm}^2$."
+        },
+        {
+          "id": "5.30.3",
+          "difficulty": 3,
+          "duration": "3 minutes",
+          "question": "Un sac contient 3 jetons rouges et 2 bleus. On tire un jeton, on le note, on le remet, puis on en tire un second. Probabilité de tirer deux couleurs différentes ?",
+          "questionType": "text",
+          "expectedAnswer": "\\frac{12}{25}",
+          "images": [],
+          "correction": "$P(R)=\\frac{3}{5}$, $P(B)=\\frac{2}{5}$. $P(\\text{diff}) = P(RB) + P(BR) = (\\frac{3}{5}\\times\\frac{2}{5}) + (\\frac{2}{5}\\times\\frac{3}{5}) = \\frac{6}{25}+\\frac{6}{25}=\\frac{12}{25}$."
+        },
+        {
+          "id": "5.30.4",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Une voiture coûte 15000€, une autre 12000€. Quelle est la différence de prix en \\% par rapport à la plus chère ?",
+          "questionType": "text",
+          "expectedAnswer": "20",
+          "images": [],
+          "correction": "Différence de prix : $15000-12000=3000€$. Rapport à la plus chère : $\\frac{3000}{15000} = \\frac{1}{5} = 0,2$. La différence est de 20\\%."
+        },
+        {
+          "id": "5.30.5",
+          "difficulty": 1,
+          "duration": "2 minutes",
+          "question": "<strong>(QCM)</strong> Une droite passant par l'origine représente : <strong>A:</strong> une fonction affine non linéaire <strong>B:</strong> une fonction linéaire <strong>C:</strong> une fonction qui n'est pas affine",
+          "questionType": "text",
+          "expectedAnswer": "B",
+          "images": [],
+          "correction": "Une droite passant par l'origine représente une situation de proportionnalité, donc une fonction linéaire. La réponse est <strong>B</strong>."
+        },
+        {
+          "id": "5.30.6",
+          "difficulty": 2,
+          "duration": "2 minutes",
+          "question": "Programme : \"Choisir un nombre. Ajouter 5. Multiplier par le nombre de départ. Ajouter 6.\" Traduire en expression littérale.",
+          "questionType": "text",
+          "expectedAnswer": "x^2+5x+6",
+          "images": [],
+          "correction": "Soit $x$ le nombre. \"Ajouter 5\" $\\to x+5$. \"Multiplier par $x$\" $\\to (x+5)x$. \"Ajouter 6\" $\\to x(x+5)+6$. L'expression est $x^2+5x+6$."
+        }
+      ]
+    }
+  ]
+}

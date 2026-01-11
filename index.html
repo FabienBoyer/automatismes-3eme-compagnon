@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatismes pour le Brevet - Application Compagnon</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- KaTeX for math rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>📚 Automatismes pour le Brevet</h1>
+        <p class="header-subtitle">Application Compagnon Interactive</p>
+        <p class="header-description">
+            Entraînez-vous avec les exercices du livre, validez vos réponses en temps réel,
+            et consultez les corrections détaillées pour progresser efficacement.
+        </p>
+    </header>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+        <div class="stat-card">
+            <span class="stat-value" id="total-chapters">4</span>
+            <span class="stat-label">Chapitres</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="total-sections">27</span>
+            <span class="stat-label">Sections</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="total-exercises">614</span>
+            <span class="stat-label">Exercices</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="completed-exercises">0</span>
+            <span class="stat-label">Réussis</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="chapters-grid" id="chapters-container">
+            <!-- Les chapitres seront chargés dynamiquement ici -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Application Compagnon - Automatismes pour le Brevet</p>
+        <p>Développée avec ❤️ pour les élèves de 3ème</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/data.js"></script>
+    <script src="scripts/storage.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/settings.js"></script>
+</body>
+
+</html>

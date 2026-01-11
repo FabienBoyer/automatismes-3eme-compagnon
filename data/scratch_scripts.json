@@ -1,0 +1,13 @@
+{
+  "total": 2,
+  "scripts": [
+    {
+      "id": 1,
+      "script": "quand drapeau vert pressé\nstylo en position d\\'écriture\n        s\\'orienter à (0)\n        répéter (...) fois\n    avancer de (50)\n    {tourner {\nfin de {...} degrés}\n        }"
+    },
+    {
+      "id": 2,
+      "script": "quand drapeau vert pressé\ndemander [nombre] et attendre\n        mettre [variable] à (réponse)\n        {mettre {resultat} à {[variable] * (8)}}\n        {mettre {resultat} à {[resultat] + (10)}}\n        {mettre {resultat} à {[resultat] / (2)}}\n        dire [resultat]"
+    }
+  ]
+}
